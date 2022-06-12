@@ -13,21 +13,21 @@ const Contact = () => {
           <p className="text-3xl font-bold inline border-b-4 border-white text-gray-300">CONTACT</p>
           <div className="flex justify-between items-center w-[200px] hover:ml-[-10px] duration-300 py-4">
             <a className="bg-blue-500" href = "https://www.linkedin.com/in/louis-sungwoo-cho-978502194/">
-                <FaLinkedin style = {{fontSize: 50}}></FaLinkedin>
+                <FaLinkedin style = {{fontSize: 30}}></FaLinkedin>
             </a>
             <a className="bg-white" href = "https://github.com/lotlouischoitslab?tab=repositories">
-                <FaGithub style = {{fontSize: 50}}></FaGithub>
+                <FaGithub style = {{fontSize: 30}}></FaGithub>
             </a>
             <a className="bg-gray-50" href = {CV}>
                 <BsFillPersonLinesFill size={30}/>
             </a>
 
         </div>
-          <p className='text-2xl text-white py-4'>Please submit the form below or shoot me an email to louis.sw.cho@gmail.com</p>
+          <p className='text-2xl text-white'>Please submit the form below or shoot me an email to louis.sw.cho@gmail.com</p>
         </div>
 
-        <input className= 'my-4 p-2 bg-[white]' type="text" placeholder="Name" name='name' />
-        <input className= 'my-4 p-2 bg-[white]' type="email" placeholder="Email" name='email' />
+        <input className= 'my-2 p-2 bg-[white]' type="text" placeholder="Name" name='name' />
+        <input className= 'my-2 p-2 bg-[white]' type="email" placeholder="Email" name='email' />
         <textarea className= 'bg-[white] p-2' name="message" rows="10" placeholder="Message"></textarea>
         <button className= 'text-white border-2 hover:bg-white hover:border-white px-4 pb-3 my-2 mx-auto flex items-center'>Let's Collaborate!</button>
       </form>
