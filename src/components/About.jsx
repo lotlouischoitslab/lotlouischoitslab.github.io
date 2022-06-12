@@ -8,12 +8,12 @@ const About = () => {
         <div className="flex flex-col justify-center items-center w-full h-full">
             <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
                 <div className="sm:text-left pb-8 justify-left">
-                    <p className="text-2xl font-bold inline border-b-4 border-[white]">ABOUT ME</p>
+                    <p className="text-4xl font-bold inline border-b-4 border-[white]">ABOUT ME</p>
                 </div>
           
                 </div>
                 <div className="max-w-[1000px] w-auto grid sm:grid-cols-2 pb-4">
-                    <div className="text-1xl sm:text-left pl-100 max-w-[700px]">
+                    <div className="text-2xl sm:text-left pl-100 max-w-[700px]">
                         <p className='text-1xl sm:text-1xl'> I always envision how AI and IoT will change 
                         the mobility system for smart cities. From deep learning autonomous vehicles to traffic lights controlled by machine learning,
                         mobile computing for CAVS, and real time analysis in vehicle platooning and distributed database systems for traffic data management.
@@ -22,7 +22,7 @@ const About = () => {
                         </p>
                         
                     </div>
-                    <div className="text-2xl sm:text-left pl-100 max-w-[700px]">
+                    <div className="text-2xl sm:text-left pl-100 max-w-[700px] p-4">
                         <img className='w-80 h-80 pl-20' src={Louis}/>
                         
                     </div>     
