@@ -4,6 +4,7 @@ import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import CV from "../assets/louis_cv.pdf"
 import {Link} from 'react-scroll'
+import './css/Navbar.css'
 
 
 

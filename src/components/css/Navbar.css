@@ -1,12 +1,11 @@
-
 @media only screen and (max-width: 1024px){
-.contact {
+.navbar {
     width: 90%;
     }   
 }
 
 @media only screen and (max-width: 512px){
-.contact {
+.navbar {
     width: 100%;
     }
 }
