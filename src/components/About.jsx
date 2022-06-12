@@ -12,7 +12,7 @@ const About = () => {
                 
                 
                 </div>
-                <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+                <div className="max-w-[1000px] w-auto grid sm:grid-cols-2 gap-8 px-4">
                     <div className="text-2xl sm:text-left pl-100 max-w-[700px]">
                         <p> I always envision how AI and IoT will change 
                         the mobility system for smart cities. From deep learning autonomous vehicles to traffic lights controlled by machine learning,
