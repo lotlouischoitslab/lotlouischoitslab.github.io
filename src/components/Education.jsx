@@ -3,7 +3,7 @@ import './css/Education.css'
 
 const Education = () => {
   return (
-    <div name='education' className='w-full h-screen bg-black text-gray-300 py-4'>
+    <div name='education' className='education w-full h-screen bg-black text-gray-300 py-4'>
       {/*Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div > 

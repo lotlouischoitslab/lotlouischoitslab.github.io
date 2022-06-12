@@ -3,7 +3,7 @@ import './css/Home.css'
 
 const Home = () => {
   return (
-    <div name='home' className="w-full h-screen bg-[black]">
+    <div name='home' className="homepage w-full h-screen bg-[black]">
         {/*Container*/}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
             <p className= 'text-2xl sm:text-2xl font-bold text-[#ccd6f6]'>Hello. My name is</p>

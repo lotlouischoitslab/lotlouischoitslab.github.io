@@ -3,7 +3,7 @@ html{
     background-color: white;
 }
 
-skills {
+.skills {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,13 +12,13 @@ skills {
 }
 
 @media only screen and (max-width: 1024px){
-skills {
+.skills {
     width: 90%;
     }   
 }
 
 @media only screen and (max-width: 512px){
-skills {
+.skills {
     width: 100%;
     }
 }

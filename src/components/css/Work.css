@@ -3,7 +3,7 @@ html{
     background-color: white;
 }
 
-work {
+.work {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,13 +12,13 @@ work {
 }
 
 @media only screen and (max-width: 1024px){
-work {
+.work {
     width: 90%;
     }   
 }
 
 @media only screen and (max-width: 512px){
-work {
+.work {
     width: 100%;
     }
 }
