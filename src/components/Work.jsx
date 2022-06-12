@@ -2,6 +2,7 @@ import React from 'react'
 import asam from '../assets/opendrive.png'
 import cumtd from '../assets/cumtd.jpg'
 import amtrak from '../assets/amtrak.jpg'
+import './css/Work.css'
 
 const Work = () => {
   return (

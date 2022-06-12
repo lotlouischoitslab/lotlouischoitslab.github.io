@@ -1,0 +1,24 @@
+html{
+    scroll-behavior: smooth;
+    background-color: white;
+}
+
+about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1024px){
+about {
+    width: 90%;
+    }   
+}
+
+@media only screen and (max-width: 512px){
+about {
+    width: 100%;
+    }
+}

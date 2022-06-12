@@ -1,0 +1,24 @@
+html{
+    scroll-behavior: smooth;
+    background-color: white;
+}
+
+education {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1024px){
+education {
+    width: 90%;
+    }   
+}
+
+@media only screen and (max-width: 512px){
+education {
+    width: 100%;
+    }
+}

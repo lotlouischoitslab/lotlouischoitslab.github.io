@@ -8,6 +8,8 @@ import CSS from '../assets/css.png'
 import JavaScript from '../assets/javascript.png'
 import ReactJS from '../assets/react.png'
 
+import './css/Skills.css'
+
 const Skills = () => {
   return (
     <div name='skills' className='w-full h-screen bg-black text-gray-300 py-4'>

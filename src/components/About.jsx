@@ -1,5 +1,6 @@
 import React from 'react'
 import Louis from '../assets/louis_id.png'
+import './css/About.css'
 
 const About = () => {
   return (
