@@ -1,12 +1,12 @@
 
 @media only screen and (max-width: 1024px){
 .aboutme {
-    width: 90%;
+    width: 80%;
     }   
 }
 
 @media only screen and (max-width: 512px){
 .aboutme {
-    width: 100%;
+    width: 90%;
     }
 }

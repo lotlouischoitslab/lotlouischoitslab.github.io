@@ -1,11 +1,11 @@
 @media only screen and (max-width: 1024px){
 .navbar {
-    width: 90%;
+    width: 80%;
     }   
 }
 
 @media only screen and (max-width: 512px){
 .navbar {
-    width: 100%;
+    width: 90%;
     }
 }

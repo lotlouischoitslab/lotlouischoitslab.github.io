@@ -1,12 +1,12 @@
 
 @media only screen and (max-width: 1024px){
 .work {
-    width: 90%;
+    width: 80%;
     }   
 }
 
 @media only screen and (max-width: 512px){
 .work {
-    width: 100%;
+    width: 90%;
     }
 }

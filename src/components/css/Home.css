@@ -1,12 +1,12 @@
 
 @media only screen and (max-width: 1024px){
-.homepage{
-    width: 90%;
+    .homepage{
+        width: 80%;
     }   
 }
 
 @media only screen and (max-width: 512px){
-.homepage{
-    width: 100%;
+    .homepage{
+        width: 90%;
     }
 }
