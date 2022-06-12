@@ -1,5 +1,5 @@
 import React from 'react'
-import {HiArrowNarrowRight} from 'react-icons/hi'
+import './css/Home.css'
 
 const Home = () => {
   return (
