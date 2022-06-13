@@ -8,7 +8,7 @@ const About = () => {
         <div className="flex flex-col justify-center items-center w-full h-full">
             <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
                 <div className="sm:text-left pb-8 justify-left">
-                    <p className="text-4xl font-bold inline border-b-4 border-[white]">ABOUT ME</p>
+                    <p className="text-2xl font-bold inline border-b-4 border-[white]">ABOUT ME</p>
                 </div>
           
                 </div>
