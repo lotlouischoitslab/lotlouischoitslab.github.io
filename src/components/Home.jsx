@@ -44,11 +44,12 @@ import FadeIn from 'react-fade-in'
 class Home extends React.Component {
   render() {
       return (
-          <div className="homepage" id ="intro">
+          <div name = 'home' className="homepage" id ="intro">
                   <Typist>
                       <span className="title">
-                          {"Hi, I'm "}
+                          {"Hello. I'm "}
                           <span className="name">{"Louis Sungwoo Cho."}</span>
+                          <span className="name">{"조성우."}</span>
                       </span>
                   </Typist>
               <FadeIn delay={1000}>

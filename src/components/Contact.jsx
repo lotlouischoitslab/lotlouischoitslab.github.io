@@ -25,9 +25,9 @@ const Contact = () => {
         </div>
           <p className='text-1xl text-white'>Please submit the form below or shoot me an email to louis.sw.cho@gmail.com</p>
         </div>
-        <input className= 'my-1 p-2 bg-[white]' type="text" placeholder="Name" name='name' />
-        <input className= 'my-1 p-2 bg-[white]' type="email" placeholder="Email" name='email' />
-        <textarea className= 'bg-[white] p-2' name="message" rows="5" placeholder="Message"></textarea>
+        <input className= 'my-1 p-2 bg-[white]' type="text" rows="2" placeholder="Name" name='name' />
+        <input className= 'my-1 p-2 bg-[white]' type="email" rows="2" placeholder="Email" name='email' />
+        <textarea className= 'bg-[white] p-2' name="message" rows="4" placeholder="Message"></textarea>
         <button className= 'text-white border-2 hover:bg-white hover:border-white px-4 pb-1 my-2 mx-auto flex items-center'>Let's Collaborate!</button>
       </form>
     </div>
