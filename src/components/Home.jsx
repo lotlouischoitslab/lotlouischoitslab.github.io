@@ -49,7 +49,7 @@ class Home extends React.Component {
                       <span className="title">
                           {"Hello. I am "}
                           <span className="name">{"Louis Sungwoo Cho. "}</span>
-                          <span className="name">{"조성우."}</span>
+                          
                       </span>
                   </Typist>
               <FadeIn delay={1000}>
