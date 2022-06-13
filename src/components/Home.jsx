@@ -47,8 +47,8 @@ class Home extends React.Component {
           <div name = 'home' className="homepage" id ="intro">
                   <Typist>
                       <span className="title">
-                          {"Hello. I'm "}
-                          <span className="name">{"Louis Sungwoo Cho."}</span>
+                          {"Hello. I am "}
+                          <span className="name">{"Louis Sungwoo Cho. "}</span>
                           <span className="name">{"조성우."}</span>
                       </span>
                   </Typist>
