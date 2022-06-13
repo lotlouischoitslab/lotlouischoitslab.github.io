@@ -11,7 +11,7 @@ const Navbar = () => {
     const [nav,setNav] = useState(false)
     const handleClick = () => setNav(!nav)
   return (
-    <div className='navbar fixed w-full h-[80px] flex justify-between items-centered px-4 bg-[#0a192f] text-white'>
+    <div className='navbar fixed w-full h-[80px] flex justify-between items-centered px-4 bg-[black] text-white'>
         
         {/*Menu*/}
 
@@ -55,7 +55,7 @@ const Navbar = () => {
         </ul>
         
         {/*Hamburger */}
-        <div onClick={handleClick} className = 'md:hidden z-10'>
+        <div onClick={handleClick} className = 'py-4 md:hidden z-10'>
             {!nav ? <FaBars/>: <FaTimes/>}
         </div>
 
