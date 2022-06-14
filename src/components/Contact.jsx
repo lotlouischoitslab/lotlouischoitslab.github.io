@@ -9,24 +9,24 @@ const Contact = () => {
   return (
     <div name='contact' className="contact w-full h-screen bg-black flex justify-center items-center p-2">
       <form method='POST' action="https://getform.io/f/c752447b-bad0-4251-96fb-699ef977beb6" className="flex flex-col max-w-[600px] w-full">
-        <div className="p-8">
+        <div className="p-2">
           <p className="text-3xl font-bold inline border-b-4 border-white text-gray-300">CONTACT</p>
           <div className="flex justify-between items-center w-[200px] hover:ml-[-10px] duration-300 py-4">
             <a className="bg-blue-500" href = "https://www.linkedin.com/in/louis-sungwoo-cho-978502194/">
-                <FaLinkedin style = {{fontSize: 30}}></FaLinkedin>
+                <FaLinkedin style = {{fontSize: 25}}></FaLinkedin>
             </a>
             <a className="bg-white" href = "https://github.com/lotlouischoitslab?tab=repositories">
-                <FaGithub style = {{fontSize: 30}}></FaGithub>
+                <FaGithub style = {{fontSize: 25}}></FaGithub>
             </a>
             <a className="bg-gray-50" href = {CV}>
-                <BsFillPersonLinesFill size={30}/>
+                <BsFillPersonLinesFill size={25}/>
             </a>
 
         </div>
-          <p className='text-1xl text-white'>Please submit the form below or shoot me an email to louis.sw.cho@gmail.com</p>
+          <p className='text-1xl text-white py-1'>Please submit the form below or shoot me an email to louis.sw.cho@gmail.com</p>
         </div>
-        <input className= 'my-1 p-2 bg-[white]' type="text" rows="2" placeholder="Name" name='name' />
-        <input className= 'my-1 p-2 bg-[white]' type="email" rows="2" placeholder="Email" name='email' />
+        <input className= 'bg-[white] p-1' type="text" rows="2" placeholder="Name" name='name' />
+        <input className= 'my-1 bg-[white] p-1' type="email" rows="2" placeholder="Email" name='email' />
         <textarea className= 'bg-[white] p-2' name="message" rows="4" placeholder="Message"></textarea>
         <button className= 'text-white border-2 hover:bg-white hover:border-white px-4 pb-1 my-2 mx-auto flex items-center'>Let's Collaborate!</button>
       </form>
