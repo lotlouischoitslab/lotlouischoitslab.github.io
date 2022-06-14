@@ -1,19 +1,4 @@
-.aboutme {
-    width: full;
-    height: full;
-    background-color: black;
-    padding-bottom: 500px;
-    color: white;
-}
 
-#about {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 15%;
-    padding-top: 25%;
-    padding-right: 15%;
-}
 @media only screen and (max-width: 1024px){
 .aboutme {
     width: 90%;
