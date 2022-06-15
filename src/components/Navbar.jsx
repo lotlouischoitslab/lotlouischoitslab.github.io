@@ -11,7 +11,7 @@ const Navbar = () => {
     const [nav,setNav] = useState(false)
     const handleClick = () => setNav(!nav)
   return (
-    <div className='navbar fixed w-full h-[80px] flex justify-between items-centered px-4 bg-[black] text-white'>
+    <div className='navbar fixed w-full h-10px flex justify-between items-centered px-4 bg-[black] text-white'>
         
         {/*Menu*/}
 

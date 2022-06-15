@@ -44,7 +44,7 @@ import FadeIn from 'react-fade-in'
 class Home extends React.Component {
   render() {
       return (
-          <div name = 'home' className="homepage" id ="intro">
+          <div name = 'home' className="homepage" id ="homepage">
                   <Typist>
                       <span className="title">
                           {"Hello. I am "}
