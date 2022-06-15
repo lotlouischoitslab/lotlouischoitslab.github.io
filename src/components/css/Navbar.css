@@ -1,6 +1,16 @@
+#nav {
+    position: fixed;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    
+}
+
 
 @media screen and (max-width: 500px) {
- #navbar {
+ #nav {
      display: none;
  }
+ 
 }

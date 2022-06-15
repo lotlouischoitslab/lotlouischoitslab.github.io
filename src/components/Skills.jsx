@@ -12,7 +12,7 @@ import './css/Skills.css'
 
 const Skills = () => {
   return (
-    <div name='skills' className='skills w-full h-screen bg-black text-white p-4'>
+    <div id='skills' name='skills' className='skills w-full h-screen bg-black text-white p-4'>
       {/*Container */}
       <div className='max-w-[1000px] mx-auto p-8 flex flex-col justify-center w-full h-full'>
         <div> 
