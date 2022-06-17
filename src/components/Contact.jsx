@@ -4,6 +4,7 @@ import Linkedin from '../assets/linkedinlogo.png'
 import Github from '../assets/github.png'
 import CV_img from '../assets/cv_img.png'
 import CV from "../assets/louis_cv.pdf"
+import insta from "../assets/instagram.png"
 import './css/Social_icons.css'
 
 const Contact = () => {
@@ -13,14 +14,14 @@ const Contact = () => {
           CONTACT
       </div>
       <div className="contact-grid">
-        <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 inline-block'>
+        <div className='shadow-md 1rem shadow-[#040c16] hover:scale-110 duration-500 inline-block'>
             <a href="https://www.linkedin.com/in/louis-sungwoo-cho-978502194/">
               <img className='w-20 mx-auto' src={Linkedin} alt="LinkedIn icon"/>
               <p className='coding-lang'>Linkedin</p>
             </a>
           </div>
 
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 inline-block'>
+          <div className='shadow-md flex-col shadow-[#040c16] hover:scale-110 duration-500 inline-block'>
             <a href="https://github.com/lotlouischoitslab?tab=repositories">
               <img className='w-20 mx-auto' src={Github} alt="GitHub icon"/>
               <p className='coding-lang'>GITHUB</p>
@@ -31,6 +32,13 @@ const Contact = () => {
             <a href= {CV}>
               <img className='w-20 mx-auto' src={CV_img} alt="CV icon"/>
               <p className='coding-lang'>CV</p>
+            </a>
+          </div>
+
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 inline-block'>
+            <a href= 'https://www.instagram.com/lotlouischolabs/'>
+              <img className='w-20 mx-auto' src={insta} alt="Instagram icon"/>
+              <p className='coding-lang'>Instagram</p>
             </a>
           </div>
 

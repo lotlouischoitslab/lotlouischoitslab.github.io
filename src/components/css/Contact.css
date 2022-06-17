@@ -17,7 +17,7 @@
 
 .contact-title {
     padding-top: 1px;
-    padding-left: 30%;
+    padding-left: 33%;
     font-size: 60px;
     font-weight: bold;
     color: white;
@@ -26,12 +26,20 @@
 }
 
 .contact-grid {
-    width: 100%;
+    width: 50%;
     display: grid;
-    gap: 2em;
+    gap: 3em;
     grid-template-columns: repeat(4,20%);
     align-items: center;
-    padding-left: 10%;
+    padding-left: 30%;
+}
+
+p.coding-lang {
+    font-size: 20px;
+    display: flex;
+    padding-left: 25%;
+    width: 80%;
+    color: white;
 }
 
 p.social-icons {
@@ -39,13 +47,14 @@ p.social-icons {
     color: black;
     display: flex;
     justify-content: center;
-    padding-right: 5px;
+    padding-right: 2px;
 }
 
 .contact-me {
     font-size: 20px;
     display: flex;
-    padding-left: 10%;
+    padding-left: 20%;
+    padding-bottom: 10px;
     width: 80%;
     color: white;
 }
@@ -53,9 +62,23 @@ p.social-icons {
 
 form.myforms {
     display: flex;
-    width: 100%;
+    width: 80%;
     height: 100%;
-    padding-left: 10%;
+    padding-left: 20%;
+}
+
+
+.click {
+    color: black;
+    display: inline-block;
+    
+}
+
+.click:hover {
+    scale: 110%;
+    transition-duration: 500;
+    box-shadow: black;
+    display: inline-block;
 }
 
 
@@ -63,19 +86,40 @@ form.myforms {
 @media screen and (max-width: 512px) {
     .contact-title {
         font-size: 30px;
-        padding-left: 25%;
+        padding-left: 20%;
     }
 
     .contact-me {
-        font-size: 15px;
+        font-size: 11px;
         display: flex;
+        padding-left: 15px;
     }
 
     .contact-grid {
-        grid-template-columns: repeat(3,10%);
+        display: grid;
+        gap: 2em;
+        grid-template-columns: repeat(4,20%);
         align-items: center;
-        padding-left: 25%;
+        padding-left: 50px;
+        padding-right: 20px;
+        
     }
+
+    p.coding-lang {
+        font-size: 10px;
+        display: flex;
+        padding-left: 25%;
+        width: 80%;
+        color: white;
+    }
+
+    /* p.social-icons {
+        color: black;
+        /* margin-left: -4px; 
+        display: flex;
+        justify-content: center;
+        
+    } */
 
     form.myforms {
         display: flex;
