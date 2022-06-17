@@ -27,19 +27,23 @@
 .skills-grid {
     width: 100%;
     display: grid;
-    grid-gap: 2;
-    grid-template-columns: repeat(2,20%);
+    gap: 2em;
+    grid-template-columns: repeat(4,20%);
     align-items: center;
 }
 
 
 
 @media screen and (max-width: 512px) {
-    .about-title {
+    .skills-title {
         font-size: 30px;
     }
-    .about-bio {
-        font-size: 15px;
+
+    .skills-grid {
+        align-items: center;
+        grid-gap: 2;
+        grid-template-columns: repeat(2,50%);
     }
+    
     
 }
