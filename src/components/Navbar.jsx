@@ -1,10 +1,9 @@
 import React, {useState} from 'react'
-import {FaBars, FaTimes, FaGithub,FaLinkedin} from 'react-icons/fa'
+import {FaBars, FaTimes, FaGithub,FaLinkedin,FaInstagram} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import CV from "../assets/louis_cv.pdf"
 import {Link} from 'react-scroll'
 import './css/Navbar.css'
-
 
 
 const Navbar = () => {
@@ -107,6 +106,12 @@ const Navbar = () => {
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                 <a className='flex justify-between items-center w-full text-gray-300' href = {CV}>
                     CV <BsFillPersonLinesFill size={30}/>
+                </a>
+            </li>
+
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#DD2A7B]'>
+                <a className='flex justify-between items-center w-full text-gray-300' href = 'https://www.instagram.com/lotlouischolabs/'>
+                     Instagram <FaInstagram size={30}/>
                 </a>
             </li>
            
