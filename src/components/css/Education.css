@@ -21,16 +21,26 @@
     color: white;
     align-items: center;
     text-decoration: underline;
+    padding-top: 5%;
+    padding-left: 3%;
 }
-
-
-
 
 ul.university{
     list-style-type: disc;
     color: white;
-    font-size: 20px;
-    padding-left: 20px;
+    font-size: 30px;
+    padding-left: 5%;
+    
+}
+
+
+
+li.major{
+    width: 90%;
+}
+
+li.minor{
+    width: 75%;
 }
 
 
@@ -38,7 +48,8 @@ ul.university{
     .education-title {
         font-size: 30px;
     }
-    .about-bio {
+    
+    ul.university{
         font-size: 15px;
     }
 }

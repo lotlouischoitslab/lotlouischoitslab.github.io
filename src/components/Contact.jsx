@@ -1,30 +1,47 @@
 import React from 'react'
 import './css/Contact.css'
-import {FaGithub,FaLinkedin} from 'react-icons/fa'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
+import Linkedin from '../assets/linkedinlogo.png'
+import Github from '../assets/github.png'
+import CV_img from '../assets/cv_img.png'
 import CV from "../assets/louis_cv.pdf"
 import './css/Social_icons.css'
 
 const Contact = () => {
   return (
-    <div name='contact' className="contact w-full h-screen bg-black flex justify-center items-center p-2">
-      <form method='POST' action="https://getform.io/f/c752447b-bad0-4251-96fb-699ef977beb6" className="flex flex-col max-w-[600px] w-full">
-        <div className="p-2">
-          <p className="text-3xl font-bold inline border-b-4 border-white text-gray-300">CONTACT</p>
-          <div className="flex justify-between items-center w-[200px] hover:ml-[-10px] duration-300 py-4">
-            <a className="bg-blue-500" href = "https://www.linkedin.com/in/louis-sungwoo-cho-978502194/">
-                <FaLinkedin style = {{fontSize: 25}}></FaLinkedin>
+    <div name='contact' className="contact" id = "contactid">
+      <div className="contact-title">
+          CONTACT
+      </div>
+      <div className="contact-grid">
+        <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 inline-block'>
+            <a href="https://www.linkedin.com/in/louis-sungwoo-cho-978502194/">
+              <img className='w-20 mx-auto' src={Linkedin} alt="LinkedIn icon"/>
+              <p className='coding-lang'>Linkedin</p>
             </a>
-            <a className="bg-white" href = "https://github.com/lotlouischoitslab?tab=repositories">
-                <FaGithub style = {{fontSize: 25}}></FaGithub>
-            </a>
-            <a className="bg-gray-50" href = {CV}>
-                <BsFillPersonLinesFill size={25}/>
-            </a>
+          </div>
 
-        </div>
-          <p className='text-1xl text-white py-1'>Please submit the form below or shoot me an email to louis.sw.cho@gmail.com</p>
-        </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 inline-block'>
+            <a href="https://github.com/lotlouischoitslab?tab=repositories">
+              <img className='w-20 mx-auto' src={Github} alt="GitHub icon"/>
+              <p className='coding-lang'>GITHUB</p>
+            </a>
+          </div>
+
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 inline-block'>
+            <a href= {CV}>
+              <img className='w-20 mx-auto' src={CV_img} alt="CV icon"/>
+              <p className='coding-lang'>CV</p>
+            </a>
+          </div>
+
+
+      </div>
+      <div className="contact-me">
+        Please submit the form below or shoot me an email to louis.sw.cho@gmail.com
+      </div>
+        
+      <form method='POST' action="https://getform.io/f/c752447b-bad0-4251-96fb-699ef977beb6" className="myforms flex flex-col max-w-[1000px]">
+      
         <input className= 'bg-[white] p-1' type="text" rows="2" placeholder="Name" name='name' />
         <input className= 'my-1 bg-[white] p-1' type="email" rows="2" placeholder="Email" name='email' />
         <textarea className= 'bg-[white] p-2' name="message" rows="4" placeholder="Message"></textarea>

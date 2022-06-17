@@ -4,18 +4,22 @@ import cumtd from '../assets/cumtd.jpg'
 import amtrak from '../assets/amtrak.jpg'
 import './css/Work.css'
 
-const Work = () => {
+class Work extends React.Component {
+  render () {
   return (
-    <div id='work' name='work' className='work w-full md:h-screen text-white bg-black p-4'>
-      <div className='max-w-[1000px] mx-auto p-8 flex flex-col justify-center w-full h-full'>
-        <div className='pb-8'>
-          <p className='text-4xl font-bold inline border-b-4 text-white border-white'>WORK</p>
-          <p className='text-2xl py-4'>Check out some of my recent projects for my work! 
-          To view more projects that I have done, feel free to checkout my GitHub Repository by clicking on the GitHub icon.</p>
-        </div>
+    <div id='workid' name='work' className='work'>
+      <div className='work-title'>
+        WORK
+      </div>
+      <div className='work-description'>
+        Check out some of my recent projects for my work! 
+        To view more projects that I have done, feel free to 
+        checkout my GitHub Repository by clicking on the GitHub icon.
+      </div>
+      <div className='my-projects'>
 
       {/*Container*/}
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+        <div className='work-container'>
           
           {/*Grid Item*/}
           <div 
@@ -28,7 +32,7 @@ const Work = () => {
                 
               </span>
               <div className='pt-8 text-center'>
-                <a href="https://github.com/lotlouischoitslab/GraphGeneration">
+                <a href="https://github.com/lotlouischoitslab/GraphGeneration/tree/louis_simple_map">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>DryVR++ Map Project</button>
                 </a>
                 
@@ -86,6 +90,6 @@ const Work = () => {
       </div>
       </div>
   )
+ }
 }
-
-export default Work
+export default Work;

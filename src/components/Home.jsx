@@ -1,6 +1,7 @@
 import React from 'react'
 import './css/Home.css'
 import Typist from 'react-typist'
+import "react-typist/dist/Typist.css"
 import FadeIn from 'react-fade-in'
 
 class Home extends React.Component {
@@ -19,10 +20,9 @@ class Home extends React.Component {
                     Computational Transportation Scientist
                 </span>
                 <div className = "bio">
-                  I am an aspiring Computational Transportation Scientist
+                  I am a Computational Transportation Scientist
                   enthusiastic about developing Autonomous Vehicles and Intelligent Transportation Systems (ITS) 
-                  using Aritificial Intelligence (AI) and Internet of Things (IoT). I have always envisioned how urban mobility would look like in
-                  futuristic Smart Cities.
+                  using Aritificial Intelligence (AI) and Internet of Things (IoT) to enhance mobility for Smart Cities.
                 </div>
               </FadeIn>
             </div>

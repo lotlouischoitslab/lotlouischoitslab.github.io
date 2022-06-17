@@ -18,7 +18,7 @@ class About extends React.Component {
                         smart cities. I am definitely determined to automate our traffic systems and make traveling as efficient as possible.
                     </div>
                     <div className='about-img'>
-                    <img src={Louis}/>
+                        <img src={Louis}/>
                     </div>
                     
                 </div>

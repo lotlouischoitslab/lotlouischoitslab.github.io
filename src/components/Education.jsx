@@ -8,8 +8,10 @@ const Education = () => {
         EDUCATION
       </div>
       <ul class='university'>
-        <li>Majoring in Civil and Environmental Engineering (Specialization: Transportation Engineering) at the University of Illinois at Urbana-Champaign </li>
-        <li>Minoring in Computer Science (Focus Area: Artificial Intelligence and Big Data) at the University of Illinois at Urbana-Champaign </li>
+        <li className='major'>Pursuing a B.S in Civil and Environmental Engineering  at the University of Illinois at Urbana-Champaign 
+        (Specialization: Transportation Engineering)
+        </li>
+        <li className='minor'>Pursing a Minor in Computer Science at the University of Illinois at Urbana-Champaign (Focus Area: Artificial Intelligence and Big Data) </li>
       </ul> 
     </div>
   )

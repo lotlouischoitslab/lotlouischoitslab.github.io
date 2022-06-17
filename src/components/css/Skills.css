@@ -16,6 +16,8 @@
 }
 
 .skills-title {
+    padding-top: 5%;
+    padding-left: 3%;
     font-size: 60px;
     font-weight: bold;
     color: white;
@@ -23,13 +25,29 @@
     text-decoration: underline;
 }
 
-/* w-full grid grid-cols-2 sm:grid-cols-4 gap-2 text-center py-4 */
+.coding-in {
+    padding-left: 3%;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    padding-bottom: 1%;
+}
+
+
 .skills-grid {
     width: 100%;
     display: grid;
     gap: 2em;
     grid-template-columns: repeat(4,20%);
     align-items: center;
+}
+
+p.coding-lang {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-right: 5px;
 }
 
 
@@ -39,10 +57,21 @@
         font-size: 30px;
     }
 
+    .coding-in {
+        font-size: 15px;
+    }
+
     .skills-grid {
         align-items: center;
         grid-gap: 2;
-        grid-template-columns: repeat(2,20%);
+        grid-template-columns: repeat(2,30%);
+    }
+
+    p.coding-lang {
+        font-size: 15px;
+        color: white;
+        display: flex;
+        justify-content: center;
     }
     
     

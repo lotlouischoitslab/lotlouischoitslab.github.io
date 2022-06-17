@@ -38,13 +38,8 @@
 
 .bio {
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     padding-top: 10px;
-}
-
-.Typist-cursor {
-    font-size: 70px;
-    color: white;
 }
 
 .Typist {
@@ -52,30 +47,12 @@
     color: white;
 }
 
-.myCursor {
-    color: white;
+.Typist .Cursor--blinking {
     font-size: 70px;
-    justify-content: left;
-    /* padding-left: 4px; */
+    color: white;
+    padding-left: 4px;
 }
 
-@media screen and (max-width: 1024px) {
-    .title {
-        font-size: 60px;
-    }
-
-    .name {
-        font-size: 60px;
-    }
-
-    .sub-title {
-        font-size: 30px;
-    }
-
-    .Typist {
-        font-size: 70px;
-    }
-}
 
 @media screen and (max-width: 512px) {
     .title {
@@ -91,11 +68,15 @@
     }
 
     .bio {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .Typist {
-        font-size: 46px;
+        font-size: 30px;
+    }
+
+    .Typist .Cursor--blinking {
+        font-size: 30px;
     }
 }
   
