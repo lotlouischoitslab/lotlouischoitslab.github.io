@@ -22,7 +22,7 @@ const Contact = () => {
           </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 inline-block'>
-            <a href="https://github.com/lotlouischoitslab?tab=repositories">
+            <a href="https://github.com/lotlouischoitslab">
               <img className='w-20 mx-auto' src={Github} alt="GitHub icon"/>
               <p className='coding-lang'>GITHUB</p>
             </a>
