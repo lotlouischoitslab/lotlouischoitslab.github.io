@@ -11,7 +11,7 @@ const Education = () => {
         <li className='major'>Pursuing a B.S in Civil and Environmental Engineering  at the University of Illinois at Urbana-Champaign 
         (Specialization: Transportation Engineering)
         </li>
-        <li className='minor'>Pursing a Minor in Computer Science at the University of Illinois at Urbana-Champaign (Focus Area: Artificial Intelligence and Big Data) </li>
+        <li className='minor'>Pursuing a Minor in Computer Science at the University of Illinois at Urbana-Champaign (Focus Area: Artificial Intelligence and Big Data) </li>
       </ul> 
     </div>
   )
