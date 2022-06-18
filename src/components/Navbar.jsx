@@ -3,17 +3,19 @@ import {FaBars, FaTimes, FaGithub,FaLinkedin,FaInstagram} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import CV from "../assets/louis_cv.pdf"
 import {Link} from 'react-scroll'
-import './css/Navbar.css'
+import Man from '../assets/man.png'
+
 
 
 const Navbar = () => {
     const [nav,setNav] = useState(false)
     const handleClick = () => setNav(!nav)
-  return (
+    return (
     <div className='fixed w-full h-[20px] flex justify-between items-centered px-4 bg-[black] text-white'>
-        
+        <div>
+            <img src={Man} alt='Logo Image' style={{ width: '50px' }} />
+        </div>
         {/*Menu*/}
-
         <ul className="hidden md:flex"> {/*under 700 pixels thresho;d*/ }
             <li>
                 <Link to="home" smooth={true} duration={500}>
@@ -118,7 +120,7 @@ const Navbar = () => {
         </ul>
         </div>
     </div>
-    )
-}
+    );
+};
 
 export default Navbar;
