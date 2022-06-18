@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
     <div className='fixed w-full h-[20px] flex justify-between items-centered px-4 py-2 bg-[black] text-white'>
         <div>
-            <img src={Man} alt='Logo Image' style={{ width: '50px' }} />
+            <img src={Man} alt='Logo Image' style={{ width: '30px' }} />
         </div>
         {/*Menu*/}
         <ul className="hidden md:flex"> {/*under 700 pixels thresho;d*/ }
