@@ -51,4 +51,12 @@ li.minor{
     ul.university{
         font-size: 15px;
     }
+    li.major{
+        width: 90%;
+    }
+    
+    li.minor{
+        width: 80%;
+    }
+    
 }
