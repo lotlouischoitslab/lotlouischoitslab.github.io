@@ -42,8 +42,8 @@ const Navbar = () => {
             </li>
 
             <li>
-                <Link to="work" smooth={true} duration={500}>
-                WORK
+                <Link to="projects" smooth={true} duration={500}>
+                PROJECTS
                 </Link>
             </li>
 
@@ -80,8 +80,8 @@ const Navbar = () => {
                 </Link>
             </li>
             <li className = 'py-6 text-4xl'>
-            <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-                    WORK
+            <Link onClick={handleClick} to="projects" smooth={true} duration={500}>
+                    PROJECTS
                 </Link>
             </li>
             <li className = 'py-6 text-4xl'>
@@ -101,7 +101,7 @@ const Navbar = () => {
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-black'>
                 <a className='flex justify-between items-center w-full text-gray-300' href = "https://github.com/lotlouischoitslab?tab=repositories">
-                    GitHub <FaGithub size={30}/>
+                    GITHUB <FaGithub size={30}/>
                 </a>
             </li>
             

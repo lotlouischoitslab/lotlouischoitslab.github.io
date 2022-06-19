@@ -2,16 +2,16 @@ import React from 'react'
 import asam from '../assets/opendrive.png'
 import cumtd from '../assets/cumtd.jpg'
 import amtrak from '../assets/amtrak.jpg'
-import './css/Work.css'
+import './css/Projects.css'
 
-class Work extends React.Component {
+class Projects extends React.Component {
   render () {
   return (
-    <div id='workid' name='work' className='work'>
-      <div className='work-title'>
-        WORK
+    <div id='projectsid' name='projects' className='projects'>
+      <div className='projects-title'>
+        PROJECTS
       </div>
-      <div className='work-description'>
+      <div className='projects-description'>
         Check out some of my recent projects for my work! 
         To view more projects that I have done, feel free to 
         checkout my GitHub Repository by clicking on the GitHub icon.
@@ -19,7 +19,7 @@ class Work extends React.Component {
       <div className='my-projects'>
 
       {/*Container*/}
-        <div className='work-container'>
+        <div className='projects-container'>
           
           {/*Grid Item*/}
           <div 
@@ -92,4 +92,4 @@ class Work extends React.Component {
   )
  }
 }
-export default Work;
+export default Projects;

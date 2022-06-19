@@ -1,4 +1,4 @@
-.work{
+.projects{
     width: 100%;
     height: 100%;
     background-color: black;
@@ -6,7 +6,7 @@
     padding-top: 10px;
 }
 
-#workid {
+#projectsid {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -15,7 +15,7 @@
     padding-bottom: 20px;
 }
 
-.work-title {
+.projects-title {
     padding-top: 5%;
     font-size: 60px;
     padding-left: 3%;
@@ -25,7 +25,7 @@
     text-decoration: underline;
 }
 
-.work-description {
+.projects-description {
     font-size: 30px;
     padding-left:  3%;;
     color: white;
@@ -42,7 +42,7 @@
     
 }
 
-.work-container {
+.projects-container {
     padding-left: 5%;
     padding-top: 2%;
     display: grid;
@@ -52,15 +52,15 @@
 }
 
 @media only screen and (max-width: 512px){
-    .work-title {
+    .projects-title {
         font-size: 30px;
     }  
     
-    .work-description {
+    .projects-description {
         font-size: 15px;
     }   
 
-    .work-container {
+    .projects-container {
         align-items: center;
         grid-gap: 2;
         grid-template-columns: repeat(1,100%);

@@ -12,10 +12,10 @@ class About extends React.Component {
                 <div className="about-grid">
                     <div className="about-bio">
                         As a Computational Transportation Scientist, I always envision how AI and IoT will change 
-                        the mobility system for smart cities. From deep learning autonomous vehicles to traffic lights controlled by machine learning,
-                        mobile computing for CAVS, and real time analysis in vehicle platooning and distributed database systems for traffic data management.
-                        Civil and environmental engineers and computer scientists have been given a mega-scale task to enhance our mobility systems for
-                        smart cities. I am definitely determined to automate our traffic systems and make traveling as efficient as possible.
+                        our mobility system smart cities. From deep learning autonomous vehicles to traffic lights controlled by machine learning algorithms, optimization in transit planning,
+                        mobile computing, wireless communication and real time analysis in vehicle platooning for CAVs, and distributed database systems for traffic data management,
+                        civil and environmental engineers and computer scientists have been given a mega-scale task to enhance our mobility systems for
+                        smart cities. I am very enthusiastic about ITS and automating our transportation systems to make traveling as efficient as possible.
                     </div>
                     <div className='about-img'>
                         <img src={Louis}/>
