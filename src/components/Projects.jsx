@@ -53,7 +53,7 @@ class Projects extends React.Component {
               </span>
               <div className='pt-8 text-center'>
                 <a href="https://github.com/lotlouischoitslab/Champaign-Urbana_Bus_Ridership">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Champaign-Urbana Bus Transit Analysis</button>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Champaign-Urbana Mass Transit Bus Ridership Analysis and Prediction</button>
                 </a>
                 
 
