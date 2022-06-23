@@ -47,7 +47,7 @@
     padding-top: 2%;
     display: grid;
     gap: 3em;
-    grid-template-columns: repeat(3,45%);
+    grid-template-columns: repeat(3,33%);
     align-items: center;
 }
 
