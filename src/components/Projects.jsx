@@ -1,6 +1,7 @@
 import React from 'react'
 import asam from '../assets/opendrive.png'
 import cumtd from '../assets/cumtd.jpg'
+import ite from '../assets/ite.png'
 import amtrak from '../assets/amtrak.jpg'
 import web from '../assets/web.png'
 import './css/Projects.css'
@@ -83,6 +84,29 @@ class Projects extends React.Component {
           </div>
 
           {/*Grid Item*/}
+
+          <div 
+          style={{ backgroundImage: `url(${ite})`}}
+          className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>
+            
+            {/*Hover*/}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                
+              </span>
+              <div className='pt-8 text-center'>
+                
+                <a href="https://github.com/lotlouischoitslab/ITE_ILLINOIS">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>ITE@ILLINOIS Website</button>
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+          {/*Grid Item*/}
+
+
 
           <div 
           style={{ backgroundImage: `url(${web})`}}
