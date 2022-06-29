@@ -1,7 +1,8 @@
 import React from 'react'
 import './css/Education.css'
 
-const Education = () => {
+class Education extends React.Component {
+  render (){
   return (
     <div id='education' name='education' className='education'>
       <div className='education-title'>
@@ -15,6 +16,6 @@ const Education = () => {
       </ul> 
     </div>
   )
+ }
 }
-
 export default Education
