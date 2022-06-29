@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/lotlouischoportfolio/static/css/main.c1f6a5b0.css",
-    "main.js": "/lotlouischoportfolio/static/js/main.84bfa521.js",
+    "main.js": "/lotlouischoportfolio/static/js/main.4bebaa3d.js",
     "static/media/amtrak.jpg": "/lotlouischoportfolio/static/media/amtrak.0bdea876f63c809fee28.jpg",
+    "static/media/ite.png": "/lotlouischoportfolio/static/media/ite.be492bede619897fd678.png",
     "static/media/opendrive.png": "/lotlouischoportfolio/static/media/opendrive.dabef0a098a97ab3a677.png",
     "static/media/louis_id.png": "/lotlouischoportfolio/static/media/louis_id.88f2b2f7f823c799316d.png",
     "static/media/instagram.png": "/lotlouischoportfolio/static/media/instagram.88f88e4e58cd4b9b602d.png",
@@ -18,10 +19,10 @@
     "static/media/html.png": "/lotlouischoportfolio/static/media/html.ff3cf75e3b7cbb4ea77c.png",
     "index.html": "/lotlouischoportfolio/index.html",
     "main.c1f6a5b0.css.map": "/lotlouischoportfolio/static/css/main.c1f6a5b0.css.map",
-    "main.84bfa521.js.map": "/lotlouischoportfolio/static/js/main.84bfa521.js.map"
+    "main.4bebaa3d.js.map": "/lotlouischoportfolio/static/js/main.4bebaa3d.js.map"
   },
   "entrypoints": [
     "static/css/main.c1f6a5b0.css",
-    "static/js/main.84bfa521.js"
+    "static/js/main.4bebaa3d.js"
   ]
 }
