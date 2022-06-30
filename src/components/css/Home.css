@@ -17,7 +17,7 @@
 }
 
 .title {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: bold;
     color: white;
     padding-top: 50px;
@@ -31,52 +31,26 @@
     padding-bottom: 20px;
 }
 
-.name {
-    font-size: 70px;
-    color: white;
-} 
-
 .bio {
     color: white;
     font-size: 30px;
     padding-top: 10px;
 }
 
-.Typist {
-    font-size: 70px;
-    color: white;
-}
 
-.Typist .Cursor--blinking {
-    font-size: 70px;
-    color: white;
-    padding-left: 4px;
-}
 
 
 @media screen and (max-width: 512px) {
     .title {
-        font-size: 30px;
-    }
-
-    .name {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .sub-title {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .bio {
         font-size: 15px;
-    }
-
-    .Typist {
-        font-size: 30px;
-    }
-
-    .Typist .Cursor--blinking {
-        font-size: 30px;
     }
 }
   

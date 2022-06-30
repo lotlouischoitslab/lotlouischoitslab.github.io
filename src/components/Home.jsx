@@ -1,20 +1,23 @@
 import React from 'react'
 import './css/Home.css'
-import Typist from 'react-typist'
 import "react-typist/dist/Typist.css"
 import FadeIn from 'react-fade-in'
+import Typed from 'react-typed'
 
 class Home extends React.Component {
   render() {
       return (
           <div name = 'home' className="homepage" id ="homepage">
-                  <Typist>
-                      <span className="title">
-                          {"Hello. I am "}
-                          <span className="name">{"Louis Sungwoo Cho."}</span>
-                          
-                      </span>
-                  </Typist>
+                  <div className="title">
+                    <Typed strings = {[
+                          "Hello. I am Louis Sungwoo Cho."
+                      ]}
+                      typeSpeed={70}
+                      backSpeed={70}
+                      loop
+                      />
+                  </div>
+                  
               <FadeIn delay={1000}>
                 <span className="sub-title">
                     Computational Transportation Scientist
