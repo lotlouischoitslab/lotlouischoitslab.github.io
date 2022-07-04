@@ -25,7 +25,7 @@ class Home extends React.Component {
                 <div className = "bio">
                   I am a Computational Transportation Scientist
                   enthusiastic about developing Autonomous Vehicles and Intelligent Transportation Systems (ITS) 
-                  using Aritificial Intelligence (AI) and Internet of Things (IoT) to enhance mobility for Smart Cities.
+                  using Artificial Intelligence (AI) and Internet of Things (IoT) to enhance mobility for Smart Cities.
                 </div>
               </FadeIn>
             </div>
