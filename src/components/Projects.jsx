@@ -3,7 +3,6 @@ import asam from '../assets/opendrive.png'
 import airline from '../assets/a350.png'
 import cumtd from '../assets/cumtd.jpg'
 import amtrak from '../assets/amtrak.jpg'
-import ite from '../assets/ite.png'
 import web from '../assets/web.png'
 import './css/Projects.css'
 
