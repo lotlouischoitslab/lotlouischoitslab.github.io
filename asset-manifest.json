@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lotlouischoportfolio/static/css/main.b4807f28.css",
-    "main.js": "/lotlouischoportfolio/static/js/main.c4e02f0b.js",
+    "main.js": "/lotlouischoportfolio/static/js/main.fcb3a4b1.js",
     "static/media/amtrak.jpg": "/lotlouischoportfolio/static/media/amtrak.0bdea876f63c809fee28.jpg",
     "static/media/louis_id.png": "/lotlouischoportfolio/static/media/louis_id.88f2b2f7f823c799316d.png",
     "static/media/instagram.png": "/lotlouischoportfolio/static/media/instagram.88f88e4e58cd4b9b602d.png",
@@ -13,16 +13,17 @@
     "static/media/github.png": "/lotlouischoportfolio/static/media/github.37185c9cf4a283bc2611.png",
     "static/media/cpp.png": "/lotlouischoportfolio/static/media/cpp.a03992cb2a84d27d11dc.png",
     "static/media/linkedinlogo.png": "/lotlouischoportfolio/static/media/linkedinlogo.29f8b8d10d9fe3469c1f.png",
+    "static/media/java.png": "/lotlouischoportfolio/static/media/java.f5dd86c3ef6ef3f85acf.png",
     "static/media/react.png": "/lotlouischoportfolio/static/media/react.20ec11c4799854e3803d.png",
     "static/media/python.png": "/lotlouischoportfolio/static/media/python.2c9e01d0d55f499a339d.png",
     "static/media/css.png": "/lotlouischoportfolio/static/media/css.463e319bad8e0edf1ef7.png",
     "static/media/html.png": "/lotlouischoportfolio/static/media/html.ff3cf75e3b7cbb4ea77c.png",
     "index.html": "/lotlouischoportfolio/index.html",
     "main.b4807f28.css.map": "/lotlouischoportfolio/static/css/main.b4807f28.css.map",
-    "main.c4e02f0b.js.map": "/lotlouischoportfolio/static/js/main.c4e02f0b.js.map"
+    "main.fcb3a4b1.js.map": "/lotlouischoportfolio/static/js/main.fcb3a4b1.js.map"
   },
   "entrypoints": [
     "static/css/main.b4807f28.css",
-    "static/js/main.c4e02f0b.js"
+    "static/js/main.fcb3a4b1.js"
   ]
 }
