@@ -36,7 +36,7 @@ class Projects extends React.Component {
               </span>
               <div className='pt-8 text-center'>
                 <a href="https://github.com/lotlouischoitslab/KTX_Ridership_Analysis">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>KTX Ridership Analysis and Pattern Recognition </button>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>KTX Classification Analysis </button>
                 </a>
               </div>
             </div>

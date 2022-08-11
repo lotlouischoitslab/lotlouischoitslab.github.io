@@ -11,11 +11,10 @@ class About extends React.Component {
                 </div>
                 <div className="about-grid">
                     <div className="about-bio">
-                        As a Computational Transportation Scientist, I always envision how AI and IoT will change 
-                        our transportation systems. From deep learning autonomous vehicles to traffic lights controlled by machine learning algorithms, optimization in transit planning,
-                        mobile computing, wireless communication and real time analysis in vehicle platooning for CAVs, and distributed database systems for traffic data management,
-                        civil and environmental engineers and computer scientists have been given a mega-scale task to enhance our mobility systems for
-                        smart cities. I am very enthusiastic about ITS and automating our transportation systems to make traveling as efficient as possible.
+                        Growing up, I have always been enthusiastic about transportation systems from airplanes, trains to cars. Traveling is one of my favorite hobbies.
+                        With AI and IoT enhancing our mobility, my interests in Intelligent Transportation Systems (ITS) are deep learning and computer vision for autonomous vehicles,  
+                        wireless communication and real time analysis in vehicle platooning, machine learning and data science for analyzing traffic trends, and optimizing transit planning for smart cities.
+                        Other than traveling aroud, my hobbies include listening and singing Korean pop and rap songs, eating Korean food, watching Korean TV shows and dramas, and photography.
                     </div>
                     <div className='about-img'>
                         <img src={Louis}/>
