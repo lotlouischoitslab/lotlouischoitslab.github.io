@@ -64,7 +64,7 @@ p.coding-lang {
     .skills-grid {
         align-items: center;
         grid-gap: 2;
-        grid-template-columns: repeat(2,30%);
+        grid-template-columns: repeat(2,40%);
     }
 
     p.coding-lang {
