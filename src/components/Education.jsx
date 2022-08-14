@@ -1,5 +1,6 @@
 import React from 'react'
 import './css/Education.css'
+import EducationTabs from './EducationTabs'
 
 class Education extends React.Component {
   render (){
@@ -8,12 +9,9 @@ class Education extends React.Component {
       <div className='education-title'>
         EDUCATION
       </div>
-      <ul class='university'>
-        <li className='major'>Pursuing a B.S in Civil and Environmental Engineering  at the University of Illinois at Urbana-Champaign 
-        (Specialization: Transportation Engineering)
-        </li>
-        <li className='minor'>Pursuing a Minor in Computer Science at the University of Illinois at Urbana-Champaign (Focus Area: Artificial Intelligence and Big Data) </li>
-      </ul> 
+      <div className='experience-list'>
+          <EducationTabs/>
+      </div>
     </div>
   )
  }

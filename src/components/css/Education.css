@@ -21,25 +21,39 @@
     color: white;
     align-items: center;
     text-decoration: underline;
-    padding-top: 5%;
     padding-left: 3%;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
-ul.university{
-    list-style-type: disc;
+.education-lists {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.university-title {
     color: white;
     font-size: 30px;
-    padding-left: 5%;
+    font-weight: bold;
 }
 
-
-
-li.major{
-    width: 90%;
+.education-date {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 5px;
 }
 
-li.minor{
-    width: 70%;
+ul.education-description {
+    list-style-type: disc;
+    color: white;
+    font-size: 25px;
+    padding-left: 30px;
+    width: 100%;
+}
+
+li.elem{
+    width: 100%;
+    padding-left: 5px;
 }
 
 
@@ -47,16 +61,35 @@ li.minor{
     .education-title {
         font-size: 30px;
     }
-    
-    ul.university{
-        font-size: 15px;
-    }
-    li.major{
-        width: 90%;
+
+    .education-lists {
+        padding-left: 0.5px;
+        
     }
     
-    li.minor{
-        width: 80%;
+    .university-title {
+        color: white;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    
+    .education-date {
+        color: white;
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+    
+    ul.education-description {
+        list-style-type: disc;
+        color: white;
+        font-size: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    li.elem{
+        width: 100%;
+        padding-left: 5px;
     }
     
 }

@@ -70,28 +70,19 @@ export default function VerticalTabs() {
       >
       </Tabs>
       <TabPanel value={value} index={0}>
-        <div className="job-lists">
-          <div className ="job-title">
-            Research Assistant <span className = "title-colored">@ Reliable Autonomy Group UIUC</span>
+        <div className="education-lists">
+          <div className ="university-title">
+            University of Illinois at Urbana-Champaign <span className = "title-colored"></span>
           </div>
-          <div className ="professor">
-            Advised by Professor Sayan Mitra, Electrical & Computer Engineering @ UIUC
+          <div className = "education-date">
+            August 2020 - May 2024 (Expected)
           </div>
-          <div className = "job-date">
-            May 2022 - Present
-          </div>
-          <div className='project-name'>
-            DryVR++ Lane Map Generator (May 2022 - August 2022)
-          </div>
-          <ul class='job-description'>
+          <ul class='education-description'>
             <li className='elem'>
-              Created parsing function to read road geometry from ASAM Opendrive files.
+              Pursuing a B.S in Civil & Environmental Engineering (Specialization: Transportation Engineering)
             </li>
             <li className='elem'>
-              Plotted road geometry for data visualization.
-            </li>
-            <li className='elem'>
-              Generated lanes for autonomous driving simulators.
+              Pursuing a Minor in Computer Science (Focus Area: Artificial Intelligence & Big Data)
             </li>
 
           </ul> 
