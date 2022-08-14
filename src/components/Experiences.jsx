@@ -1,5 +1,6 @@
 import React from 'react'
 import './css/Experiences.css'
+import ExperienceTabs from './ExperienceTabs'
 
 class Experiences extends React.Component {
     render () {
@@ -8,11 +9,9 @@ class Experiences extends React.Component {
                 <div className='experiences-title'>
                     EXPERIENCES
                 </div>
-                <ul class='titles'>
-                    <li className='research'>
-                        Research Assistant at the Reliable Autonomy Group at University of Illinois at Urbana-Champaign
-                    </li>
-                </ul> 
+                <div className='experience-list'>
+                    <ExperienceTabs/>
+                </div>
             </div>
         )
     }
