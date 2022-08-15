@@ -11,8 +11,8 @@
     flex-direction: column;
     align-items: flex-start;
     padding-top: 5%;
-    padding-left: 10%;
-    padding-bottom: 50px;
+    padding-left: 12%;
+    padding-bottom: 10%;
 }
 
 .experiences-title {
@@ -53,13 +53,21 @@
     color: white;
     font-size: 20px;
     padding-bottom: 5px;
+    padding-left: 35px;
+}
+
+.sub-job-date {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-left: 35px;
 }
 
 ul.job-description {
     list-style-type: disc;
     color: white;
     font-size: 20px;
-    padding-left: 30px;
+    padding-left: 50px;
 }
 
 li.elem{
@@ -95,12 +103,22 @@ li.elem{
         font-size: 12px;
         padding-bottom: 5px;
     }
-    
+
     .project-name {
         color: white;
         font-size: 12px;
         padding-bottom: 5px;
+        padding-left: 5px;
     }
+
+    .sub-job-date {
+        color: white;
+        font-size: 12px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+    }
+    
+    
     
     ul.job-description {
         list-style-type: disc;

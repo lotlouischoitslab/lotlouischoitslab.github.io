@@ -81,7 +81,10 @@ export default function VerticalTabs() {
             May 2022 - Present
           </div>
           <div className='project-name'>
-            DryVR++ Lane Map Generator (May 2022 - August 2022)
+            DryVR++ Lane Map Generator
+          </div>
+          <div className = "sub-job-date">
+            May 2022 - August 2022
           </div>
           <ul class='job-description'>
             <li className='elem'>
