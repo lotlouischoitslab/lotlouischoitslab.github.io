@@ -10,9 +10,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-top: 5%;
+    padding-top: 7%;
     padding-left: 12%;
-    padding-bottom: 20px;
+    padding-bottom: 10%;
 }
 
 .education-title {
