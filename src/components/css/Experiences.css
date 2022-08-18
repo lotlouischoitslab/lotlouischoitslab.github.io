@@ -51,7 +51,7 @@
     color: white;
     font-size: 25px;
     padding-bottom: 5px;
-    padding-left: 5%;
+    padding-left: 3%;
 }
 
 .sub-job-date {
@@ -65,7 +65,8 @@ ul.job-description {
     list-style-type: disc;
     color: white;
     font-size: 25px;
-    padding-left: 7%;
+    padding-left: 5%;
+    padding-bottom: 5%;
 }
 
 li.elem{
@@ -124,6 +125,7 @@ li.elem{
         font-size: 12px;
         padding-left: 11%;
         padding-right: 11%;
+        padding-bottom: 5%;
     }
 
     li.elem{
