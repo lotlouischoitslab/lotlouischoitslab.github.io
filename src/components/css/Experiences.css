@@ -94,7 +94,9 @@ li.elem{
         color: white;
         font-size: 12px;
         padding-bottom: 5px;
+        width: 80%;
         padding-left: 3%;
+        padding-right: 3%;
     }
     
     .job-date {
@@ -107,7 +109,7 @@ li.elem{
         color: white;
         font-size: 12px;
         padding-bottom: 5px;
-        padding-left: 5%;
+        padding-left: 3%;
     }
 
     .sub-job-date {
@@ -116,7 +118,6 @@ li.elem{
         padding-bottom: 5px;
         padding-left: 5%;
     }
-    
     
     
     ul.job-description {
