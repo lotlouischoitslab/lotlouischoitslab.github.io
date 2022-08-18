@@ -53,6 +53,13 @@
         font-size: 30px;
         
     }
+    
+    .about-grid {
+        display: grid;
+        grid-gap: 4px;
+        grid-template-columns: repeat(1,50%);
+        padding-left: 5%;
+    }
     .about-bio {
         font-size: 12px;
     }
