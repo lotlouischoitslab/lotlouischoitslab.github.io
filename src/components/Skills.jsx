@@ -7,6 +7,8 @@ import HTML from '../assets/html.png'
 import CSS from '../assets/css.png'
 import JavaScript from '../assets/javascript.png'
 import ReactJS from '../assets/react.png'
+import SQL from '../assets/sql.png'
+import MATLAB from '../assets/matlab.png'
 
 import './css/Skills.css'
 
@@ -52,6 +54,14 @@ class Skills extends React.Component {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={ReactJS} alt="REACTJS icon"/>
                 <p className='coding-lang'>REACT</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={SQL} alt="REACTJS icon"/>
+                <p className='coding-lang'>SQL</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={MATLAB} alt="REACTJS icon"/>
+                <p className='coding-lang'>MATLAB</p>
               </div>
             </div>
             

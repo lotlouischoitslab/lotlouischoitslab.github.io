@@ -17,7 +17,9 @@ class About extends React.Component {
                         algorithms using deep reinforcement learning, computer vision, and perception for autonomous vehicles, 
                         machine learning and data science for analyzing and forecasting traffic trends, optimizing transit planning, mobile computing, wireless communication and 
                         real time analysis for vehicle platooning. I am fluent in both English and Korean.
-                        My hobbies are listening and singing Korean pop and rap songs, eating Korean food, and watching Korean movies.
+                        My hobbies are listening and singing Korean pop and rap songs, eating Korean food, and watching Korean movies. 
+                        I have further plans going to graduate school to pursue my dream of becoming an innovative Computational Transportation Scientist (CTS) and mastering the concept of 
+                        motion planning for autonomous driving.
                     </div>
                     <div className='about-img'>
                         <img src={Louis}/>

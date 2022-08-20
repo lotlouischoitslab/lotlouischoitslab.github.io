@@ -12,7 +12,7 @@
     align-items: flex-start;
     padding-top: 5%;
     padding-left: 12%;
-    padding-bottom: 20px;
+    padding-bottom: 10%;
 }
 
 .skills-title {
@@ -35,10 +35,10 @@
 
 
 .skills-grid {
-    width: 100%;
+    width: 80%;
     display: grid;
     gap: 2em;
-    grid-template-columns: repeat(4,20%);
+    grid-template-columns: repeat(5,20%);
     align-items: center;
 }
 
