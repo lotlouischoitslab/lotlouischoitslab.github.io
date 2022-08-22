@@ -16,7 +16,7 @@ class About extends React.Component {
                         With AI and IoT enhancing our mobility, my interests in Intelligent Transportation Systems (ITS) are motion planning and decision-making
                         algorithms using deep reinforcement learning and computer vision for autonomous vehicles. I am fluent in both English and Korean.
                         My hobbies are listening and singing Korean pop and rap songs, eating Korean food, and watching Korean movies. 
-                        I have further plans going to graduate school to pursue my dream of becoming an innovative Computational Transportation Scientist (CTS).
+                        I have further plans going to graduate school to pursue my dream of becoming an innovative Computational Transportation Scientist.
                     </div>
                     <div className='about-img'>
                         <img src={Louis}/>

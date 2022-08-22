@@ -20,7 +20,7 @@ class Home extends React.Component {
                   
               <FadeIn delay={1000}>
                 <span className="sub-title">
-                    Computational Transportation Science (CTS) Student
+                    Computational Transportation Science Student
                 </span>
                 <div className = "bio">
                   I am a Computational Transportation Science Student
