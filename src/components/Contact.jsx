@@ -17,7 +17,7 @@ const Contact = () => {
         <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 inline-block'>
             <a href="https://www.linkedin.com/in/louis-sungwoo-cho-978502194/">
               <img className='w-20 mx-auto' src={Linkedin} alt="LinkedIn icon"/>
-              <p className='coding-lang'>Linkedin</p>
+              <p className='coding-lang'>LinkedIn</p>
             </a>
           </div>
 
