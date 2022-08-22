@@ -131,7 +131,7 @@ class Projects extends React.Component {
 
 
 
-          <div class = 'h-12'
+          <div class = "w-50px h-50px bg-no-repeat bg-contain"
           style={{ backgroundImage: `url(${web})`}}
           className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>
             
