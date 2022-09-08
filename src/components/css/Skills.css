@@ -65,6 +65,7 @@ p.coding-lang {
         align-items: center;
         grid-gap: 2;
         grid-template-columns: repeat(2,35%);
+        padding-left: 8%;
     }
 
     p.coding-lang {
