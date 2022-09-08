@@ -43,7 +43,7 @@ class Experiences extends React.Component {
                     Advised by Professor Sayan Mitra, Electrical & Computer Engineering @ UIUC
                 </div>
                 <div className = "job-date">
-                    May 2022 - Present
+                    May 2022 - August 2022
                 </div>
                 <div className='project-name'>
                     DryVR++ Lane Map Generator for Control Verification
