@@ -19,42 +19,42 @@ const Contact = () => {
         <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 inline-block'>
             <a href="https://www.linkedin.com/in/louis-sungwoo-cho-978502194/">
               <img className='w-20 mx-auto' src={Linkedin} alt="LinkedIn icon"/>
-              <p className='coding-lang'>LinkedIn</p>
+              <p className='socials'>LinkedIn</p>
             </a>
           </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 inline-block'>
             <a href="https://github.com/lotlouischoitslab">
               <img className='w-20 mx-auto' src={Github} alt="GitHub icon"/>
-              <p className='coding-lang'>GITHUB</p>
+              <p className='socials'>GITHUB</p>
             </a>
           </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 inline-block'>
             <a href= {CV}>
               <img className='w-20 mx-auto' src={CV_img} alt="CV icon"/>
-              <p className='coding-lang'>CV</p>
+              <p className='socials'>CV</p>
             </a>
           </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 inline-block'>
             <a href= 'https://www.instagram.com/lotlouischolabs/'>
               <img className='w-20 mx-auto' src={Insta} alt="Instagram icon"/>
-              <p className='coding-lang'>Instagram</p>
+              <p className='socials'>Instagram</p>
             </a>
           </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 inline-block'>
             <a href= 'https://discord.com/channels/@lotlouischo#8034'>
               <img className='w-20 mx-auto' src={Discord} alt="Discord icon"/>
-              <p className='coding-lang'>Discord</p>
+              <p className='socials'>Discord</p>
             </a>
           </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 inline-block'>
             <a href= 'https://www.facebook.com/louis.sw.cho'>
               <img className='w-20 mx-auto' src={Meta} alt="Meta icon"/>
-              <p className='coding-lang'>Facebook</p>
+              <p className='socials'>Facebook</p>
             </a>
           </div>
 

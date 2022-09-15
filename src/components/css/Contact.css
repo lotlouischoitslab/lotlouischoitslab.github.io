@@ -31,13 +31,13 @@
     gap: 2em;
     grid-template-columns: repeat(6,20%);
     align-items: center;
-    padding-left: 20%;
+    padding-left: 25%;
 }
 
-p.coding-lang {
+p.socials {
     font-size: 20px;
     display: flex;
-    padding-left: 25%;
+    padding-left: 10%;
     width: 80%;
     color: white;
 }
@@ -47,7 +47,7 @@ p.social-icons {
     color: black;
     display: flex;
     justify-content: center;
-    padding-right: 2px;
+    padding-right: 3px;
 }
 
 .contact-me {
@@ -105,11 +105,11 @@ form.myforms {
         
     }
 
-    p.coding-lang {
-        font-size: 10px;
+    p.socials {
+        font-size: 8px;
         display: flex;
-        padding-left: 50%;
-        width: 0%;
+        padding-left: 3%;
+        width: 70%;
         color: white;
     }
 
