@@ -100,16 +100,16 @@ form.myforms {
         gap: 1em;
         grid-template-columns: repeat(6,20%);
         align-items: center;
-        padding-left: 50px;
-        padding-right: 20px;
+        padding-left: 60px;
+        padding-right: 10px;
         
     }
 
     p.socials {
-        font-size: 8px;
+        font-size: 7px;
         display: flex;
         padding-left: 3%;
-        width: 70%;
+        width: 90%;
         color: white;
     }
 
