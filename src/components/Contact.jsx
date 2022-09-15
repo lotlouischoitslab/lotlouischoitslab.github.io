@@ -45,14 +45,14 @@ const Contact = () => {
           </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 inline-block'>
-            <a href= 'https://www.instagram.com/lotlouischolabs/'>
+            <a href= 'https://discord.com/channels/@lotlouischo#8034'>
               <img className='w-20 mx-auto' src={Discord} alt="Discord icon"/>
               <p className='coding-lang'>Discord</p>
             </a>
           </div>
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 inline-block'>
-            <a href= 'https://www.instagram.com/lotlouischolabs/'>
+            <a href= 'https://www.facebook.com/louis.sw.cho'>
               <img className='w-20 mx-auto' src={Meta} alt="Meta icon"/>
               <p className='coding-lang'>Facebook</p>
             </a>
