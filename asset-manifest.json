@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lotlouischoportfolio/static/css/main.081db914.css",
-    "main.js": "/lotlouischoportfolio/static/js/main.c1ad2374.js",
+    "main.css": "/lotlouischoportfolio/static/css/main.74d96cec.css",
+    "main.js": "/lotlouischoportfolio/static/js/main.5bcc7ca6.js",
     "static/media/amtrak.jpg": "/lotlouischoportfolio/static/media/amtrak.0bdea876f63c809fee28.jpg",
     "static/media/louis_id.png": "/lotlouischoportfolio/static/media/louis_id.88f2b2f7f823c799316d.png",
     "static/media/ktx.png": "/lotlouischoportfolio/static/media/ktx.3bd446dc60481a3b731e.png",
@@ -12,8 +12,10 @@
     "static/media/web.png": "/lotlouischoportfolio/static/media/web.3b80828f6c0f4f6ae04d.png",
     "static/media/louis_cv.pdf": "/lotlouischoportfolio/static/media/louis_cv.f02185a91ced854be4f0.pdf",
     "static/media/sql.png": "/lotlouischoportfolio/static/media/sql.5f8a211c010a92959207.png",
+    "static/media/discord.png": "/lotlouischoportfolio/static/media/discord.0fa9e42d242583421fc8.png",
     "static/media/github.png": "/lotlouischoportfolio/static/media/github.37185c9cf4a283bc2611.png",
     "static/media/cpp.png": "/lotlouischoportfolio/static/media/cpp.a03992cb2a84d27d11dc.png",
+    "static/media/meta_logo.png": "/lotlouischoportfolio/static/media/meta_logo.d69cb74d75713772046d.png",
     "static/media/linkedinlogo.png": "/lotlouischoportfolio/static/media/linkedinlogo.29f8b8d10d9fe3469c1f.png",
     "static/media/matlab.png": "/lotlouischoportfolio/static/media/matlab.420678dbeb07c3083ef0.png",
     "static/media/java.png": "/lotlouischoportfolio/static/media/java.f5dd86c3ef6ef3f85acf.png",
@@ -22,11 +24,11 @@
     "static/media/css.png": "/lotlouischoportfolio/static/media/css.463e319bad8e0edf1ef7.png",
     "static/media/html.png": "/lotlouischoportfolio/static/media/html.ff3cf75e3b7cbb4ea77c.png",
     "index.html": "/lotlouischoportfolio/index.html",
-    "main.081db914.css.map": "/lotlouischoportfolio/static/css/main.081db914.css.map",
-    "main.c1ad2374.js.map": "/lotlouischoportfolio/static/js/main.c1ad2374.js.map"
+    "main.74d96cec.css.map": "/lotlouischoportfolio/static/css/main.74d96cec.css.map",
+    "main.5bcc7ca6.js.map": "/lotlouischoportfolio/static/js/main.5bcc7ca6.js.map"
   },
   "entrypoints": [
-    "static/css/main.081db914.css",
-    "static/js/main.c1ad2374.js"
+    "static/css/main.74d96cec.css",
+    "static/js/main.5bcc7ca6.js"
   ]
 }
