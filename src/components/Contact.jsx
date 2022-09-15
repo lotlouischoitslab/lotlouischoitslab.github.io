@@ -4,7 +4,9 @@ import Linkedin from '../assets/linkedinlogo.png'
 import Github from '../assets/github.png'
 import CV_img from '../assets/cv.png'
 import CV from "../assets/louis_cv.pdf"
-import insta from "../assets/instagram.png"
+import Insta from "../assets/instagram.png"
+import Discord from "../assets/discord.png"
+import Meta from "../assets/meta_logo.png"
 import './css/Social_icons.css'
 
 const Contact = () => {
@@ -37,8 +39,22 @@ const Contact = () => {
 
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 inline-block'>
             <a href= 'https://www.instagram.com/lotlouischolabs/'>
-              <img className='w-20 mx-auto' src={insta} alt="Instagram icon"/>
+              <img className='w-20 mx-auto' src={Insta} alt="Instagram icon"/>
               <p className='coding-lang'>Instagram</p>
+            </a>
+          </div>
+
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 inline-block'>
+            <a href= 'https://www.instagram.com/lotlouischolabs/'>
+              <img className='w-20 mx-auto' src={Discord} alt="Discord icon"/>
+              <p className='coding-lang'>Discord</p>
+            </a>
+          </div>
+
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 inline-block'>
+            <a href= 'https://www.instagram.com/lotlouischolabs/'>
+              <img className='w-20 mx-auto' src={Meta} alt="Meta icon"/>
+              <p className='coding-lang'>Facebook</p>
             </a>
           </div>
 

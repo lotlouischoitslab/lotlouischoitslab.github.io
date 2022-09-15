@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {FaBars, FaTimes, FaGithub,FaLinkedin,FaInstagram} from 'react-icons/fa'
+import {FaBars, FaTimes, FaGithub,FaLinkedin,FaInstagram,FaDiscord, FaFacebook} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import CV from "../assets/louis_cv.pdf"
 import {Link} from 'react-scroll'
@@ -128,6 +128,18 @@ const Navbar = () => {
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#DD2A7B]'>
                 <a className='flex justify-between items-center w-full text-gray-300' href = 'https://www.instagram.com/lotlouischolabs/'>
                      Instagram <FaInstagram size={30}/>
+                </a>
+            </li>
+
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#5865F2]'>
+                <a className='flex justify-between items-center w-full text-gray-300' href = 'https://discord.com/channels/@lotlouischo#8034'>
+                     Discord <FaDiscord size={30}/>
+                </a>
+            </li>
+
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500'>
+                <a className='flex justify-between items-center w-full text-gray-300' href = 'https://www.facebook.com/louis.sw.cho'>
+                     Facebook <FaFacebook size={30}/>
                 </a>
             </li>
            
