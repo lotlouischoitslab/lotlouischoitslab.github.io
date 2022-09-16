@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.603bfb80.css",
-    "main.js": "/static/js/main.0a3d875d.js",
+    "main.css": "/static/css/main.2896dc6d.css",
+    "main.js": "/static/js/main.09b10fcc.js",
     "static/media/amtrak.jpg": "/static/media/amtrak.0bdea876f63c809fee28.jpg",
     "static/media/louis_id.png": "/static/media/louis_id.88f2b2f7f823c799316d.png",
     "static/media/ktx.png": "/static/media/ktx.3bd446dc60481a3b731e.png",
@@ -10,7 +10,7 @@
     "static/media/cumtd.jpg": "/static/media/cumtd.4e528ce2796a3ed18178.jpg",
     "static/media/opendrive.png": "/static/media/opendrive.7b9a83e2c1b5de8a5345.png",
     "static/media/web.png": "/static/media/web.3b80828f6c0f4f6ae04d.png",
-    "static/media/louis_cv.pdf": "/static/media/louis_cv.f02185a91ced854be4f0.pdf",
+    "static/media/louis_cv.pdf": "/static/media/louis_cv.b8964be90c08d8473de5.pdf",
     "static/media/sql.png": "/static/media/sql.5f8a211c010a92959207.png",
     "static/media/discord.png": "/static/media/discord.0fa9e42d242583421fc8.png",
     "static/media/github.png": "/static/media/github.37185c9cf4a283bc2611.png",
@@ -24,11 +24,11 @@
     "static/media/css.png": "/static/media/css.463e319bad8e0edf1ef7.png",
     "static/media/html.png": "/static/media/html.ff3cf75e3b7cbb4ea77c.png",
     "index.html": "/index.html",
-    "main.603bfb80.css.map": "/static/css/main.603bfb80.css.map",
-    "main.0a3d875d.js.map": "/static/js/main.0a3d875d.js.map"
+    "main.2896dc6d.css.map": "/static/css/main.2896dc6d.css.map",
+    "main.09b10fcc.js.map": "/static/js/main.09b10fcc.js.map"
   },
   "entrypoints": [
-    "static/css/main.603bfb80.css",
-    "static/js/main.0a3d875d.js"
+    "static/css/main.2896dc6d.css",
+    "static/js/main.09b10fcc.js"
   ]
 }
