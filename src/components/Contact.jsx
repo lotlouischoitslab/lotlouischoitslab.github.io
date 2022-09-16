@@ -54,14 +54,14 @@ const Contact = () => {
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 inline-block'>
             <a href= 'https://www.facebook.com/louis.sw.cho'>
               <img className='w-20 mx-auto' src={Meta} alt="Meta icon"/>
-              <p className='socials'>Facebook</p>
+              <p className='socials'>Meta</p>
             </a>
           </div>
 
 
       </div>
       <div className="contact-me">
-        Please submit the form below or shoot me an email to louis.sw.cho@gmail.com
+        Please submit the form below or shoot me an email to louis.sw.cho@gmail.com.
       </div>
         
       <form method='POST' action="https://getform.io/f/c752447b-bad0-4251-96fb-699ef977beb6" className="myforms flex flex-col max-w-[990px]">
