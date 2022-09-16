@@ -26,7 +26,7 @@ class Experiences extends React.Component {
                         Connecting prosepective students and networking with transportation professionals
                     </li>
                     <li className='elem'>
-                        Contributed to building the website for ITE@Illinois:
+                        Contributed to building the website for ITE@UIUC:
                         <a href="https://ite.cee.illinois.edu/"> Click Here</a>
                     </li>
                 </ul> 

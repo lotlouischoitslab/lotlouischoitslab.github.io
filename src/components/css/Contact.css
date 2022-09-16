@@ -97,7 +97,7 @@ form.myforms {
     .contact-grid {
         display: grid;
         gap: 1em;
-        grid-template-columns: repeat(6,20%);
+        grid-template-columns: repeat(6,18%);
         align-items: center;
         padding-left: 60px;
         padding-right: 10px;
@@ -108,7 +108,7 @@ form.myforms {
         font-size: 7px;
         display: flex;
         padding-left: 3%;
-        width: 90%;
+        width: 80%;
         color: white;
     }
 
