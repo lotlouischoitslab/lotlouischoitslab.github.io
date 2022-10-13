@@ -86,29 +86,29 @@ li.elem{
     
     .job-title {
         color: white;
-        font-size: 13px;
+        font-size: 10px;
         font-weight: bold;
     }
 
     .professor {
         color: white;
-        font-size: 12px;
-        padding-bottom: 5px;
-        width: 80%;
+        font-size: 10px;
+        padding-bottom: 2px;
+        width: 85%;
         padding-left: 3%;
         padding-right: 3%;
     }
     
     .job-date {
         color: white;
-        font-size: 12px;
-        padding-bottom: 5px;
+        font-size: 10px;
+        padding-bottom: 3px;
     }
 
     .project-name {
         color: white;
-        font-size: 12px;
-        padding-bottom: 5px;
+        font-size: 10px;
+        padding-bottom: 3px;
         padding-left: 3%;
     }
 
