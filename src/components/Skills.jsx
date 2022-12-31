@@ -8,6 +8,8 @@ import JavaScript from '../assets/javascript.png'
 import ReactJS from '../assets/react.png'
 import SQL from '../assets/sql.png'
 import MongoDB from '../assets/mongodb.png'
+import NodeJS from '../assets/nodejs.png'
+import Neo4j from '../assets/neo4j.png'
 import MATLAB from '../assets/matlab.png'
 
 import './css/Skills.css'
@@ -58,6 +60,14 @@ class Skills extends React.Component {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={MongoDB} alt="REACTJS icon"/>
                 <p className='coding-lang'>MONGODB</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={NodeJS} alt="REACTJS icon"/>
+                <p className='coding-lang'>NodeJS</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={Neo4j} alt="REACTJS icon"/>
+                <p className='coding-lang'>Neo4j</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={MATLAB} alt="REACTJS icon"/>

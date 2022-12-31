@@ -62,9 +62,9 @@ class Projects extends React.Component {
 
 
           {/*Grid Item*/}
-          <div 
-          style={{ backgroundImage: `url(${airline})`}}
-          className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
+          <div style={{ backgroundImage: `url(${airline})`}}
+          className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'
+          >            
             {/*Hover*/}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
