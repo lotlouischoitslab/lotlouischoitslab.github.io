@@ -4,6 +4,7 @@
     background-color:black;
     display: flex;
     align-items: center;
+    
 }
 
 #contactid {
@@ -12,7 +13,7 @@
     align-items: flex-start;
     padding-top: 5%;
     padding-left: 10%;
-    padding-bottom: 20px;
+    padding-bottom: 8%;
 }
 
 .contact-title {

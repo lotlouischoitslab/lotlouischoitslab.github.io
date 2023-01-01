@@ -57,20 +57,7 @@ const Contact = () => {
               <p className='socials'>Meta</p>
             </a>
           </div>
-
-
-      </div>
-      <div className="contact-me">
-        Please submit the form below or shoot me an email to louis.sw.cho@gmail.com.
-      </div>
-        
-      <form method='POST' action="https://getform.io/f/c752447b-bad0-4251-96fb-699ef977beb6" className="myforms flex flex-col max-w-[990px]">
-      
-        <input className= 'bg-[white] p-1' type="text" rows="2" placeholder="Name" name='name' />
-        <input className= 'my-1 bg-[white] p-1' type="email" rows="2" placeholder="Email" name='email' />
-        <textarea className= 'bg-[white] p-2' name="message" rows="4" placeholder="Message"></textarea>
-        <button className= 'text-white border-2 hover:bg-white hover:border-white px-4 pb-1 my-2 mx-auto flex items-center'>Let's Collaborate!</button>
-      </form>
+      </div> 
     </div>
   )
 }
