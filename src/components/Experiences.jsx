@@ -10,6 +10,35 @@ class Experiences extends React.Component {
 
                 {/*Experience List Startpoint */}
                 <div className ="job-title">
+                    Undergraduate Researcher @ Human-Centered Autonomy Laboratory UIUC
+                </div>
+                <div className ="professor">
+                    Advised by Professor Katherine Driggs-Campbell, Electrical & Computer Engineering @ UIUC
+                </div>
+                <div className = "job-date">
+                    January 2023 - Present
+                </div>
+                <div className='project-name'>
+                    Deep Reinforcement Learning Policy Generator for Autonomous Driving in CARLA Simulator
+                </div>
+            
+                <ul class='job-description'>
+                    {/* <li className='elem'>
+                    Parsed road attributes from ASAM OpenDRIVE files into Python files
+                    </li>
+                    <li className='elem'>
+                    Created a data visualizing function to draw the road attributes inside the ASAM OpenDRIVE file
+                    </li>
+                    <li className='elem'>
+                        Generated multiple lanes from the file parser into the control verification simulators
+                    </li> */}
+                </ul> 
+                
+                {/*Experience List Endpoint */}
+
+
+                {/*Experience List Startpoint */}
+                <div className ="job-title">
                     President @ Institute of Transportation Engineers UIUC Chapter
                 </div>
                 <div className ="professor">
