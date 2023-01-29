@@ -12,26 +12,21 @@ class Experiences extends React.Component {
                 <div className ="job-title">
                     Undergraduate Researcher @ Human-Centered Autonomy Laboratory UIUC
                 </div>
-                <div className ="professor">
-                    Advised by Professor Katherine Driggs-Campbell, Electrical & Computer Engineering @ UIUC
-                </div>
+                
                 <div className = "job-date">
                     January 2023 - Present
                 </div>
-                <div className='project-name'>
-                    Deep Reinforcement Learning Policy Generator for Autonomous Driving in CARLA Simulator
-                </div>
             
                 <ul class='job-description'>
-                    {/* <li className='elem'>
-                    Parsed road attributes from ASAM OpenDRIVE files into Python files
+                    <li className='elem'>
+                    Assisting Professor Katherine Driggs-Campbell, Electrical & Computer Engineering @ UIUC
                     </li>
                     <li className='elem'>
-                    Created a data visualizing function to draw the road attributes inside the ASAM OpenDRIVE file
+                    Currently working on Individual Policy Generater Deep Reinforcement Learning  for Autonomous Driving in CARLA Simulator
                     </li>
                     <li className='elem'>
                         Generated multiple lanes from the file parser into the control verification simulators
-                    </li> */}
+                    </li>
                 </ul> 
                 
                 {/*Experience List Endpoint */}
@@ -41,9 +36,7 @@ class Experiences extends React.Component {
                 <div className ="job-title">
                     President @ Institute of Transportation Engineers UIUC Chapter
                 </div>
-                <div className ="professor">
-                    Advised by Professor Lewis Lehe, Civil & Environmental Engineering @ UIUC
-                </div>
+                
                 <div className = "job-date">
                     August 2022 - Present
                 </div>
@@ -68,17 +61,19 @@ class Experiences extends React.Component {
                 <div className ="job-title">
                     Research Assistant @ Reliable Autonomy Group UIUC
                 </div>
-                <div className ="professor">
-                    Advised by Professor Sayan Mitra, Electrical & Computer Engineering @ UIUC
-                </div>
+            
                 <div className = "job-date">
                     May 2022 - August 2022
                 </div>
-                <div className='project-name'>
-                    DryVR++ Lane Map Generator for Control Verification
-                </div>
             
                 <ul class='job-description'>
+                
+                    <li className='elem'>
+                    Assisted Professor Sayan Mitra, Electrical & Computer Engineering @ UIUC
+                    </li>
+                    <li className='elem'>
+                    Contributed to DryVR++ Lane Map Generator for Control Verification
+                    </li>
                     <li className='elem'>
                     Parsed road attributes from ASAM OpenDRIVE files into Python files
                     </li>
