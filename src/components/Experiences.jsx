@@ -24,9 +24,7 @@ class Experiences extends React.Component {
                     <li className='elem'>
                     Currently working on Individual Policy Generater Deep Reinforcement Learning  for Autonomous Driving in CARLA Simulator
                     </li>
-                    <li className='elem'>
-                        Generated multiple lanes from the file parser into the control verification simulators
-                    </li>
+                    
                 </ul> 
                 
                 {/*Experience List Endpoint */}
