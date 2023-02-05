@@ -70,7 +70,7 @@ class Experiences extends React.Component {
                     Assisted Professor Sayan Mitra, Electrical & Computer Engineering @ UIUC
                     </li>
                     <li className='elem'>
-                    Contributed to DryVR++ Lane Map Generator for Control Verification
+                    Contributed to Verse Lane Map Generator for Control Verification
                     </li>
                     <li className='elem'>
                     Parsed road attributes from ASAM OpenDRIVE files into Python files
