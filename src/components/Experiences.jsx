@@ -22,7 +22,7 @@ class Experiences extends React.Component {
                     Assisting Professor Katherine Driggs-Campbell, Electrical & Computer Engineering @ UIUC
                     </li>
                     <li className='elem'>
-                    Currently working on Individual Policy Generater Deep Reinforcement Learning  for Autonomous Driving in CARLA Simulator
+                    Currently working on Individual Policy Generator Deep Reinforcement Learning  for Autonomous Driving in CARLA Simulator
                     </li>
                     
                 </ul> 
