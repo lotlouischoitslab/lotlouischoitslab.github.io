@@ -55,8 +55,8 @@ class Projects extends React.Component {
                 
               </span>
               <div className='pt-8 text-center'>
-                <a href="https://github.com/lotlouischoitslab/Champaign-Urbana_Bus_Ridership">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Champaign-Urbana Mass Transit Bus Ridership Analysis and Prediction</button>
+                <a href="https://github.com/lotlouischoitslab/ITE_UIUC_Engineering_Open_House_2023">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>ITE@UIUC EOH 2023 Champaign-Urbana Mass Transit Bus Ridership Analysis and Classification</button>
                 </a>
                 
 
@@ -96,7 +96,7 @@ class Projects extends React.Component {
               </span>
               <div className='pt-8 text-center'>
                 <a href="https://github.com/lotlouischoitslab/Verse-library">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Verse Project</button>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Verse Library for Autonomous Driving Control Verification</button>
                 </a>
               </div>
             </div>
@@ -114,7 +114,7 @@ class Projects extends React.Component {
               </span>
               <div className='pt-8 text-center'>
                 <a href="https://github.com/lotlouischoitslab/Airline_Satisfaction">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Airline Satisfaction</button>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Airline Satisfaction Analysis</button>
                 </a>
                 
 

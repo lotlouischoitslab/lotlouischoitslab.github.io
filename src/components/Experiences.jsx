@@ -22,8 +22,17 @@ class Experiences extends React.Component {
                     Assisting Professor Katherine Driggs-Campbell, Electrical & Computer Engineering @ UIUC
                     </li>
                     <li className='elem'>
-                    Currently working on Individual Policy Generator Deep Reinforcement Learning  for Autonomous Driving in CARLA Simulator
+                    Currently doing research in Optimized TransFuser in CARLA Simulator using Reinforcement Learning
                     </li>
+                    <li className='elem'>
+                    Developing an End-to-End Autonomous Driving Model using Neural Networks
+                    </li>
+                    <li className='elem'>
+                    Investigating how to retrieve motion-planning data using Sensors
+                    </li>
+
+
+                    
                     
                 </ul> 
                 
@@ -45,9 +54,17 @@ class Experiences extends React.Component {
                     <li className='elem'>
                         Connecting prosepective students and networking with transportation professionals
                     </li>
+                    
                     <li className='elem'>
                         Contributed to building the website for ITE@UIUC:
                         <a href="https://ite.cee.illinois.edu/"> Click Here</a>
+                    </li>
+
+                    <li className='elem'>
+                        Mentoring Civil and Environmental Engineering (Transportation) Majors, Computer Science Majors and Minors
+                    </li>
+                    <li className='elem'>
+                        Lead Exhibitor at the UIUC Engineering Open House for ITE@UIUC
                     </li>
                 </ul> 
                 {/*Experience List Endpoint */}
