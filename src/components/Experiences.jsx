@@ -28,7 +28,7 @@ class Experiences extends React.Component {
                     Developing an End-to-End Autonomous Driving Model using Neural Networks
                     </li>
                     <li className='elem'>
-                    Investigating how to retrieve motion-planning data using Sensors
+                    Investigating on retrieving motion-planning data using various sensors
                     </li>
 
 
