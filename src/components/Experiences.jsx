@@ -10,26 +10,21 @@ class Experiences extends React.Component {
 
                 {/*Experience List Startpoint */}
                 <div className ="job-title">
-                    Undergraduate Researcher @ Human-Centered Autonomy Laboratory UIUC
+                    Undergraduate Researcher @ Smart City Laboratory UIUC
                 </div>
                 
                 <div className = "job-date">
-                    January 2023 - Present
+                    May 2023 - Present
                 </div>
             
                 <ul class='job-description'>
                     <li className='elem'>
-                    Assisting Professor Katherine Driggs-Campbell, Electrical & Computer Engineering @ UIUC
+                    Assisting Professor Alireza Talebpour, Civil & Environmental Engineering (Transportation) @ UIUC
                     </li>
                     <li className='elem'>
-                    Currently doing research in Optimized TransFuser in CARLA Simulator using Reinforcement Learning
+                    Currently doing research in Multi-agent Deep Reinforcement Learning based Framework for Traffic Shaping
                     </li>
-                    <li className='elem'>
-                    Developing an End-to-End Autonomous Driving Model using Neural Networks
-                    </li>
-                    <li className='elem'>
-                    Investigating on retrieving motion-planning data using various sensors
-                    </li>
+                    
 
 
                     
@@ -67,6 +62,35 @@ class Experiences extends React.Component {
                         Lead Exhibitor at the UIUC Engineering Open House for ITE@UIUC
                     </li>
                 </ul> 
+                {/*Experience List Endpoint */}
+
+
+                {/*Experience List Startpoint */}
+                <div className ="job-title">
+                    Undergraduate Researcher @ Human-Centered Autonomy Laboratory UIUC
+                </div>
+                
+                <div className = "job-date">
+                    January 2023 - May 2023
+                </div>
+            
+                <ul class='job-description'>
+                    <li className='elem'>
+                    Assisting Professor Katherine Driggs-Campbell, Electrical & Computer Engineering @ UIUC
+                    </li>
+                    <li className='elem'>
+                    Currently doing research in Optimized TransFuser in CARLA Simulator using Reinforcement Learning
+                    </li>
+                    <li className='elem'>
+                    Developing an End-to-End Autonomous Driving Model using Neural Networks
+                    </li>
+                    <li className='elem'>
+                    Investigating on retrieving motion-planning data using various sensors
+                    </li>
+
+                    
+                </ul> 
+                
                 {/*Experience List Endpoint */}
 
 
