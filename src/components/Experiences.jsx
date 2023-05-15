@@ -22,7 +22,7 @@ class Experiences extends React.Component {
                     Assisting Professor Alireza Talebpour, Civil & Environmental Engineering (Transportation) @ UIUC
                     </li>
                     <li className='elem'>
-                    Currently doing research in Multi-agent Deep Reinforcement Learning based Framework for Traffic Shaping
+                    Currently doing research in Multi-agent Deep Reinforcement Learning and GPT based Framework for Traffic Shaping
                     </li>
                     
 
