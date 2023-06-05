@@ -24,6 +24,9 @@ class Experiences extends React.Component {
                     <li className='elem'>
                     Currently doing research in Multi-agent Deep Reinforcement Learning and GPT based Framework for Traffic Shaping
                     </li>
+                    {/* <li className='elem'>
+                    Currently doing research in Multi-agent Deep Reinforcement Learning and GPT based Framework for Traffic Shaping
+                    </li> */}
                     
 
 
