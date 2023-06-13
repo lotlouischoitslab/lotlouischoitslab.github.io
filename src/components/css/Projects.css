@@ -109,7 +109,7 @@
         padding-left: 3%;
         padding-right: 15%;
         align-items: center;
-        grid-template-columns: repeat(3,100%);
+        grid-template-columns: repeat(2,100%);
         grid-gap: 1.5;
         
     }
