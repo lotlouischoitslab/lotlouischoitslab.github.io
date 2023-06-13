@@ -100,16 +100,16 @@
     }  
     
     .projects-description {
-        font-size: 15px;
+        font-size: 12px;
         align-items: center;
         width: 100%;
     }
 
     .projects-container {
-        padding-left: 3%;
-        padding-right: 15%;
+        padding-left: 25%;
+        padding-right: 10%;
         align-items: center;
-        grid-template-columns: repeat(2,100%);
+        grid-template-columns: repeat(3,75%);
         grid-gap: 1.5;
         
     }
