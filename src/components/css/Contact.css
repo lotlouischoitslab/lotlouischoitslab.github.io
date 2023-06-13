@@ -11,9 +11,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-top: 5%;
-    padding-left: 10%;
+    padding-top: 10%;
     padding-bottom: 8%;
+    padding-left: 10%;
 }
 
 .contact-title {

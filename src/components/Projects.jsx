@@ -26,56 +26,42 @@ class Projects extends React.Component {
 
           {/*Grid Item */}
           <div 
-            style={{ backgroundImage: `url(${cav_road})`}}
+            style={{ backgroundImage: `url(${cav_road})`,backgroundSize: '110%', height: '80%'}}
             className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
               {/*Hover*/}
-              <div className='opacity-0 group-hover:opacity-100'>
-                <span className='text-2xl font-bold text-white tracking-wider'>
-                  
-                </span>
-                <div className='pt-8 text-center'>
+              <div className='hover-effect'>
+                <div className='centered-content'>
                   <a href="https://github.com/lotlouischoitslab/CAV_Traffic_Simulation_ChatGPT">
-                    <button className='text-center rounded-lg px-4 py-3 m-5 bg-white text-gray-700 font-bold text-lg'>Connected & Automated Vehicles (CAV) Traffic Simulator using ChatGPT</button>
+                    <button className='small-button'>Connected & Automated Vehicles Simulator using ChatGPT</button>
                   </a>
-                  
-
                 </div>
               </div>
             </div>
 
-
-
           {/*Grid Item */}
           <div 
-            style={{ backgroundImage: `url(${spaceship})`}}
+            style={{ backgroundImage: `url(${spaceship})`,backgroundSize: '130%', height: '80%'}}
             className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
               {/*Hover*/}
-              <div className='opacity-0 group-hover:opacity-100'>
-                <span className='text-2xl font-bold text-white tracking-wider'>
-                  
-                </span>
-                <div className='pt-8 text-center'>
+              <div className='hover-effect'>
+                <div className='centered-content'>
                   <a href="https://github.com/lotlouischoitslab/Spaceship_Titanic">
-                    <button className='text-center rounded-lg px-4 py-3 m-5 bg-white text-gray-700 font-bold text-lg'>Spaceship Titanic Kaggle Challenge</button>
+                    <button className='small-button'>Spaceship Titanic Kaggle Challenge</button>
                   </a>
                   
-
                 </div>
               </div>
             </div>
 
           {/*Grid Item */}
           <div 
-            style={{ backgroundImage: `url(${transpo})`}}
+            style={{ backgroundImage: `url(${transpo})`,backgroundSize: '130%', height: '80%'}}
             className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
               {/*Hover*/}
-              <div className='opacity-0 group-hover:opacity-100'>
-                <span className='text-2xl font-bold text-white tracking-wider'>
-                  
-                </span>
-                <div className='pt-8 text-center'>
+              <div className='hover-effect'>
+                <div className='centered-content'>
                   <a href="https://github.com/lotlouischoitslab/Transportation_Engineering">
-                    <button className='text-center rounded-lg px-4 py-3 m-5 bg-white text-gray-700 font-bold text-lg'>Computational Transportation Science (CTS) Open Source</button>
+                    <button className='small-button'>Computational Transportation Science (CTS) Open Source</button>
                   </a>
                   
 
@@ -85,16 +71,13 @@ class Projects extends React.Component {
 
 
         <div 
-          style={{ backgroundImage: `url(${cumtd})`}}
+          style={{ backgroundImage: `url(${cumtd})`,backgroundSize: '110%', height: '80%'}}
           className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
             {/*Hover*/}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                
-              </span>
-              <div className='pt-8 text-center'>
+            <div className='hover-effect'>
+              <div className='centered-content'>
                 <a href="https://github.com/lotlouischoitslab/ITE_UIUC_Engineering_Open_House_2023">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>ITE@UIUC EOH 2023 Champaign-Urbana Mass Transit Bus Ridership Analysis and Classification</button>
+                  <button className='small-button'>ITE@UIUC EOH 2023 CUMTD Bus Ridership Analysis and Classification</button>
                 </a>
                 
 
@@ -106,17 +89,14 @@ class Projects extends React.Component {
 
           {/*Grid Item*/}
           <div 
-          style={{ backgroundImage: `url(${ktx})`}}
+          style={{ backgroundImage: `url(${ktx})`,backgroundSize: '115%', height: '80%'}}
           className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/*Hover*/}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                
-              </span>
-              <div className='pt-8 text-center'>
+            <div className='hover-effect'>
+              <div className='centered-content'>
                 <a href="https://github.com/lotlouischoitslab/KTX_Ridership_Analysis">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>KTX Image Classification </button>
+                  <button className='small-button'>KTX Image Classification </button>
                 </a>
               </div>
             </div>
@@ -124,17 +104,14 @@ class Projects extends React.Component {
           
           {/*Grid Item*/}
           <div 
-          style={{ backgroundImage: `url(${asam})`}}
+          style={{ backgroundImage: `url(${asam})`,backgroundSize: '110%', height: '80%'}}
           className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/*Hover*/}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                
-              </span>
-              <div className='pt-8 text-center'>
+            <div className='hover-effect'>
+              <div className='centered-content'>
                 <a href="https://github.com/lotlouischoitslab/Verse-library">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Verse Library for Autonomous Driving Control Verification</button>
+                  <button className='small-button'>Verse Library for Autonomous Driving Control Verification</button>
                 </a>
               </div>
             </div>
@@ -142,20 +119,15 @@ class Projects extends React.Component {
 
 
           {/*Grid Item*/}
-          <div style={{ backgroundImage: `url(${airline})`}}
+          <div style={{ backgroundImage: `url(${airline})`,backgroundSize: '100%', height: '80%'}}
           className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'
           >            
             {/*Hover*/}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                
-              </span>
-              <div className='pt-8 text-center'>
+            <div className='hover-effect'>
+              <div className='centered-content'>
                 <a href="https://github.com/lotlouischoitslab/Airline_Satisfaction">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Airline Satisfaction Analysis</button>
+                  <button className='small-button'>Airline Satisfaction Analysis</button>
                 </a>
-                
-
               </div>
             </div>
           </div>
@@ -164,47 +136,33 @@ class Projects extends React.Component {
 
 
           <div 
-          style={{ backgroundImage: `url(${amtrak})`}}
+          style={{ backgroundImage: `url(${amtrak})`,backgroundSize: '100%', height: '80%'}}
           className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/*Hover*/}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                
-              </span>
-              <div className='pt-8 text-center'>
-                
+            <div className='hover-effect'>
+              <div className='centered-content'>
                 <a href="https://github.com/lotlouischoitslab/Amtrak-Scheduling-Helper">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Amtrak Scheduling</button>
+                  <button className='small-button'>Amtrak Scheduling</button>
                 </a>
-
               </div>
             </div>
           </div>
 
           {/*Grid Item*/}
-
-
-
-          <div class = "w-50px h-50px bg-no-repeat bg-contain"
-          style={{ backgroundImage: `url(${web})`}}
+          <div
+          style={{ backgroundImage: `url(${web})`,backgroundSize: '120%', height: '80%'}}
           className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/*Hover*/}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                
-              </span>
-              <div className='pt-8 text-center'>
-                
+            <div className='hover-effect'>
+              <div className='centered-content'>
                 <a href="https://github.com/lotlouischoitslab/lotlouischoportfolio">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Portfolio Website</button>
+                  <button className='small-button'>Portfolio Website</button>
                 </a>
-
               </div>
             </div>
           </div>
-
           {/*Grid Item*/}
 
 
@@ -216,3 +174,4 @@ class Projects extends React.Component {
  }
 }
 export default Projects;
+
