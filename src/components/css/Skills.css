@@ -11,7 +11,8 @@
     flex-direction: column;
     align-items: flex-start;
     padding-top: 5%;
-    padding-left: 12%;
+    padding-left: 8%;
+    padding-right: 5%;
     padding-bottom: 12%;
 }
 
@@ -37,8 +38,8 @@
 .skills-grid {
     width: 80%;
     display: grid;
-    gap: 2em;
-    grid-template-columns: repeat(5,20%);
+    gap: 1em;
+    grid-template-columns: repeat(6,18%);
     align-items: center;
 }
 
