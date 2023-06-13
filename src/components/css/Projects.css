@@ -106,7 +106,7 @@
     }
 
     .projects-container {
-        padding-left: 18%;
+        padding-left: 10%;
         padding-right: 10%;
         align-items: center;
         grid-template-columns: repeat(3,75%);
