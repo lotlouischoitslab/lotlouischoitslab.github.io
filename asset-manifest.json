@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0f93d5db.css",
+    "main.css": "/static/css/main.4bf5f670.css",
     "main.js": "/static/js/main.b27a91a0.js",
     "static/media/amtrak.jpg": "/static/media/amtrak.0bdea876f63c809fee28.jpg",
     "static/media/transportation.png": "/static/media/transportation.dc7c91834f01398c5009.png",
@@ -29,11 +29,11 @@
     "static/media/html.png": "/static/media/html.ff3cf75e3b7cbb4ea77c.png",
     "static/media/neo4j.png": "/static/media/neo4j.38b6f21f29a2351c4ffd.png",
     "index.html": "/index.html",
-    "main.0f93d5db.css.map": "/static/css/main.0f93d5db.css.map",
+    "main.4bf5f670.css.map": "/static/css/main.4bf5f670.css.map",
     "main.b27a91a0.js.map": "/static/js/main.b27a91a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f93d5db.css",
+    "static/css/main.4bf5f670.css",
     "static/js/main.b27a91a0.js"
   ]
 }
