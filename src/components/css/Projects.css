@@ -48,7 +48,7 @@
     padding-right: 5%;
     display: grid;
     gap: 1em;
-    grid-template-columns: repeat(5,50%);
+    grid-template-columns: repeat(5,60%);
  }
 
 .hover-effect {
@@ -107,7 +107,7 @@ transition: opacity 0.3s ease;
 
     .projects-container {
         align-items: right;
-        grid-template-columns: repeat(2,120%);
+        grid-template-columns: repeat(1,120%);
         grid-gap: 1.5em;
         padding-left: 15%;
     }
