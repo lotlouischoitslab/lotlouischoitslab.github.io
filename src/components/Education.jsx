@@ -16,7 +16,7 @@ class Education extends React.Component {
           </div>
           <ul class='education-description'>
             <li className='elem'>
-              Pursuing a B.S in Civil & Environmental Engineering (Computational Transportation Science)
+              Pursuing a B.S in Civil & Environmental Engineering (Transportation)
             </li>
             <li className='elem'>
               Pursuing a Minor in Computer Science (Artificial Intelligence & Big Data)
