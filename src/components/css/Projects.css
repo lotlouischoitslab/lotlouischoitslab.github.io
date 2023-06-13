@@ -27,7 +27,7 @@
 }
 
 .projects-description {
-    font-size: 15px;
+    font-size: 25px;
     padding-left: 3%;
     color: white;
     align-items: center;
@@ -52,8 +52,8 @@
  }
 
 .hover-effect {
-opacity: 0;
-transition: opacity 0.3s ease;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
 .centered-content {
