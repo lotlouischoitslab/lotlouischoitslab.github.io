@@ -95,6 +95,7 @@
   
 
 @media only screen and (max-width: 720px){
+
     .projects-title {
         font-size: 30px;
     }  
@@ -106,16 +107,14 @@
     }
 
     .projects-container {
-        padding-left: 20%;
-        padding-right: 3%;
-        grid-template-columns: repeat(2,150%);
+        padding-left: 10%;
+        padding-right: 5%;
+        grid-template-columns: repeat(2,120%);
         grid-gap: 1em;
     }
 
     .centered-content {
-        /* align-items: center; */
-        padding-left: 70%;
-        /* padding-right: 20%; */
+        align-items: center;
       }
 
     .content-div {
@@ -126,7 +125,7 @@
       }
 
     .small-button {
-        font-size: 5px;
+        font-size: 10px;
         padding-bottom: 1%;
         padding-top: 15%;
         padding-left: 10%;

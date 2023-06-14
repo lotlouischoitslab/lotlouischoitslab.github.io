@@ -104,7 +104,7 @@ class Projects extends React.Component {
 
           {/*Grid Item*/}
           <div 
-          style={{ backgroundImage: `url(${ktx})`,backgroundSize: '115%', height: '80%'}}
+          style={{ backgroundImage: `url(${ktx})`,backgroundSize: '115%', height: '90%'}}
           className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/*Hover*/}
@@ -119,7 +119,7 @@ class Projects extends React.Component {
           
           {/*Grid Item*/}
           <div 
-          style={{ backgroundImage: `url(${asam})`,backgroundSize: '110%', height: '80%'}}
+          style={{ backgroundImage: `url(${asam})`,backgroundSize: '110%', height: '90%'}}
           className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/*Hover*/}
@@ -134,7 +134,7 @@ class Projects extends React.Component {
 
 
           {/*Grid Item*/}
-          <div style={{ backgroundImage: `url(${airline})`,backgroundSize: '100%', height: '80%'}}
+          <div style={{ backgroundImage: `url(${airline})`,backgroundSize: '100%', height: '90%'}}
           className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'
           >            
             {/*Hover*/}
@@ -151,7 +151,7 @@ class Projects extends React.Component {
 
 
           <div 
-          style={{ backgroundImage: `url(${amtrak})`,backgroundSize: '100%', height: '80%'}}
+          style={{ backgroundImage: `url(${amtrak})`,backgroundSize: '100%', height: '90%'}}
           className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/*Hover*/}
@@ -166,7 +166,7 @@ class Projects extends React.Component {
 
           {/*Grid Item*/}
           <div
-          style={{ backgroundImage: `url(${web})`,backgroundSize: '120%', height: '80%'}}
+          style={{ backgroundImage: `url(${web})`,backgroundSize: '120%', height: '90%'}}
           className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/*Hover*/}
