@@ -69,7 +69,7 @@ p.coding-lang {
 
     .skills-grid {
         padding-top: 3%;
-        padding-left: 10%;
+        padding-left: 12%;
         padding-right: 20%;
         grid-gap: 2em;
         grid-template-columns: repeat(3,21%);
