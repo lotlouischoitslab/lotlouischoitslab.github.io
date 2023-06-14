@@ -13,7 +13,7 @@
     flex-direction: column;
     align-items: flex-start;
     padding-top: 1%;
-    padding-left: 10%;
+    padding-left: 3%;
 }
 
 .contact-title {
@@ -27,54 +27,73 @@
 
 .contact-grid {
     padding-left: 15%;
-    padding-right: 15%;
+    padding-right: 25%;
     width: 60%;
     display: grid;
-    gap: 1em;
-    grid-template-columns: repeat(6,30%);
+    gap: 2em;
+    grid-template-columns: repeat(6,42%);
     align-items: center;
 }
 
-p.socials {
-    font-size: 20px;
-    justify-content:center;
-    padding-left: 26%;
-    padding-right: 10%;
-    width: 100%;
+.social-link {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+    background-color: #040c16;
+    display: inline-block;
+    transition: transform 0.5s ease;
+  }
+  
+  .social-link:hover {
+    transform: scale(1.1);
+  }
+  
+  .social-link a {
+    display: inline;
+    text-align: center;
+    text-decoration: none;
     color: white;
-    
-}
+  }
+  
+  .social-link img {
+    width: 95px;
+    margin: auto;
+  }
 
-p.social-icons {
-    color: black;
-    display: flex;
-    align-items:center;
-    padding-left: 20%;
-}
+  .social-link-text {
+    margin-top: 8px;
+    font-size: 25px;
+  }
+  
+  .social-link .socials {
+    margin-top: 8px;
+    font-size: 14px;
+  }
+
+  .social-link-image {
+    width: 20px;
+    margin: 0 auto;
+  }
+  
 
 
 @media screen and (max-width: 720px) {
     .contact-title {
         font-size: 30px;
-        padding-left: 25%;
+        padding-left: 18%;
     }
 
     .contact-grid {
         display: grid;
         gap: 1em;
-        grid-template-columns: repeat(6,18%);
+        grid-template-columns: repeat(6,12%);
         align-items: center;
-        padding-left: 60px;
-        padding-right: 10px;
+        padding-left: 50px;
+        padding-right: 30px;
         
     }
 
-    p.socials {
-        font-size: 7px;
-        display: flex;
-        padding-left: 3%;
-        width: 80%;
-        color: white;
-    }
+    .social-link-text {
+        margin-top: 5px;
+        font-size: 8px;
+      }
     
 }
