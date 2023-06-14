@@ -107,7 +107,8 @@
     }
 
     .projects-container {
-        padding-left: 20%;
+        padding-left: 5%;
+        padding-right: 5%;
         display: grid;
         grid-auto-rows: minmax(180px, auto); /* Adjustable height, minimum 100px */
         grid-template-columns: repeat(1, minmax(300px, 1fr)); /* Adjustable width, minimum 200px */
