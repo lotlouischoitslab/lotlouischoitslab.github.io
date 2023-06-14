@@ -109,7 +109,7 @@
     .projects-container {
         padding-left: 10%;
         padding-right: 5%;
-        grid-template-columns: repeat(2,100%);
+        grid-template-columns: repeat(1,180%);
         grid-gap: 1em;
     }
 
@@ -125,7 +125,7 @@
       }
 
     .small-button {
-        font-size: 7px;
+        font-size: 11px;
         padding-bottom: 1%;
         padding-top: 15%;
         padding-left: 10%;
