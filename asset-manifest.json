@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.892353a6.css",
-    "main.js": "/static/js/main.6ad31aa9.js",
+    "main.css": "/static/css/main.54af0b4b.css",
+    "main.js": "/static/js/main.a156cf08.js",
     "static/media/amtrak.jpg": "/static/media/amtrak.0bdea876f63c809fee28.jpg",
     "static/media/transportation.png": "/static/media/transportation.dc7c91834f01398c5009.png",
     "static/media/louis_id.png": "/static/media/louis_id.88f2b2f7f823c799316d.png",
@@ -30,11 +30,11 @@
     "static/media/html.png": "/static/media/html.ff3cf75e3b7cbb4ea77c.png",
     "static/media/neo4j.png": "/static/media/neo4j.38b6f21f29a2351c4ffd.png",
     "index.html": "/index.html",
-    "main.892353a6.css.map": "/static/css/main.892353a6.css.map",
-    "main.6ad31aa9.js.map": "/static/js/main.6ad31aa9.js.map"
+    "main.54af0b4b.css.map": "/static/css/main.54af0b4b.css.map",
+    "main.a156cf08.js.map": "/static/js/main.a156cf08.js.map"
   },
   "entrypoints": [
-    "static/css/main.892353a6.css",
-    "static/js/main.6ad31aa9.js"
+    "static/css/main.54af0b4b.css",
+    "static/js/main.a156cf08.js"
   ]
 }
