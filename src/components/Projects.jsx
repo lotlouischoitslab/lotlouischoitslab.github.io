@@ -20,7 +20,7 @@ class Projects extends React.Component {
         PROJECTS
       </div>
       <div className='projects-description'>
-        Check out some of my recent projects for my work!
+        Check out my projects!
       </div>
       <div className='my-projects'>
         <div className='projects-container'>
