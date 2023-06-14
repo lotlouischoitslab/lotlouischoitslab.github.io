@@ -47,7 +47,7 @@
     padding-left: 10%;
 }
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 720px) {
     .about-title {
         font-size: 30px;
         

@@ -55,20 +55,22 @@ p.coding-lang {
 
 
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 720px) {
     .skills-title {
         font-size: 30px;
+        padding-left: 7%;
     }
 
     .coding-in {
         font-size: 15px;
+        padding-left: 7%;
     }
 
     .skills-grid {
         align-items: center;
-        grid-gap: 1.5em;
-        grid-template-columns: repeat(3,24%);
-        padding-left: 8%;
+        grid-gap: 2em;
+        grid-template-columns: repeat(3,21%);
+        padding-left: 10%;
     }
 
     p.coding-lang {

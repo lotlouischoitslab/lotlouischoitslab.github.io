@@ -83,7 +83,7 @@ form.myforms {
 
 
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 720px) {
     .contact-title {
         font-size: 30px;
         padding-left: 25%;

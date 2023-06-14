@@ -53,7 +53,7 @@ li.elem{
 }
 
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 720px) {
     .education-title {
         font-size: 30px;
     }

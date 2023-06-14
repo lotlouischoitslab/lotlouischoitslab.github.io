@@ -94,28 +94,28 @@
   
   
 
-@media only screen and (max-width: 512px){
+@media only screen and (max-width: 720px){
     .projects-title {
         font-size: 30px;
     }  
     
     .projects-description {
-        font-size: 10px;
+        font-size: 15px;
         align-items: center;
         width: 100%;
     }
 
     .projects-container {
-        padding-left: 1%;
-        padding-right: 15%;
-        /* align-items: center; */
-        grid-template-columns: repeat(3,72%);
+        padding-left: 20%;
+        padding-right: 3%;
+        grid-template-columns: repeat(2,150%);
         grid-gap: 1em;
-        
     }
 
     .centered-content {
-        align-items: center;
+        /* align-items: center; */
+        padding-left: 70%;
+        /* padding-right: 20%; */
       }
 
     .content-div {

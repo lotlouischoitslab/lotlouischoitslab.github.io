@@ -1,5 +1,6 @@
 import React from 'react'
 
+import seoul_subway from '../assets/seoul_sub1.png'
 import cav_road from '../assets/cav_road.jpg'
 import spaceship from '../assets/spaceship.png'
 import transpo from '../assets/transportation.png'
@@ -23,6 +24,20 @@ class Projects extends React.Component {
       </div>
       <div className='my-projects'>
         <div className='projects-container'>
+
+          {/*Grid Item */}
+          <div 
+            style={{ backgroundImage: `url(${seoul_subway})`,backgroundSize: '110%', height: '80%'}}
+            className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
+              {/*Hover*/}
+              <div className='hover-effect'>
+                <div className='centered-content'>
+                  <a href="https://github.com/lotlouischoitslab/Seoul_Subway_Network">
+                    <button className='small-button'>Seoul Subway Network</button>
+                  </a>
+                </div>
+              </div>
+            </div>
 
           {/*Grid Item */}
           <div 

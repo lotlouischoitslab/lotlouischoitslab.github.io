@@ -40,7 +40,7 @@
 
 
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 720px) {
     .title {
         font-size: 15px;
     }

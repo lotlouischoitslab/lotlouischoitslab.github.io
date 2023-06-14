@@ -7,7 +7,7 @@ import CV from "../assets/Louis_Final_CV.pdf"
 import Insta from "../assets/instagram.png"
 import Discord from "../assets/discord.png"
 import Meta from "../assets/meta_logo.png"
-import './css/Social_icons.css'
+
 
 const Contact = () => {
   return (
