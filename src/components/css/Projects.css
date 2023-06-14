@@ -98,34 +98,27 @@
 
     .projects-title {
         font-size: 30px;
+        padding-left: 8%;
     }  
     
     .projects-description {
-        font-size: 9px;
-        align-items: center;
-        width: 100%;
+        font-size: 12px;
+        padding-left: 8%;
     }
 
     .projects-container {
-        padding-left: 10%;
-        padding-right: 5%;
-        grid-template-columns: repeat(1,180%);
-        grid-gap: 1em;
+        padding-left: 25%;
+        display: grid;
+        grid-auto-rows: minmax(180px, auto); /* Adjustable height, minimum 100px */
+        grid-template-columns: repeat(1, minmax(200px, 1fr)); /* Adjustable width, minimum 200px */
     }
-
+      
     .centered-content {
         align-items: center;
       }
 
-    .content-div {
-        width: 80%; 
-        height: 150%; 
-        padding-top: 2%;
-        padding-bottom: 8%;
-      }
-
     .small-button {
-        font-size: 11px;
+        font-size: 12px;
         padding-bottom: 1%;
         padding-top: 15%;
         padding-left: 10%;
