@@ -1,24 +1,23 @@
 .contact {
+    padding-bottom: 25%;
     width: 100%;
     height: 100%;
     background-color:black;
     display: flex;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 #contactid {
+    padding-bottom: 20%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-top: 10%;
-    padding-bottom: 8%;
+    padding-top: 1%;
     padding-left: 10%;
 }
 
 .contact-title {
-    padding-top: 1px;
-    padding-left: 33%;
+    padding-left: 36%;
     font-size: 60px;
     font-weight: bold;
     color: white;
@@ -27,72 +26,37 @@
 }
 
 .contact-grid {
-    width: 50%;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 60%;
     display: grid;
-    gap: 2em;
-    grid-template-columns: repeat(6,15%);
+    gap: 1em;
+    grid-template-columns: repeat(6,30%);
     align-items: center;
-    padding-left: 25%;
 }
 
 p.socials {
-    font-size: 15px;
-    align-items:center;
-    padding-left: 10%;
-    width: 80%;
-    color: white;
-}
-
-p.social-icons {
     font-size: 20px;
-    color: black;
-    display: flex;
-    justify-content: center;
-}
-
-.contact-me {
-    font-size: 17px;
-    display: flex;
-    padding-left: 25%;
-    padding-bottom: 10px;
-    width: 80%;
+    justify-content:center;
+    padding-left: 26%;
+    padding-right: 10%;
+    width: 100%;
     color: white;
-}
-
-
-form.myforms {
-    display: flex;
-    width: 85%;
-    height: 100%;
-    padding-left: 25%;
-}
-
-
-.click {
-    color: black;
-    display: inline-block;
     
 }
 
-.click:hover {
-    scale: 110%;
-    transition-duration: 500;
-    box-shadow: black;
-    display: inline-block;
+p.social-icons {
+    color: black;
+    display: flex;
+    align-items:center;
+    padding-left: 20%;
 }
-
 
 
 @media screen and (max-width: 720px) {
     .contact-title {
         font-size: 30px;
         padding-left: 25%;
-    }
-
-    .contact-me {
-        font-size: 11px;
-        display: flex;
-        padding-left: 15px;
     }
 
     .contact-grid {
@@ -112,19 +76,5 @@ form.myforms {
         width: 80%;
         color: white;
     }
-
-    .contact-me {
-        font-size: 10px;
-        display: flex;
-        padding-left: 25px;
-        padding-bottom: 10px;
-    }
     
-
-    form.myforms {
-        display: flex;
-        width: 80%;
-        padding-left: 5%;
-    }
-
 }
