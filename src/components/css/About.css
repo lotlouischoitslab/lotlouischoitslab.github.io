@@ -50,7 +50,6 @@
 @media screen and (max-width: 720px) {
     .about-title {
         font-size: 30px;
-        
     }
     
     .about-grid {
@@ -58,13 +57,14 @@
         grid-gap: 4px;
         grid-template-columns: repeat(1,80%);
         padding-left: 5%;
-        
     }
+
     .about-img {
         height: 50%;
         width: 50%;
         padding-left: 3%;
     }
+    
     .about-bio {
         font-size: 12px;
         grid-row-start: 5;

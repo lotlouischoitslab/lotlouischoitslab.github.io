@@ -21,9 +21,7 @@ class About extends React.Component {
                     <div className='about-img'>
                         <img src={Louis}/>
                     </div>
-                    
                 </div>
-                
             </div>
         );
     }
