@@ -36,10 +36,10 @@
 
 
 .skills-grid {
-    width: 80%;
+    width: 90%;
     display: grid;
-    gap: 1em;
-    grid-template-columns: repeat(6,18%);
+    gap: 2em;
+    grid-template-columns: repeat(6,15%);
     align-items: center;
 }
 
@@ -69,7 +69,7 @@ p.coding-lang {
 
     .skills-grid {
         padding-top: 3%;
-        padding-left: 7%;
+        padding-left: 10%;
         padding-right: 20%;
         grid-gap: 2em;
         grid-template-columns: repeat(3,21%);
