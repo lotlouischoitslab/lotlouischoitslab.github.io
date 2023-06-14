@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.801d51e3.css",
-    "main.js": "/static/js/main.2b0cc66b.js",
+    "main.css": "/static/css/main.a37be4b8.css",
+    "main.js": "/static/js/main.9ea24927.js",
     "static/media/amtrak.jpg": "/static/media/amtrak.0bdea876f63c809fee28.jpg",
     "static/media/transportation.png": "/static/media/transportation.dc7c91834f01398c5009.png",
     "static/media/louis_id.png": "/static/media/louis_id.88f2b2f7f823c799316d.png",
@@ -16,6 +16,7 @@
     "static/media/web.png": "/static/media/web.3b80828f6c0f4f6ae04d.png",
     "static/media/sql.png": "/static/media/sql.5f8a211c010a92959207.png",
     "static/media/discord.png": "/static/media/discord.0fa9e42d242583421fc8.png",
+    "static/media/seoul_sub1.png": "/static/media/seoul_sub1.81072933766ceb849300.png",
     "static/media/github.png": "/static/media/github.37185c9cf4a283bc2611.png",
     "static/media/cpp.png": "/static/media/cpp.a03992cb2a84d27d11dc.png",
     "static/media/meta_logo.png": "/static/media/meta_logo.d69cb74d75713772046d.png",
@@ -29,11 +30,11 @@
     "static/media/html.png": "/static/media/html.ff3cf75e3b7cbb4ea77c.png",
     "static/media/neo4j.png": "/static/media/neo4j.38b6f21f29a2351c4ffd.png",
     "index.html": "/index.html",
-    "main.801d51e3.css.map": "/static/css/main.801d51e3.css.map",
-    "main.2b0cc66b.js.map": "/static/js/main.2b0cc66b.js.map"
+    "main.a37be4b8.css.map": "/static/css/main.a37be4b8.css.map",
+    "main.9ea24927.js.map": "/static/js/main.9ea24927.js.map"
   },
   "entrypoints": [
-    "static/css/main.801d51e3.css",
-    "static/js/main.2b0cc66b.js"
+    "static/css/main.a37be4b8.css",
+    "static/js/main.9ea24927.js"
   ]
 }
