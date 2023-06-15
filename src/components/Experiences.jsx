@@ -79,7 +79,7 @@ class Experiences extends React.Component {
             
                 <ul class='job-description'>
                     <li className='elem'>
-                    Assisting Professor Katherine Driggs-Campbell, Electrical & Computer Engineering @ UIUC
+                    Assisted Professor Katherine Driggs-Campbell, Electrical & Computer Engineering @ UIUC
                     </li>
                     <li className='elem'>
                     Currently doing research in Optimized TransFuser in CARLA Simulator using Reinforcement Learning
