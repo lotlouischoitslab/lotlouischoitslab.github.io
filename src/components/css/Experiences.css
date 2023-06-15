@@ -80,19 +80,19 @@ li.elem{
     
     .job-title {
         color: white;
-        font-size: 10px;
+        font-size: 11px;
         font-weight: bold;
     }
     
     .job-date {
         color: white;
-        font-size: 10px;
+        font-size: 9px;
         padding-bottom: 3px;
     }
 
     .project-name {
         color: white;
-        font-size: 10px;
+        font-size: 9px;
         padding-bottom: 3px;
         padding-left: 3%;
     }
@@ -108,15 +108,15 @@ li.elem{
     ul.job-description {
         list-style-type: disc;
         color: white;
-        font-size: 12px;
-        padding-left: 11%;
+        font-size: 9px;
+        padding-left: 5%;
         padding-right: 11%;
         padding-bottom: 5%;
     }
 
     li.elem{
         width: 100%;
-        padding-left: 5px;
+        padding-left: 3px;
     }
     
 }
