@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 8%;
     padding-left: 12%;
 }
@@ -22,7 +22,7 @@
     align-items: center;
     text-decoration: underline;
     padding-left: 3%;
-    padding-top: 2px;
+    padding-top: 1px;
     padding-bottom: 2px;
 }
 
@@ -34,22 +34,16 @@
     padding-right: 3%;
 }
 
-.professor {
-    color: white;
-    font-size: 25px;
-    padding-left:3%;
-}
-
 .job-date {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     padding-bottom: 5px;
     padding-left: 3%;
 }
 
 .project-name {
     color: white;
-    font-size: 25px;
+    font-size: 15px;
     padding-bottom: 5px;
     padding-left: 3%;
 }
@@ -64,9 +58,9 @@
 ul.job-description {
     list-style-type: disc;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 40px;
 }
 
 li.elem{
@@ -88,15 +82,6 @@ li.elem{
         color: white;
         font-size: 10px;
         font-weight: bold;
-    }
-
-    .professor {
-        color: white;
-        font-size: 10px;
-        padding-bottom: 2px;
-        width: 85%;
-        padding-left: 3%;
-        padding-right: 3%;
     }
     
     .job-date {
