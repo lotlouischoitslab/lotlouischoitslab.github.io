@@ -91,7 +91,7 @@ class Projects extends React.Component {
             <div className='hover-effect'>
               <div className='centered-content'>
                 <a href="https://github.com/lotlouischoitslab/ITE_UIUC_Engineering_Open_House_2023">
-                  <button className='small-button'>ITE@UIUC EOH 2023 CUMTD Bus Ridership Analysis and Classification</button>
+                  <button className='small-button'>CUMTD Bus Ridership Analysis and Classification</button>
                 </a>
                 
 
