@@ -1,8 +1,9 @@
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
-import Experiences from './components/Experiences'
 import Education from './components/Education'
+import Experiences from './components/Experiences'
+import Awards from './components/Awards'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
@@ -13,8 +14,9 @@ function App() {
       <Navbar/>
       <Home/>
       <About/>
-      <Experiences/>
       <Education />
+      <Experiences/>
+      <Awards/>
       <Skills/>
       <Projects/>
       <Contact/>

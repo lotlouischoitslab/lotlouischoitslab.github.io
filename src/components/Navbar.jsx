@@ -42,6 +42,16 @@ const Navbar = () => {
             </li>
 
             <li
+            className={hoveredItem === 'education' ? 'nav-item-hover' : ''}
+            onMouseEnter={() => setHoveredItem('education')}
+            onMouseLeave={() => setHoveredItem(null)}
+            >
+            <Link to="education" smooth={true} duration={500}>
+                EDUCATION
+            </Link>
+            </li>
+
+            <li
             className={hoveredItem === 'experiences' ? 'nav-item-hover' : ''}
             onMouseEnter={() => setHoveredItem('experiences')}
             onMouseLeave={() => setHoveredItem(null)}
@@ -52,14 +62,16 @@ const Navbar = () => {
             </li>
 
             <li
-            className={hoveredItem === 'education' ? 'nav-item-hover' : ''}
-            onMouseEnter={() => setHoveredItem('education')}
+            className={hoveredItem === 'awards' ? 'nav-item-hover' : ''}
+            onMouseEnter={() => setHoveredItem('awards')}
             onMouseLeave={() => setHoveredItem(null)}
             >
-            <Link to="education" smooth={true} duration={500}>
-                EDUCATION
+            <Link to="awards" smooth={true} duration={500}>
+                AWARDS
             </Link>
             </li>
+
+
 
             <li
             className={hoveredItem === 'skills' ? 'nav-item-hover' : ''}
@@ -126,6 +138,16 @@ const Navbar = () => {
         </li>
 
         <li
+          className={hoveredItem === 'education' ? 'nav-item-hover' : ''}
+          onMouseEnter={() => setHoveredItem('education')}
+          onMouseLeave={() => setHoveredItem(null)}
+        >
+          <Link onClick={handleClick} to="education" smooth={true} duration={500}>
+            EDUCATION
+          </Link>
+        </li>
+
+        <li
           className={hoveredItem === 'experiences' ? 'nav-item-hover' : ''}
           onMouseEnter={() => setHoveredItem('experiences')}
           onMouseLeave={() => setHoveredItem(null)}
@@ -136,12 +158,12 @@ const Navbar = () => {
         </li>
 
         <li
-          className={hoveredItem === 'education' ? 'nav-item-hover' : ''}
-          onMouseEnter={() => setHoveredItem('education')}
+          className={hoveredItem === 'awards' ? 'nav-item-hover' : ''}
+          onMouseEnter={() => setHoveredItem('awards')}
           onMouseLeave={() => setHoveredItem(null)}
         >
-          <Link onClick={handleClick} to="education" smooth={true} duration={500}>
-            EDUCATION
+          <Link onClick={handleClick} to="awards" smooth={true} duration={500}>
+            AWARDS
           </Link>
         </li>
 
