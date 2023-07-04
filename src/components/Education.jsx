@@ -19,8 +19,8 @@ class Education extends React.Component {
                 <ul>
                   <li className="place-title">University of Illinois at Urbana-Champaign (UIUC)</li>
                   <li >August 2020 - May 2024 (Expected)</li>
-                  <li>Pursuing a B.S in Civil & Environmental Engineering (Transportation)</li>
-                  <li>Pursuing a Minor in Computer Science</li>
+                  <li>B.S in Civil & Environmental Engineering (Transportation)</li>
+                  <li>Minor in Computer Science</li>
                 </ul>
               </div>
             </div>
