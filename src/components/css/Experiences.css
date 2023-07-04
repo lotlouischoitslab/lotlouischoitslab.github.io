@@ -1,6 +1,6 @@
 .experiences {
     width: 100%;
-    padding: 8% 0 8% 12%;
+    padding: 8% 0 8% 12%; /* Top, Right, Bottom, Left*/
     background-color: black;
   }
   
@@ -43,7 +43,7 @@
     margin-left: 0;
     margin-right: 20px;
     border-radius: 60%; /* Create circular shape */
-    border: 2px solid white; /* Add border for visual effect */
+
   }
   
   .image-container img {
@@ -101,7 +101,7 @@
     }
   
     .image-container img {
-      width: 100%;
+      width: 80%;
       height: 100%;
       object-fit: cover; /* Maintain aspect ratio and cover the container */
     }

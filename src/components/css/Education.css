@@ -1,86 +1,126 @@
 .education {
     width: 100%;
-    height: 100%;
+    padding: 2% 0 8% 0; /* Top, Right, Bottom, Left */
     background-color: black;
-    padding-bottom: 450px;
-    padding-top: 10px;
-}
-
-#education {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 12%;
-    padding-top: 15%;
-    padding-bottom: 10%;
-}
-
-.education-title {
-    font-size: 60px;
+  }
+  
+  .education-title {
+    font-size: 70px;
     font-weight: bold;
     color: white;
-    align-items: center;
     text-decoration: underline;
-    padding-left: 3%;
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
-
-.university-title {
+    padding: 10% 0 0 3%;
+    margin-bottom: 0;
+    margin-left: 12%;
+  }
+  
+  .education-box {
+    background-color: black;
+    padding: 0px 10px 5px 3%;
+    margin-bottom: 15px;
+    width: 88%;
+    margin-left: 12%;
+  }
+  
+  .place-title {
     color: white;
-    font-size: 30px;
+    font-size: 36px;
     font-weight: bold;
-    padding-left:3%;
-}
-
-.education-date {
+  }
+  
+  .education-date {
     color: white;
     font-size: 25px;
-    padding-bottom: 5px;
-    padding-left: 3%;
-}
-
-ul.education-description {
-    list-style-type: disc;
-    color: white;
-    font-size: 25px;
-    padding-left: 5%;
-}
-
-li.elem{
+    padding-bottom: 15px;
+  }
+  
+  .education-content {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .image-container {
+    flex: 0 0 200px;
+    height: 150px;
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 20px;
+    border-radius: 60%;
+    
+  }
+  
+  .image-container img {
     width: 100%;
-    padding-left: 5px;
-}
-
-
-@media screen and (max-width: 720px) {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 60%;
+  }
+  
+  .education-description {
+    color: white;
+    font-size: 23px;
+    line-height: 1.4;
+    margin-left: 10px;
+  }
+  
+  .education-description p {
+    padding-bottom: 10px;
+    margin: 0;
+  }
+  
+  .education-description a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 720px) {
     .education-title {
-        font-size: 30px;
+      font-size: 30px;
     }
-    
-    .university-title {
-        color: white;
-        font-size: 13px;
-        font-weight: bold;
+  
+    .place-title {
+      font-size: 11px;
+      font-weight: bold;
     }
-    
+  
     .education-date {
-        color: white;
-        font-size: 12px;
-        padding-bottom: 5px;
+      font-size: 9px;
+      padding-bottom: 3px;
     }
-    
-    ul.education-description {
-        list-style-type: disc;
-        color: white;
-        font-size: 12px;
-        padding-left: 8%;
-        padding-right: 9%;
+  
+    .education-content {
+      flex-direction: row;
+      align-items: flex-start;
     }
-
-    li.elem{
-        width: 100%;
-        padding-left: 5px;
+  
+    .image-container {
+      width: 30px;
+      height: 100px;
+      margin-bottom: 10px;
+      margin-right: 1px;
+      border-radius: 30%;
+      overflow: hidden;
     }
-    
-}
+  
+    .image-container img {
+      width: 80%;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+    .education-description {
+      font-size: 10px;
+      margin-right: -15%;
+      text-align: left;
+      margin-left: 0;
+    }
+  
+    .education-description p {
+      line-height: 1.2;
+    }
+  }
+  

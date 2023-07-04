@@ -37,7 +37,7 @@
 
 .social-link {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
-    background-color: #040c16;
+    background-color: black;
     display: inline-block;
     transition: transform 0.5s ease;
   }
