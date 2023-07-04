@@ -1,136 +1,106 @@
-import React from 'react'
-import './css/Experiences.css'
+import React from 'react';
+import './css/Experiences.css';
+import img1 from '../images/gpt_rl.png';
+import img2 from '../images/ite_uiuc.png';
+import img3 from '../images/hca.png';
+import img4 from '../images/opendrive.png';
+
 class Experiences extends React.Component {
-    render () {
-        return (
-            <div id='experiences' name='experiences' className='experiences'>
-                <div className='experiences-title'>
-                    EXPERIENCES
-                </div>
+  render() {
+    return (
+      <div id="experiences" name="experiences" className="experiences">
+        <div className="experiences-title">EXPERIENCES</div>
 
-                {/*Experience List Startpoint */}
-                <div className ="job-title">
-                    Undergraduate Researcher @ Smart City Laboratory UIUC
-                </div>
-                
-                <div className = "job-date">
-                    May 2023 - Present
-                </div>
-            
-                <ul class='job-description'>
-                    <li className='elem'>
-                    Assisting Professor Alireza Talebpour, Civil & Environmental Engineering (Transportation) @ UIUC
-                    </li>
-                    <li className='elem'>
-                    Currently doing research in Multi-agent Deep Reinforcement Learning and GPT based Framework for Traffic Shaping
-                    </li>
-                    {/* <li className='elem'>
-                    Currently doing research in Multi-agent Deep Reinforcement Learning and GPT based Framework for Traffic Shaping
-                    </li> */}
-                    
-
-
-                    
-                    
-                </ul> 
-                
-                {/*Experience List Endpoint */}
-
-
-                {/*Experience List Startpoint */}
-                <div className ="job-title">
-                    President @ Institute of Transportation Engineers UIUC Chapter
-                </div>
-                
-                <div className = "job-date">
-                    August 2022 - Present
-                </div>
-                <ul class='job-description'>
-                    <li className='elem'>
-                        Currently in charge of organizing and hosting transportation conferences and seminars
-                    </li>
-                    <li className='elem'>
-                        Connecting prosepective students and networking with transportation professionals
-                    </li>
-                    
-                    <li className='elem'>
-                        Contributed to building the website for ITE@UIUC:
-                        <a href="https://ite.cee.illinois.edu/"> Click Here</a>
-                    </li>
-
-                    <li className='elem'>
-                        Mentoring Civil and Environmental Engineering (Transportation) Majors, Computer Science Majors and Minors
-                    </li>
-                    <li className='elem'>
-                        Lead Exhibitor at the UIUC Engineering Open House for ITE@UIUC
-                    </li>
-                </ul> 
-                {/*Experience List Endpoint */}
-
-
-                {/*Experience List Startpoint */}
-                <div className ="job-title">
-                    Undergraduate Researcher @ Human-Centered Autonomy Laboratory UIUC
-                </div>
-                
-                <div className = "job-date">
-                    January 2023 - May 2023
-                </div>
-            
-                <ul class='job-description'>
-                    <li className='elem'>
-                    Assisted Professor Katherine Driggs-Campbell, Electrical & Computer Engineering @ UIUC
-                    </li>
-                    <li className='elem'>
-                    Currently doing research in Optimized TransFuser in CARLA Simulator using Reinforcement Learning
-                    </li>
-                    <li className='elem'>
-                    Developing an End-to-End Autonomous Driving Model using Neural Networks
-                    </li>
-                    <li className='elem'>
-                    Investigating on retrieving motion-planning data using various sensors
-                    </li>
-
-                    
-                </ul> 
-                
-                {/*Experience List Endpoint */}
-
-
-                
-
-                {/*Experience List Startpoint */}
-                <div className ="job-title">
-                    Research Assistant @ Reliable Autonomy Group UIUC
-                </div>
-            
-                <div className = "job-date">
-                    May 2022 - August 2022
-                </div>
-            
-                <ul class='job-description'>
-                
-                    <li className='elem'>
-                    Assisted Professor Sayan Mitra, Electrical & Computer Engineering @ UIUC
-                    </li>
-                    <li className='elem'>
-                    Contributed to Verse Lane Map Generator for Control Verification
-                    </li>
-                    <li className='elem'>
-                    Parsed road attributes from ASAM OpenDRIVE files into Python files
-                    </li>
-                    <li className='elem'>
-                    Created a data visualizing function to draw the road attributes inside the ASAM OpenDRIVE file
-                    </li>
-                    <li className='elem'>
-                        Generated multiple lanes from the file parser into the control verification simulators
-                    </li>
-                </ul> 
-                {/*Experience List Endpoint */}
-
-
+        <div className="experience-box">
+          <div className="experience">
+            <div className="job-title">
+              Undergraduate Researcher @ Smart City Laboratory, UIUC
             </div>
-        )
-    }
+            <div className="job-date">May 2023 - Present</div>
+            <div className="experience-content">
+              <div className="image-container">
+                <img src={img1} alt="Experience 1" className="experience-image" />
+              </div>
+              <div className="job-description">
+                <p>
+                I am currently providing support to Professor Alireza Talebpour in the Civil & Environmental Engineering (Transportation) Department at UIUC. 
+                My primary focus is on developing a framework for Traffic Space Shaping that utilizes GPT and Deep Reinforcement Learning techniques. 
+                Specifically, my responsibilities include designing and implementing an algorithm for finite state-to-state transitions using GPT and 
+                Markov Decision Process (MDP) methodologies.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="experience-box">
+          <div className="experience">
+            <div className="job-title">
+              President @ Institute of Transportation Engineers (ITE) UIUC Chapter
+            </div>
+            <div className="job-date">August 2022 - Present</div>
+            <div className="experience-content">
+              <div className="image-container">
+                <img src={img2} alt="Experience 2" className="experience-image" />
+              </div>
+              <div className="job-description">
+                <p>
+                  As the President of the ITE@UIUC Chapter, my responsibilities include organizing and hosting transportation
+                  conferences and seminars, as well as fostering connections between prospective students and professionals
+                  in the transportation industry and academia. Additionally, I have developed the official website for ITE@UIUC,
+                  and I provide mentorship to undergraduate students majoring in Civil and Environmental Engineering (Transportation),
+                  Computer Science, and related fields. I also lead the ITE@UIUC exhibitions at the UIUC Engineering Open House (EOH).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="experience-box">
+          <div className="experience">
+            <div className="job-title">
+              Undergraduate Researcher @ Human-Centered Autonomy Laboratory, UIUC
+            </div>
+            <div className="job-date">January 2023 - May 2023</div>
+            <div className="experience-content">
+              <div className="image-container">
+                <img src={img3} alt="Experience 3" className="experience-image" />
+              </div>
+              <div className="job-description">
+                <p>
+                I provided assistance to Professor Katherine Driggs-Campbell in the Electrical & Computer Engineering Department at UIUC. 
+                My research team primarily revolved around optimizing the TransFuser in CARLA Simulator through the utilization of Reinforcement Learning 
+                and Computer Vision techniques. I played a significant role in the development of an End-to-End Autonomous Driving Model that leveraged 
+                Neural Networks as its foundation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="experience-box">
+          <div className="experience">
+            <div className="job-title">Research Assistant @ Reliable Autonomy Group, UIUC</div>
+            <div className="job-date">May 2022 - August 2022</div>
+            <div className="experience-content">
+              <div className="image-container">
+                <img src={img4} alt="Experience 4" className="experience-image" />
+              </div>
+              <div className="job-description">
+                <p>
+                I collaborated with Professor Sayan Mitra in the Electrical & Computer Engineering Department at UIUC 
+                on the Verse Lane Map Generator for Control Verification Research. My primary tasks involved extracting 
+                road attributes from ASAM OpenDRIVE files and converting them into Python files. 
+                Additionally, I developed a data visualization function to illustrate the road attributes from the ASAM OpenDRIVE file. 
+                These lane representations were utilized in control verification simulators.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
+
 export default Experiences;

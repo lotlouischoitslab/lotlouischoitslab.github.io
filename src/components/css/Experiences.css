@@ -1,123 +1,121 @@
 .experiences {
     width: 100%;
-    height: 100%;
+    padding: 8% 0 8% 12%;
     background-color: black;
-    padding-bottom: 450px;
-    padding-top: 10px;
-}
-
-#experiences {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-top: 5%;
-    padding-bottom: 8%;
-    padding-left: 12%;
-}
-
-.experiences-title {
-    font-size: 60px;
+  }
+  
+  .experiences-title {
+    font-size: 70px;
     font-weight: bold;
     color: white;
-    align-items: center;
     text-decoration: underline;
-    padding-left: 3%;
-    padding-top: 1px;
-    padding-bottom: 2px;
-}
-
-.job-title {
+    padding: 1px 0 2px 3%;
+  }
+  
+  .experience-box {
+    background-color: black;
+    padding: 5px 10px 5px 3%;
+    margin-bottom: 35px;
+    width: 88%;
+  }
+  
+  .job-title {
     color: white;
-    font-size: 30px;
+    font-size: 36px;
     font-weight: bold;
-    padding-left:3%;
-    padding-right: 3%;
-}
-
-.job-date {
-    color: white;
-    font-size: 20px;
-    padding-bottom: 5px;
-    padding-left: 3%;
-}
-
-.project-name {
-    color: white;
-    font-size: 15px;
-    padding-bottom: 5px;
-    padding-left: 3%;
-}
-
-.sub-job-date {
+  }
+  
+  .job-date {
     color: white;
     font-size: 25px;
-    padding-bottom: 5px;
-    padding-left: 5%;
-}
-
-ul.job-description {
-    list-style-type: disc;
-    color: white;
-    font-size: 20px;
-    padding-left: 5%;
-    padding-bottom: 40px;
-}
-
-li.elem{
+    padding-bottom: 15px;
+  }
+  
+  .experience-content {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .image-container {
+    flex: 0 0 200px; /* Adjust the width as needed grow, shrink, set inital size*/
+    height: 150px; /* Adjust the height as needed */
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 20px;
+    border-radius: 60%; /* Create circular shape */
+    border: 2px solid white; /* Add border for visual effect */
+  }
+  
+  .image-container img {
     width: 100%;
-    padding-left: 5px;
-}
-
-
-@media screen and (max-width: 720px) {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 60%; /* Maintain circular shape */
+  }
+  
+  .job-description {
+    color: white;
+    font-size: 23px;
+    line-height: 1.4;
+    margin-left: 10px;
+  }
+  
+  .job-description p {
+    padding-bottom: 10px;
+    margin: 0;
+  }
+  
+  .job-description a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 720px) {
     .experiences-title {
-        font-size: 30px;
+      font-size: 30px;
     }
-
-    .job-lists {
-        padding-left: 5%;
-    }
-    
+  
     .job-title {
-        color: white;
-        font-size: 11px;
-        font-weight: bold;
+      font-size: 11px;
+      font-weight: bold;
     }
-    
+  
     .job-date {
-        color: white;
-        font-size: 9px;
-        padding-bottom: 3px;
+      font-size: 9px;
+      padding-bottom: 3px;
     }
-
-    .project-name {
-        color: white;
-        font-size: 8px;
-        padding-bottom: 3px;
-        padding-left: 3%;
-        padding-right: 5%;
+  
+    .experience-content {
+      flex-direction: row; /* Change to row direction */
+      align-items: center;
     }
-
-    .sub-job-date {
-        color: white;
-        font-size: 12px;
-        padding-bottom: 5px;
-        padding-left: 5%;
+  
+    .image-container {
+      width: 30px;
+      height: 100px; /* Adjust the height as needed */
+      margin-bottom: 10px;
+      margin-right: 10px; /* Add margin-right for spacing */
+      border-radius: 50%; /* Create a circle shape */
+      overflow: hidden; /* Ensure the image stays within the container */
     }
-    
-    
-    ul.job-description {
-        list-style-type: disc;
-        color: white;
-        font-size: 8px;
-        padding-left: 5%;
-        padding-right: 11%;
-        padding-bottom: 8%;
+  
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Maintain aspect ratio and cover the container */
     }
-
-    li.elem{
-        width: 100%;
-        padding-left: 3px;
+  
+    .job-description {
+      font-size: 10px;
+      padding-left: 0px;
+      padding-right: 3%;
+      text-align: left;
+      margin-left: 0;
     }
-    
-}
+  
+    .job-description p {
+      line-height: 1.2;
+    }
+  }
+  
