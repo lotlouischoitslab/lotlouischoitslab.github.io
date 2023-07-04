@@ -100,7 +100,7 @@
   .eimage-container {
     flex: 0 0 60px; /* Grow, Shrink, Base, Adjust the flex value to control the size of the circle */
     height: 60px;
-    margin-right: 10px; /* Add margin-right for spacing */
+    margin-right: -8px; /* Add margin-right for spacing */
     border-radius: 50%; /* Create a circle shape */
     overflow: hidden; /* Ensure the image stays within the container */
     display: flex; /* Add flex display to center the image */

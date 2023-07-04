@@ -81,43 +81,42 @@
     .awards-title {
       font-size: 30px;
     }
-
+    
     .awards-subtitle {
-        font-size: 11px;
-        font-weight: bold;
-      }
-  
+      font-size: 11px;
+      font-weight: bold;
+    }
+    
     .awards-date {
       font-size: 9px;
       padding-bottom: 3px;
     }
-  
+    
     .awards-content {
       flex-direction: row;
       align-items: center;
-     
     }
-  
+    
     .aimage-container {
       flex: 0 0 60px;
       height: 60px;
-      margin-right: 10px;
+      margin-right: -3px;
       border-radius: 50%;
       overflow: hidden;
     }
-  
+    
     .aimage-container img {
       max-width: 100%;
       max-height: 100%;
       object-fit: cover;
     }
-  
+    
     .awards-description {
       font-size: 10px;
-      margin-left: 5px;
+      margin-left: 0;
       flex: 1 1 100%;
     }
-  
+    
     .awards-description p {
       line-height: 1.2;
       margin-bottom: 5px;
