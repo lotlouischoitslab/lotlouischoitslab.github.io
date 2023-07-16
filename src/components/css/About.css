@@ -57,7 +57,7 @@
     border-radius: 80%; 
   }
   
-  @media screen and (max-width: 720px) {
+  /* @media screen and (max-width: 720px) {
     .about-title {
       font-size: 30px;
     }
@@ -65,14 +65,14 @@
     .about-bio {
       font-size: 10px;
       margin-left: 8px;
-      margin-right: 5px; /* Adjust the margin as needed */
+      margin-right: 5px; 
     }
   
     .about-img-container {
       flex: 0 0 70px;
       height: 70px;
       margin-left: -3px;
-      margin-right: 35px; /* Adjust the margin as needed */
+      margin-right: 35px; 
       border-radius: 70%;
       overflow: hidden;
       display: flex;
@@ -86,5 +86,48 @@
         object-fit: cover;
         display: flex;
       }
+  }
+   */
+
+   @media screen and (max-width: 720px) {
+    .about-title {
+      font-size: 30px;
+    }
+  
+    .about-bio {
+      font-size: 10px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      margin-left: 8px;
+    }
+  
+    .about-img-container {
+      flex: 0 0 70px;
+      height: 70px;
+      margin-left: -3px;
+      margin-right: 10px; /* Adjust the margin as needed */
+      border-radius: 70%;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .about-image {
+      width: 80%;
+      height: 100%;
+      object-fit: cover;
+      display: flex;
+    }
+  
+    .about-bio-text {
+      flex: 1;
+      margin-left: 10px; /* Adjust the margin as needed */
+    }
+  
+    .about-bio-text p {
+      margin: 0; /* Reset the default margin of paragraphs */
+    }
   }
   
