@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/Experiences.css';
-import img1 from '../images/gpt_rl.png';
+import img1 from '../images/GPT.png';
 import img2 from '../images/ite_uiuc.png';
 import img3 from '../images/hca.png';
 import img4 from '../images/opendrive.png';
