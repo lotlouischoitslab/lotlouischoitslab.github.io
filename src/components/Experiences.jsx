@@ -1,9 +1,10 @@
 import React from 'react';
 import './css/Experiences.css';
-import img1 from '../images/GPT.png';
-import img2 from '../images/ite_uiuc.png';
-import img3 from '../images/hca.png';
-import img4 from '../images/opendrive.png';
+import img5 from '../images/av_trajectory.png';
+import img4 from '../images/GPT.png';
+import img3 from '../images/ite_uiuc.png';
+import img2 from '../images/hca.png';
+import img1 from '../images/opendrive.png';
 
 class Experiences extends React.Component {
   render() {
@@ -16,19 +17,34 @@ class Experiences extends React.Component {
             <div className="job-title">
               Undergraduate Researcher @ Smart City Laboratory, UIUC
             </div>
+
+            <div className="job-date">August 2023 - Present</div>
+              <div className="experience-content">
+                <div className="image-container">
+                  <img src={img5} alt="Experience 1" className="experience-image" />
+                </div>
+                <div className="job-description">
+                  <p>
+                  I am actively collaborating with Professor Alireza Talebpour in the Civil & Environmental Engineering (Transportation) 
+                  Department at UIUC. My core responsibility is the development of trajectory prediction algorithms for Autonomous Vehicles, 
+                  with a particular emphasis on integrating AI into Traffic Flow Theory.
+                  </p>
+                </div>
+              </div>
+
             <div className="job-date">May 2023 - August 2023</div>
-            <div className="experience-content">
-              <div className="image-container">
-                <img src={img1} alt="Experience 1" className="experience-image" />
-              </div>
-              <div className="job-description">
-                <p>
-                I am currently providing support to Professor Alireza Talebpour in the Civil & Environmental Engineering (Transportation) Department at UIUC. 
-                My primary focus is on developing a framework for Traffic Space Shaping that utilizes GPT and Deep Reinforcement Learning techniques. 
-                Specifically, my responsibilities include designing and implementing an algorithm for finite state-to-state transitions using GPT and 
-                Markov Decision Process (MDP) methodologies.
-                </p>
-              </div>
+              <div className="experience-content">
+                <div className="image-container">
+                  <img src={img4} alt="Experience 1" className="experience-image" />
+                </div>
+                <div className="job-description">
+                  <p>
+                  I worked closely with Professor Alireza Talebpour in the Department of Civil & Environmental Engineering (Transportation) 
+                  at UIUC. My primary task was to devise a framework for Traffic Space Shaping using GPT and Deep Reinforcement Learning 
+                  methodologies. As a part of this, I designed and executed sequence-based Deep Reinforcement Learning algorithms, and introduced an 
+                  LSTM-based neural network. This enabled the agent to learn the state sequence patterns and subsequently choose the most optimal action.
+                  </p>
+                </div>
             </div>
           </div>
         </div>
@@ -41,7 +57,7 @@ class Experiences extends React.Component {
             <div className="job-date">August 2022 - Present</div>
             <div className="experience-content">
               <div className="image-container">
-                <img src={img2} alt="Experience 2" className="experience-image" />
+                <img src={img3} alt="Experience 2" className="experience-image" />
               </div>
               <div className="job-description">
                 <p>
@@ -64,7 +80,7 @@ class Experiences extends React.Component {
             <div className="job-date">January 2023 - May 2023</div>
             <div className="experience-content">
               <div className="image-container">
-                <img src={img3} alt="Experience 3" className="experience-image" />
+                <img src={img2} alt="Experience 3" className="experience-image" />
               </div>
               <div className="job-description">
                 <p>
@@ -84,7 +100,7 @@ class Experiences extends React.Component {
             <div className="job-date">May 2022 - August 2022</div>
             <div className="experience-content">
               <div className="image-container">
-                <img src={img4} alt="Experience 4" className="experience-image" />
+                <img src={img1} alt="Experience 4" className="experience-image" />
               </div>
               <div className="job-description">
                 <p>
