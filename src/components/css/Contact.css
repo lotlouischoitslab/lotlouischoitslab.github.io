@@ -83,17 +83,17 @@
 
     .contact-grid {
         display: grid;
-        gap: 1em;
+        gap: 1.5em;
         grid-template-columns: repeat(6,12%);
         align-items: center;
         padding-left: 50px;
-        padding-right: 30px;
+        padding-right: 50px;
         
     }
 
     .social-link-text {
         margin-top: 5px;
-        font-size: 8px;
+        font-size: 6px;
       }
     
 }
