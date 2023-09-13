@@ -25,9 +25,8 @@ class Experiences extends React.Component {
                 </div>
                 <div className="job-description">
                   <p>
-                  I am actively collaborating with Professor Alireza Talebpour in the Civil & Environmental Engineering (Transportation) 
-                  Department at UIUC. My core responsibility is the development of trajectory prediction algorithms for Autonomous Vehicles, 
-                  with a particular emphasis on integrating AI into Traffic Flow Theory.
+                  I am actively collaborating with Professor Alireza Talebpour in the Department of Civil & Environmental Engineering (Transportation) 
+                  at UIUC. My role is to develop an efficient trajectory prediction algorithm for Autonomous Vehicles by integrating AI into Traffic Flow Theory.
                   </p>
                 </div>
               </div>
@@ -40,9 +39,8 @@ class Experiences extends React.Component {
                 <div className="job-description">
                   <p>
                   I worked closely with Professor Alireza Talebpour in the Department of Civil & Environmental Engineering (Transportation) 
-                  at UIUC. My primary task was to devise a framework for Traffic Space Shaping using GPT and Deep Reinforcement Learning 
-                  methodologies. As a part of this, I designed and executed sequence-based Deep Reinforcement Learning algorithms, and introduced an 
-                  LSTM-based neural network. This enabled the agent to learn the state sequence patterns and subsequently choose the most optimal action.
+                  at UIUC. The project was to use GPT and Deep Reinforcement Learning for Traffic State Spacing. My primary task was to create a 
+                  sequence-based simulation using LSTM neural networks enabling the agent to learn the state patterns optimizing the action selection process. 
                   </p>
                 </div>
             </div>
@@ -62,10 +60,11 @@ class Experiences extends React.Component {
               <div className="job-description">
                 <p>
                   As the President of the ITE@UIUC Chapter, my responsibilities include organizing and hosting transportation
-                  conferences and seminars, as well as fostering connections between prospective students and professionals
-                  in the transportation industry and academia. Additionally, I have developed the official website for ITE@UIUC,
-                  and I provide mentorship to undergraduate students majoring in Civil and Environmental Engineering (Transportation),
-                  Computer Science, and related fields. I also lead the ITE@UIUC exhibitions at the UIUC Engineering Open House (EOH).
+                  conferences, seminars, networking panels as well as fostering connections between prospective students and professionals
+                  in the transportation industry and academia. Additionally, I lead the Transportation Data Science Team of 20 students to analyze 
+                  transit data using various Machine Learning algorithms and Deep Learning techniques for classification tasks. For all the ITE@UIUC projects, 
+                  I take a crucial role at the UIUC Engineering Open House (EOH) to proudly present all of them. Not only this, but I also 
+                  mentor passionate Civil Engineering (Transportation) majors, and Computer Science majors and minors.
                 </p>
               </div>
             </div>
