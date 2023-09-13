@@ -27,6 +27,7 @@ class Experiences extends React.Component {
                   <p>
                   I am actively collaborating with Professor Alireza Talebpour in the Department of Civil & Environmental Engineering (Transportation) 
                   at UIUC. My role is to develop an efficient trajectory prediction algorithm for Autonomous Vehicles by integrating AI into Traffic Flow Theory.
+                  Currently, I am exploring various LSTM and RNN techniques to predict trajectories for self-driving agents. 
                   </p>
                 </div>
               </div>
@@ -83,10 +84,9 @@ class Experiences extends React.Component {
               </div>
               <div className="job-description">
                 <p>
-                I provided assistance to Professor Katherine Driggs-Campbell in the Electrical & Computer Engineering Department at UIUC. 
-                My research team primarily revolved around optimizing the TransFuser in CARLA Simulator through the utilization of Reinforcement Learning 
-                and Computer Vision techniques. I played a significant role in the development of an End-to-End Autonomous Driving Model that leveraged 
-                Neural Networks as its foundation.
+                I assisted Professor Katherine Driggs-Campbell in the Electrical & Computer Engineering Department at UIUC in a project
+                primarily revolved around optimizing the TransFuser networks in the CARLA Self-driving Car Simulator. My main part was to 
+                explore how Deep Reinforcement Learning and Computer Vision techniques could potentially optimize the motion planning process. 
                 </p>
               </div>
             </div>
