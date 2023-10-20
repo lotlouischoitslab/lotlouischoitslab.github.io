@@ -5,6 +5,7 @@ import cav_road from '../assets/cav_road.jpg'
 import spaceship from '../assets/spaceship.png'
 import transpo from '../assets/transportation.png'
 import cumtd from '../assets/cumtd.jpg'
+import ohare from '../assets/ohare.png'
 import ktx from '../assets/ktx.png'
 import asam from '../assets/opendrive.png'
 import airline from '../assets/a350.png'
@@ -86,7 +87,7 @@ class Projects extends React.Component {
               </div>
             </div>
 
-
+        {/*Grid Item */}
         <div 
           style={{ backgroundImage: `url(${cumtd})`,backgroundSize: '110%', height: '80%'}}
           className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
@@ -102,6 +103,21 @@ class Projects extends React.Component {
             </div>
           </div>
 
+        {/*Grid Item */}
+        <div 
+          style={{ backgroundImage: `url(${ohare})`,backgroundSize: '110%', height: '80%'}}
+          className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
+            {/*Hover*/}
+            <div className='hover-effect'>
+              <div className='centered-content'>
+                <a href="https://github.com/lotlouischoitslab/Direct-Flight-Airport-Connections">
+                  <button className='small-button'>Direct Airport Connections Database</button>
+                </a>
+                
+
+              </div>
+            </div>
+          </div>
           
 
           {/*Grid Item*/}
