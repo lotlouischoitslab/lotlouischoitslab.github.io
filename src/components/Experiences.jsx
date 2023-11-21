@@ -67,7 +67,9 @@ class Experiences extends React.Component {
                   Every Spring, guest speakers from the Illinois Transportation and Highway Engineering Conference (T.H.E) would join our panel to discuss about roads and highways.
                   Additionally, I lead the Transportation Data Science Team of 10 students to analyze transit data using various Machine Learning algorithms and Deep Learning techniques 
                   for classification tasks. For all the ITE@UIUC projects, I take a crucial role at the UIUC Engineering Open House (EOH) to proudly present all of them. Not only this, but I also 
-                  mentor passionate Civil Engineering (Transportation) majors, and Computer Science majors and minors.
+                  mentor passionate Civil Engineering (Transportation) majors, and Computer Science majors and minors by offering thorough curriculum planning guidance and coursework selection.
+                  I am also a proud member representing ITE@UIUC in the UIUC Engineering Council Organization to not only emphasize diversity in transportation, but also get involved with various 
+                  volunteering activities for the university community.
                 </p>
               </div>
             </div>
