@@ -25,7 +25,7 @@ class Home extends React.Component {
                 <div className = "bio">
                   I am Louis Sungwoo Cho (조성우), a Computational Transportation Science Student
                   enthusiastic about developing Autonomous Vehicles and Intelligent Transportation Systems (ITS) 
-                  using Artificial Intelligence (AI) and Internet of Things (IoT) to enhance mobility for Smart Cities.
+                  using Artificial Intelligence (AI) and Internet of Things (IoT) to enhance mobility in Smart Cities.
                 </div>
               </FadeIn>
             </div>
