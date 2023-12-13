@@ -23,7 +23,7 @@ class Home extends React.Component {
                     Computational Transportation Science Student
                 </span>
                 <div className = "bio">
-                  I am a Computational Transportation Science Student
+                  I am Louis Sungwoo Cho (조성우), a Computational Transportation Science Student
                   enthusiastic about developing Autonomous Vehicles and Intelligent Transportation Systems (ITS) 
                   using Artificial Intelligence (AI) and Internet of Things (IoT) to enhance mobility for Smart Cities.
                 </div>
