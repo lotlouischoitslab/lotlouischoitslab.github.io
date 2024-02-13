@@ -208,7 +208,7 @@ class Projects extends React.Component {
             {/*Hover*/}
             <div className='hover-effect'>
               <div className='centered-content'>
-                <a href="https://github.com/lotlouischoitslab/Direct-Flight-Airport-Connections">
+                <a href="https://illinois.digication.com/abc-louis-sungwoo-cho/home-1">
                   <button className='small-button'>Urban Neighborhood Planning & CAD Design</button>
                 </a>
                 
