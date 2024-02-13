@@ -11,6 +11,7 @@ import asam from '../assets/opendrive.png'
 import airline from '../assets/a350.png'
 import amtrak from '../assets/amtrak.jpg'
 import web from '../assets/web.png'
+import urban from '../assets/urban.png'
 import './css/Projects.css'
 
 class Projects extends React.Component {
@@ -184,7 +185,7 @@ class Projects extends React.Component {
 
           {/*Grid Item*/}
           <div
-          style={{ backgroundImage: `url(${web})`,backgroundSize: '120%', height: '90%'}}
+          style={{ backgroundImage: `url(${web})`,backgroundSize: '120%', height: '150%'}}
           className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/*Hover*/}
@@ -192,6 +193,22 @@ class Projects extends React.Component {
               <div className='centered-content'>
                 <a href="https://github.com/lotlouischoitslab/lotlouischoportfolio">
                   <button className='small-button'>Portfolio Website</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/*Grid Item*/}
+      
+          {/*Grid Item*/}
+          <div
+            style={{ backgroundImage: `url(${urban})`,backgroundSize: '110%', height: '150%'}}
+            className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>     
+            
+            {/*Hover*/}
+            <div className='hover-effect'>
+              <div className='centered-content'>
+                <a href="https://illinois.digication.com/abc-louis-sungwoo-cho/home-1">
+                  <button className='small-button'>Urban Design</button>
                 </a>
               </div>
             </div>
