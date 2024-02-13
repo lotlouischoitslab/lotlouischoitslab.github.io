@@ -31,12 +31,6 @@
   font-weight: bold;
 }
 
-.education-date {
-  color: white;
-  font-size: 25px;
-  padding-bottom: 15px;
-}
-
 .education-content {
   display: flex;
   align-items: center;
