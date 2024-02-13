@@ -185,7 +185,7 @@ class Projects extends React.Component {
 
           {/*Grid Item*/}
           <div
-          style={{ backgroundImage: `url(${web})`,backgroundSize: '120%', height: '90%'}}
+          style={{ backgroundImage: `url(${web})`,backgroundSize: '120%', height: '150%'}}
           className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/*Hover*/}
@@ -201,7 +201,7 @@ class Projects extends React.Component {
       
           {/*Grid Item*/}
           <div
-            style={{ backgroundImage: `url(${urban})`,backgroundSize: '110%', height: '90%'}}
+            style={{ backgroundImage: `url(${urban})`,backgroundSize: '110%', height: '150%'}}
             className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>     
             
             {/*Hover*/}
