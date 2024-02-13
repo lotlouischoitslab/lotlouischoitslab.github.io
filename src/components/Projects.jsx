@@ -96,7 +96,7 @@ class Projects extends React.Component {
             <div className='hover-effect'>
               <div className='centered-content'>
                 <a href="https://github.com/lotlouischoitslab/CUMTD_Bus_Analysis_Classification">
-                  <button className='small-button'>CUMTD Bus Ridership Analysis and Classification</button>
+                  <button className='small-button'>CUMTD Bus Ridership Analysis & Classification</button>
                 </a>
                 
 
@@ -185,7 +185,7 @@ class Projects extends React.Component {
 
           {/*Grid Item*/}
           <div
-          style={{ backgroundImage: `url(${web})`,backgroundSize: '120%', height: '150%'}}
+          style={{ backgroundImage: `url(${web})`,backgroundSize: '100%', height: '90%'}}
           className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/*Hover*/}
@@ -198,22 +198,24 @@ class Projects extends React.Component {
             </div>
           </div>
           {/*Grid Item*/}
-      
-          {/*Grid Item*/}
-          <div
-            style={{ backgroundImage: `url(${urban})`,backgroundSize: '110%', height: '150%'}}
-            className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>     
-            
+ 
+ 
+
+        {/*Grid Item */}
+        <div 
+          style={{ backgroundImage: `url(${urban})`,backgroundSize: '110%', height: '90%'}}
+          className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
             {/*Hover*/}
             <div className='hover-effect'>
               <div className='centered-content'>
-                <a href="https://illinois.digication.com/abc-louis-sungwoo-cho/home-1">
-                  <button className='small-button'>Urban Design</button>
+                <a href="https://github.com/lotlouischoitslab/Direct-Flight-Airport-Connections">
+                  <button className='small-button'>Urban Neighborhood Planning & CAD Design</button>
                 </a>
+                
+
               </div>
             </div>
           </div>
-          {/*Grid Item*/}
 
 
 
