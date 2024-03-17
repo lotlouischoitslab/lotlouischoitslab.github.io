@@ -65,16 +65,15 @@ class Experiences extends React.Component {
               </div>
               <div className="job-description">
                 <p>
-                  As the President of the Institute of Transportation Engineers UIUC Chapter (ITE@UIUC), my responsibilities include organizing and 
-                  hosting transportation conferences, seminars, networking panels as well as fostering connections between prospective students and 
-                  professionals in the transportation industry and academia. ITE@UIUC hosts two major Transportation Student-Professional Networking 
-                  Panels throughout the school year. Every Fall, guest speakers from the Illinois Traffic Engineering Safety Conference (TES) would 
-                  join our panel to discuss the modern advances in Smart Mobility. Every Spring, guest speakers from the Illinois Transportation and 
-                  Highway Engineering Conference (T.H.E) would join our panel to discuss about roads and highways. Additionally, I lead the 
-                  Transportation Data Science Team of 6 students to analyze transit data using various Machine Learning algorithms and Deep Learning techniques 
-                  for classification tasks. For all the ITE@UIUC projects, I take a crucial role at the UIUC Engineering Open House (EOH) to proudly 
-                  present all of them. Not only this, but I also mentor passionate Civil Engineering (Transportation) majors, and Computer Science 
-                  majors and minors by offering thorough curriculum planning guidance and coursework selection. I am also a proud member representing 
+                  As the President of the Institute of Transportation Engineers UIUC Chapter (ITE@UIUC), I was mainly in charge of organizing and 
+                  hosting transportation conferences, seminars, networking panels and social events to connect prospective students with  
+                  professionals in the transportation industry and academia. I helped ITE@UIUC host a major Transportation Student-Professional 
+                  Networking Panel every fall semester. Guest speakers from the Illinois Traffic Engineering Safety Conference (TES) would 
+                  join the panel to discuss the modern advances Intelligent Transportation Systems for Smart Mobility. Additionally, I lead the 
+                  Transportation Data Science Team of 6 students to analyze and forecast transit data using Machine Learning algorithms.
+                  For all the ITE@UIUC transportation projects, I took a crucial role at the UIUC Engineering Open House (EOH) to proudly 
+                  present them. In the academic side of ITE@UIUC, I also mentored passionate Civil Engineering (Transportation) majors, and Computer Science 
+                  majors and minors by offering comprehensive curriculum planning guidance and coursework selection. I am also a proud member representing 
                   ITE@UIUC in the UIUC Engineering Council Organization to not only emphasize diversity in transportation, but also get involved with 
                   various volunteering activities for the university community.
                 </p>
