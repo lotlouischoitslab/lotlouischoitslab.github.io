@@ -70,7 +70,7 @@ class Experiences extends React.Component {
                   professionals in the transportation industry and academia. I helped ITE@UIUC host a major Transportation Student-Professional 
                   Networking Panel every fall semester. Guest speakers from the Illinois Traffic Engineering Safety Conference (TES) would 
                   join the panel to discuss the modern advances Intelligent Transportation Systems for Smart Mobility. Additionally, I lead the 
-                  Transportation Data Science Team of 6 students to analyze and forecast transit data using Machine Learning algorithms.
+                  Transportation Data Science Team of 6 students to analyze and forecast public transit data using Machine Learning algorithms.
                   For all the ITE@UIUC transportation projects, I took a crucial role at the UIUC Engineering Open House (EOH) to proudly 
                   present them. In the academic side of ITE@UIUC, I also mentored passionate Civil Engineering (Transportation) majors, and Computer Science 
                   majors and minors by offering comprehensive curriculum planning guidance and coursework selection. I am also a proud member representing 

@@ -2,6 +2,7 @@ import React from 'react';
 import './css/Awards.css';
 import img1 from '../images/grant.png';
 import img2 from '../images/uiuc.png';
+import img3 from '../images/FOB.png';
 
 class Awards extends React.Component {
   render() {
@@ -10,9 +11,28 @@ class Awards extends React.Component {
         <div className="awards-title">AWARDS</div>
         <div className="awards-box">
           <div className="awards">
+            
+        
+          <div className="awards-content">
+              <div className="aimage-container">
+                <img src={img3} alt="Awards 3" className="awards-image" />
+              </div>
+              <div className="awards-description">
+                <ul>
+                  <li className="awards-subtitle">UIUC EOH 2024 Outstanding Exhibit Award 3rd Place</li>
+                  <li>April 2024</li>
+                  <li>ITE@UIUC was awarded the “Outstanding Exhibit Award” in 3rd place for demonstrating what “Mobility for Our Future” 
+                    will look like during the UIUC Engineering Open House 2024. CAD design of new High-speed Rail, Maglev, eVTOL, 
+                    Unmanned Aerial Vehicles (UAV), Bus Rapid Transit (BRT) system and data visualization using AI for time-series 
+                    forecasting for public transit planning were shown. </li>
+                </ul>
+              </div>
+            </div>
+            
+            
             <div className="awards-content">
               <div className="aimage-container">
-                <img src={img1} alt="Awards 1" className="awards-image" />
+                <img src={img1} alt="Awards 2" className="awards-image" />
               </div>
               <div className="awards-description">
                 <ul>
@@ -24,6 +44,9 @@ class Awards extends React.Component {
                 </ul>
               </div>
             </div>
+
+
+
             <div className="awards-content">
               <div className="aimage-container">
                 <img src={img2} alt="Awards 2" className="awards-image" />
