@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.0f649eb3.css",
-    "main.js": "/static/js/main.fa7392c1.js",
+    "main.js": "/static/js/main.a851585b.js",
     "static/media/amtrak.jpg": "/static/media/amtrak.0bdea876f63c809fee28.jpg",
     "static/media/transportation.png": "/static/media/transportation.dc7c91834f01398c5009.png",
     "static/media/GPT.png": "/static/media/GPT.9738bcc64e56edcc7c6c.png",
     "static/media/louis_id.png": "/static/media/louis_id.88f2b2f7f823c799316d.png",
     "static/media/ktx.png": "/static/media/ktx.3bd446dc60481a3b731e.png",
+    "static/media/mof.png": "/static/media/mof.0143becdfcbd074cc5ff.png",
     "static/media/urban.png": "/static/media/urban.c7c3e023eb8da0509401.png",
     "static/media/instagram.png": "/static/media/instagram.88f88e4e58cd4b9b602d.png",
     "static/media/a350.png": "/static/media/a350.cc5ee14f4f1e61c97cb5.png",
@@ -40,10 +41,10 @@
     "static/media/neo4j.png": "/static/media/neo4j.38b6f21f29a2351c4ffd.png",
     "index.html": "/index.html",
     "main.0f649eb3.css.map": "/static/css/main.0f649eb3.css.map",
-    "main.fa7392c1.js.map": "/static/js/main.fa7392c1.js.map"
+    "main.a851585b.js.map": "/static/js/main.a851585b.js.map"
   },
   "entrypoints": [
     "static/css/main.0f649eb3.css",
-    "static/js/main.fa7392c1.js"
+    "static/js/main.a851585b.js"
   ]
 }
