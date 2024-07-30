@@ -1,0 +1,121 @@
+.publications {
+    width: 100%;
+    padding: 2% 0 8% 0; /* Top, Right, Bottom, Left */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .publications-title {
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+    padding: 10% 0 0 3%;
+    margin-bottom: 0;
+    margin-left: 12%;
+  }
+  
+  .publications-box {
+    background-color: black;
+    padding: 0px 10px 5px 3%;
+    margin-bottom: 15px;
+    width: 88%;
+    margin-left: 12%;
+  }
+  
+  .place-title {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .publications-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .eimage-container {
+    flex: 0 0 160px; /* Grow, Shrink, Base, Adjust the flex value to control the size of the circle */
+    height: 150px;
+    margin-right: 10px; /* Add margin-right for spacing */
+    border-radius: 50%; /* Create a circle shape */
+    overflow: hidden; /* Ensure the image stays within the container */
+    display: flex; /* Add flex display to center the image */
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+  }
+  
+  .eimage-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%; /* Maintain circular shape for the image */
+  }
+  
+  .publications-description {
+    color: white;
+    font-size: 23px;
+    line-height: 1.4;
+    margin-left: 5px; /* Adjust margin-left to create spacing between the circle and the description */
+  }
+  
+  .publications-description p {
+    padding-bottom: 10px;
+    margin: 0;
+  }
+  
+  .publications-description a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 720px) {
+    .publications-title {
+      font-size: 30px;
+    }
+  
+    .place-title {
+      font-size: 11px;
+      font-weight: bold;
+    }
+  
+    .publications-date {
+      font-size: 9px;
+      padding-bottom: 3px;
+    }
+  
+    .publications-content {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .eimage-container {
+      flex: 0 0 60px; /* Grow, Shrink, Base, Adjust the flex value to control the size of the circle */
+      height: 60px;
+      margin-right: -8px; /* Add margin-right for spacing */
+      border-radius: 50%; /* Create a circle shape */
+      overflow: hidden; /* Ensure the image stays within the container */
+      display: flex; /* Add flex display to center the image */
+      justify-content: center; /* Center the image horizontally */
+      align-items: center; /* Center the image vertically */
+    }
+  
+    .eimage-container img {
+      max-width: 100%; /* Set max-width to ensure the image fits within the circle */
+      max-height: 100%; /* Set max-height to ensure the image fits within the circle */
+      object-fit: cover; /* Maintain aspect ratio and cover the container */
+    }
+  
+    .publications-description {
+      font-size: 10px;
+      margin-left: 5px; /* Adjust margin-left to create spacing between the circle and the description */
+    }
+  
+    .publications-description p {
+      line-height: 1.2;
+      margin-bottom: 5px;
+    }
+  }
+  

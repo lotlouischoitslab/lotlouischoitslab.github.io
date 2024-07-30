@@ -62,6 +62,16 @@ const Navbar = () => {
             </li>
 
             <li
+            className={hoveredItem === 'publications' ? 'nav-item-hover' : ''}
+            onMouseEnter={() => setHoveredItem('publications')}
+            onMouseLeave={() => setHoveredItem(null)}
+            >
+            <Link to="publications" smooth={true} duration={500}>
+                PUBLICATIONS
+            </Link>
+            </li>
+
+            <li
             className={hoveredItem === 'awards' ? 'nav-item-hover' : ''}
             onMouseEnter={() => setHoveredItem('awards')}
             onMouseLeave={() => setHoveredItem(null)}
@@ -156,6 +166,16 @@ const Navbar = () => {
             EXPERIENCES
           </Link>
         </li>
+
+        <li
+            className={hoveredItem === 'publications' ? 'nav-item-hover' : ''}
+            onMouseEnter={() => setHoveredItem('publications')}
+            onMouseLeave={() => setHoveredItem(null)}
+            >
+            <Link to="publications" smooth={true} duration={500}>
+                PUBLICATIONS
+            </Link>
+            </li>
 
         <li
           className={hoveredItem === 'awards' ? 'nav-item-hover' : ''}
