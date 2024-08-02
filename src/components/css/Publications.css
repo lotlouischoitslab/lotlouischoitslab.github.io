@@ -7,13 +7,13 @@
     align-items: flex-start;
   }
   
-  .publications-title {
+  .publications-title { 
     font-size: 70px;
     font-weight: bold;
     color: white;
     text-decoration: underline;
     padding: 10% 0 0 3%;
-    margin-bottom: 0;
+    margin-bottom: 45px;
     margin-left: 12%;
   }
   
