@@ -3,6 +3,7 @@ import './css/Awards.css';
 import img1 from '../images/grant.png';
 import img2 from '../images/uiuc.png';
 import img3 from '../images/FOB.png';
+import img4 from '../images/newmark.png'
 
 class Awards extends React.Component {
   render() {
@@ -11,6 +12,20 @@ class Awards extends React.Component {
         <div className="awards-title">AWARDS</div>
         <div className="awards-box">
           <div className="awards">
+        
+          <div className="awards-content">
+              <div className="aimage-container">
+                <img src={img4} alt="Awards 3" className="awards-image" />
+              </div>
+              <div className="awards-description">
+                <ul>
+                  <li className="awards-subtitle">Bachelor of Science Honors</li>
+                  <li>May 2024</li>
+                  <li>Students receive the designation Honors if they have a cumulative University of Illinois at Urbana-Champaign 
+                    grade-point average of at least 3.5 at graduation (A = 4.0). </li>
+                </ul>
+              </div>
+            </div>
             
         
           <div className="awards-content">
@@ -56,7 +71,7 @@ class Awards extends React.Component {
                   <li className="awards-subtitle">Dean's List</li>
                   <li>May 2022</li>
                   <li>The Dean’s List is given to honor full-time students whose grade-point average (GPA) for that semester ranks in the upper 20
-                    percent of their college every semester.</li>
+                    percent of their college every semester  at the University of Illinois at Urbana-Champaign.</li>
                 </ul>
               </div>
             </div>

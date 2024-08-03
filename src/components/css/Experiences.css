@@ -15,7 +15,7 @@
   .experience-box {
     background-color: black;
     padding: 5px 10px 5px 3%;
-    margin-bottom: 35px;
+    margin-bottom: 1px;
     width: 88%;
   }
   
@@ -34,7 +34,7 @@
   .experience-content {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
   }
   
   .experience-image-container {
