@@ -78,36 +78,4 @@
       width: auto;
     }
   }
-  
-  
-  /* @media (max-width: 720px) {
-    .mobile-menu {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between; 
-      align-items: center;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100vh;
-      background-color: black;
-      gap: 50px;
-    }
-  
-    .desktop-menu {
-      display: none;
-    }
-  
-    .nav-item-hover {
-      height: auto;
-      width: auto;
-      opacity: 1;
-    }
-  
-    .nav-item-hover a {
-      height: auto;
-      width: auto;
-    }
-  }
-   */
+   

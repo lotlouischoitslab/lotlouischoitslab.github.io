@@ -3,7 +3,7 @@ import './css/Contact.css'
 import Linkedin from '../assets/linkedinlogo.png'
 import Github from '../assets/github.png'
 import CV_img from '../assets/cv.png'
-import CV from "../assets/Louis_Final_CV.pdf"
+import CV from "../assets/Louis_Sungwoo_Cho_CV.pdf"
 import Insta from "../assets/instagram.png"
 import Discord from "../assets/discord.png"
 import Meta from "../assets/meta_logo.png"

@@ -11,7 +11,7 @@ class Education extends React.Component {
           <div className="education-box">
             <div className="education">
               <div className="education-content">
-                <div className="eimage-container">
+                <div className="education-image-container">
                   <img src={img1} alt="Education 1" className="education-image" />
                 </div>
                 <div className="education-description">

@@ -17,9 +17,9 @@ class Experiences extends React.Component {
               <div className="job-title">
                 Graduate Research Assistant @ Smart City Laboratory, UIUC
               </div>
-              <div className="job-date">August 2022 - May 2024</div>
+              <div className="job-date">August 2024 - May 2025</div>
               <div className="experience-content">
-                <div className="image-container">
+                <div className="experience-image-container">
                   <img src={img6} alt="Experience 1" className="experience-image" />
                 </div>
                 <div className="job-description">
@@ -42,23 +42,23 @@ class Experiences extends React.Component {
 
             <div className="job-date">August 2023 - May 2024</div>
               <div className="experience-content">
-                <div className="image-container">
+                <div className="experience-image-container">
                   <img src={img5} alt="Experience 2" className="experience-image" />
                 </div>
                 <div className="job-description">
                   <p>
                   I collaborated with Professor Alireza Talebpour in the Department of Civil & Environmental Engineering (Transportation) 
-                  at UIUC. My role was to develop a safe probabilistic vehicular trajectory prediction algorithm for Autonomous Vehicles by 
-                  integrating Artificial Intelligence into fundamental concepts in Traffic Flow Theory. I used LSTM neural networks to predict 
-                  vehicular trajectories to safely guide self-driving vehicles in complex traffic environment dynamics, especially when passing 
-                  underneath overpasses.  
+                  at UIUC. My role was to develop a Trajectory Re-identification Prediction Algorithm using Probabilistic Time-space Diagrams by 
+                  integrating Artificial Intelligence into fundamental macroscopic concepts in Traffic Flow Theory. I used LSTM based Convolutional 
+                  Social Pooling model to predict vehicular trajectories to safely guide vehicles in complex traffic environment dynamics, especially 
+                  when passing underneath overpasses.  
                   </p>
                 </div>
               </div>
 
             <div className="job-date">May 2023 - August 2023</div>
               <div className="experience-content">
-                <div className="image-container">
+                <div className="experience-image-container">
                   <img src={img4} alt="Experience 3" className="experience-image" />
                 </div>
                 <div className="job-description">
@@ -81,7 +81,7 @@ class Experiences extends React.Component {
             </div>
             <div className="job-date">August 2022 - May 2024</div>
             <div className="experience-content">
-              <div className="image-container">
+              <div className="experience-image-container">
                 <img src={img3} alt="Experience 4" className="experience-image" />
               </div>
               <div className="job-description">
@@ -110,7 +110,7 @@ class Experiences extends React.Component {
             </div>
             <div className="job-date">January 2023 - May 2023</div>
             <div className="experience-content">
-              <div className="image-container">
+              <div className="experience-image-container">
                 <img src={img2} alt="Experience 5" className="experience-image" />
               </div>
               <div className="job-description">
@@ -131,7 +131,7 @@ class Experiences extends React.Component {
             <div className="job-title">Research Assistant @ Reliable Autonomy Group, UIUC</div>
             <div className="job-date">May 2022 - August 2022</div>
             <div className="experience-content">
-              <div className="image-container">
+              <div className="experience-image-container">
                 <img src={img1} alt="Experience 6" className="experience-image" />
               </div>
               <div className="job-description">

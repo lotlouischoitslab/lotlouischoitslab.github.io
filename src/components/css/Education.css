@@ -36,7 +36,7 @@
   align-items: center;
 }
 
-.eimage-container {
+.education-image-container {
   flex: 0 0 160px; /* Grow, Shrink, Base, Adjust the flex value to control the size of the circle */
   height: 150px;
   margin-right: 10px; /* Add margin-right for spacing */
@@ -47,7 +47,7 @@
   align-items: center; /* Center the image vertically */
 }
 
-.eimage-container img {
+.education-image-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -91,7 +91,7 @@
     align-items: center;
   }
 
-  .eimage-container {
+  .education-image-container {
     flex: 0 0 60px; /* Grow, Shrink, Base, Adjust the flex value to control the size of the circle */
     height: 60px;
     margin-right: -8px; /* Add margin-right for spacing */
@@ -102,7 +102,7 @@
     align-items: center; /* Center the image vertically */
   }
 
-  .eimage-container img {
+  .education-image-container img {
     max-width: 100%; /* Set max-width to ensure the image fits within the circle */
     max-height: 100%; /* Set max-height to ensure the image fits within the circle */
     object-fit: cover; /* Maintain aspect ratio and cover the container */

@@ -68,11 +68,11 @@ p.coding-lang {
         padding-left: 12%;
         padding-right: 20%;
         grid-gap: 2em;
-        grid-template-columns: repeat(3,24%);
+        grid-template-columns: repeat(4,20%);
     }
 
     p.coding-lang {
-        font-size: 15px;
+        font-size: 10px;
         color: white;
         display: flex;
         justify-content: center;

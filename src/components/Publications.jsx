@@ -11,10 +11,10 @@ class Publications extends React.Component {
           <div className="publications-box">
             <div className="publications">
               <div className="publications-content">
-                {/*<div className="eimage-container">
+                {/* <div className="image-container">
                   <img src={img1} alt="Publication 1" className="publications-image" />
-                </div>
-                 <div className="publications-description">
+                </div> */}
+                 {/* <div className="publications-description">
                    <ul>  
                     <a href="">
                         <li className="place-title"> Trajectory Reconstruction Based on Probabilistic Time-Space Diagram 2024 (Expected) </li> 
@@ -23,7 +23,7 @@ class Publications extends React.Component {
                     <li>Alireza Talebpour, Department of Civil and Environmental Engineering (Transportation) at UIUC</li>
                     <li>Transportation Research Part C: Emerging Technologies (2024) (Expected)</li>  
                   </ul>
-                </div> */}
+                </div>  */}
               </div>
             </div>
         </div>

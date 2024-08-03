@@ -168,14 +168,14 @@ const Navbar = () => {
         </li>
 
         <li
-            className={hoveredItem === 'publications' ? 'nav-item-hover' : ''}
-            onMouseEnter={() => setHoveredItem('publications')}
-            onMouseLeave={() => setHoveredItem(null)}
-            >
-            <Link to="publications" smooth={true} duration={500}>
-                PUBLICATIONS
-            </Link>
-            </li>
+          className={hoveredItem === 'publications' ? 'nav-item-hover' : ''}
+          onMouseEnter={() => setHoveredItem('publications')}
+          onMouseLeave={() => setHoveredItem(null)}
+        >
+          <Link onClick={handleClick} to="publications" smooth={true} duration={500}>
+            PUBLICATIONS
+          </Link>
+        </li>
 
         <li
           className={hoveredItem === 'awards' ? 'nav-item-hover' : ''}

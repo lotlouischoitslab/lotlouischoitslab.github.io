@@ -37,7 +37,7 @@
     margin-bottom: 5%;
   }
   
-  .image-container {
+  .experience-image-container {
     flex: 0 0 200px; /* Adjust the width as needed grow, shrink, set inital size*/
     height: 150px; /* Adjust the height as needed */
     overflow: hidden;
@@ -47,7 +47,7 @@
 
   }
   
-  .image-container img {
+  .experience-image-container img {
     flex: 0 0 160px; /* Grow, Shrink, Base, Adjust the flex value to control the size of the circle */
     height: 150px; /* Adjust the height as needed */
     object-fit: cover;
@@ -93,7 +93,7 @@
       align-items: center;
     }
   
-    .image-container {
+    .experience-image-container {
       flex: 0 0 70px; /* Grow, Shrink, Base, Adjust the flex value to control the size of the circle */
       height: 60px;
       margin-right: 10px; /* Add margin-right for spacing */
@@ -104,7 +104,7 @@
       align-items: center; /* Center the image vertically */
     }
   
-    .image-container img {
+    .experience-image-container img {
       width: 80%;
       height: 100%;
       object-fit: cover; /* Maintain aspect ratio and cover the container */
