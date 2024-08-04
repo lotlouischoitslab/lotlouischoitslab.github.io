@@ -40,7 +40,7 @@ class Experiences extends React.Component {
               Undergraduate Research Assistant @ Smart City Laboratory, UIUC
             </div>
 
-            <div className="job-date">August 2023 - May 2024</div>
+            <div className="job-date">May 2023 - May 2024</div>
               <div className="experience-content">
                 <div className="experience-image-container">
                   <img src={img5} alt="Experience 2" className="experience-image" />
@@ -55,8 +55,7 @@ class Experiences extends React.Component {
                   </p>
                 </div>
               </div>
-
-            <div className="job-date">May 2023 - August 2023</div>
+  
               <div className="experience-content">
                 <div className="experience-image-container">
                   <img src={img4} alt="Experience 3" className="experience-image" />
