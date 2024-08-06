@@ -8,8 +8,7 @@ import spaceship from '../assets/spaceship.png'
 import transpo from '../assets/transportation.png'
 import cumtd from '../assets/cumtd.jpg'
 import ohare from '../assets/ohare.png'
-import ktx from '../assets/ktx.png'
-import asam from '../assets/opendrive.png'
+import ktx from '../assets/ktx.png' 
 import airline from '../assets/a350.png'
 import amtrak from '../assets/amtrak.jpg'
 import web from '../assets/web.png'
@@ -170,21 +169,7 @@ class Projects extends React.Component {
             </div>
           </div>
           
-          {/*Grid Item*/}
-          <div 
-          style={{ backgroundImage: `url(${asam})`,backgroundSize: '110%', height: '90%'}}
-          className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>
-            
-            {/*Hover*/}
-            <div className='hover-effect'>
-              <div className='centered-content'>
-                <a href="https://github.com/lotlouischoitslab/Verse-library">
-                  <button className='small-button'>Verse Library for Autonomous Driving Control Verification</button>
-                </a>
-              </div>
-            </div>
-          </div>
-
+ 
 
           {/*Grid Item*/}
           <div style={{ backgroundImage: `url(${airline})`,backgroundSize: '100%', height: '90%'}}
