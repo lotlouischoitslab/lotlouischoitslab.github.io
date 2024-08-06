@@ -1,4 +1,5 @@
 import React from 'react'
+import ktx_cheong from '../assets/ktx_cheongryong.png'
 import mof from '../assets/mof.png'
 import av_sim from '../assets/av_sim.png'
 import seoul_subway from '../assets/seoul_sub1.png'
@@ -27,6 +28,21 @@ class Projects extends React.Component {
       </div>
       <div className='my-projects'>
         <div className='projects-container'>
+
+
+          {/*Grid Item */}
+          <div 
+            style={{ backgroundImage: `url(${ktx_cheong})`,backgroundSize: '110%', height: '80%'}}
+            className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
+              {/*Hover*/}
+              <div className='hover-effect'>
+                <div className='centered-content'>
+                  <a href="https://github.com/lotlouischoitslab/South_Korea_High-speed_Rail_Planning">
+                    <button className='small-button'>South Korea High-speed Rail Planning</button>
+                  </a>
+                </div>
+              </div>
+            </div>
 
 
           {/*Grid Item */}
