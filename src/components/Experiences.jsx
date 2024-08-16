@@ -140,7 +140,7 @@ class Experiences extends React.Component {
                 road attributes from ASAM OpenDRIVE files and converting them into Python files. I developed a data visualization 
                 function to illustrate the road attributes from the ASAM OpenDRIVE file. Once the road geometry components were converted and
                 visualized, they were deployed on the traffic simulator for control verification of the autonomous agents. 
-                <a href="https://github.com/lotlouischoitslab/Verse-library"> [Code Link]</a>
+                <a href="https://autoverse-ai.github.io/Verse-library/"> [Code Link]</a>
                 </p>
               </div>
             </div>
