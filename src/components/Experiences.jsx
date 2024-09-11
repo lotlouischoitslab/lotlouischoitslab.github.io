@@ -25,8 +25,10 @@ class Experiences extends React.Component {
                 <div className="job-description">
                   <p>
                   I am actively working for Professor Alireza Talebpour in the Department of Civil & Environmental Engineering 
-                  (Transportation) at UIUC for my M.S Degree in Civil Engineering (Transportation). My plan is to do research using Artificial 
-                  Intelligence for Transportation. 
+                  (Transportation) at UIUC for my M.S Degree in Civil Engineering (Transportation). The main objective of this study is to develop motion planning and 
+                  prediction algorithms using AI for the self-driving vehicle being tested at the Illinois Center for Transportation at Rantoul, Illinois. 
+                  To simulate and test the planning and prediction algorithms on the physical vehicle, I utilize the Robot Operating System (ROS) to analyze 
+                  the dynamics of the self-driving vehicle. 
                   </p>
                 </div>
               </div>
@@ -48,10 +50,10 @@ class Experiences extends React.Component {
                 <div className="job-description">
                   <p>
                   I collaborated with Professor Alireza Talebpour in the Department of Civil & Environmental Engineering (Transportation) 
-                  at UIUC. My role was to develop a Trajectory Re-identification Prediction Algorithm using Probabilistic Time-space Diagrams by 
-                  integrating Artificial Intelligence into fundamental macroscopic concepts in Traffic Flow Theory. I used LSTM based Convolutional 
-                  Social Pooling model to predict vehicular trajectories to safely guide vehicles in complex traffic environment dynamics, especially 
-                  when passing underneath overpasses.  
+                  at UIUC on a research to develop a Trajectory Re-identification Prediction Algorithm using Probabilistic Time-space Diagrams by 
+                  integrating Artificial Intelligence into fundamental macroscopic concepts in Traffic Flow Theory. The main objective was to 
+                  integrate LSTM-based Convolutional Social Pooling model which predicts vehicular trajectories to safely re-identify missing trajectory data 
+                  for each vehicles due to complex traffic environment dynamics, especially when passing underneath overpasses.  
                   </p>
                 </div>
               </div>

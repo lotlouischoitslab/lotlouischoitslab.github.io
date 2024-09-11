@@ -52,7 +52,7 @@ class Awards extends React.Component {
               <div className="awards-description">
                 <ul>
                   <li className="awards-subtitle">Grant W. Shaw Memorial Scholarship</li>
-                  <li>May 2023</li>
+                  <li>March 2023</li>
                   <li>Scholarship award for students demonstrating the best leadership in traffic engineering awarded by faculty members in the
                     transportation area of the civil engineering department at the University of Illinois at Urbana-Champaign, and the Schaumburg Chapter
                     of the Illinois Association of Highway Engineers.</li>
