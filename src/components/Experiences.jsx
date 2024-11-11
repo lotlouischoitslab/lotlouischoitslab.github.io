@@ -53,7 +53,7 @@ class Experiences extends React.Component {
                   I collaborated with Professor Alireza Talebpour in the Department of Civil & Environmental Engineering (Transportation) 
                   at UIUC on a research to develop a Trajectory Re-identification Prediction Algorithm using Probabilistic Time-space Diagrams by 
                   integrating Artificial Intelligence into fundamental macroscopic concepts in Traffic Flow Theory. The main objective was to 
-                  integrate LSTM-based Convolutional Social Pooling model which predicts vehicular trajectories to safely re-identify missing trajectory data 
+                  integrate Convolutional Social Pooling model which predicts vehicular trajectories to safely re-identify missing trajectory data 
                   for each vehicles due to complex traffic environment dynamics, especially when passing underneath overpasses.  
                   </p>
                 </div>
