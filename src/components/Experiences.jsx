@@ -24,11 +24,12 @@ class Experiences extends React.Component {
                 </div>
                 <div className="job-description">
                   <p>
-                  I am actively working for Professor Alireza Talebpour in the Department of Civil & Environmental Engineering 
-                  (Transportation) at UIUC for my M.S Degree in Civil Engineering (Transportation). The main objective of this study is to develop motion planning and 
-                  prediction algorithms using AI for the self-driving vehicle being tested at the Illinois Center for Transportation at Rantoul, Illinois. 
-                  To simulate and test the planning and prediction algorithms on the physical vehicle, I utilize the Robot Operating System (ROS) to analyze 
-                  the dynamics of the self-driving vehicle. 
+                  I am pursuing my M.S. in Civil Engineering (Transportation) under Professor Alireza Talebpour in the 
+                  Department of Civil & Environmental Engineering at UIUC. My work focuses on motion planning and control development for a 
+                  self-driving vehicle project, which is currently being tested at the Illinois Center for Transportation in Rantoul, Illinois. 
+                  To simulate and validate planning and control algorithms on the physical vehicle, I use the Robot Operating System (ROS) to 
+                  assess vehicle dynamics. Additionally, I am collaborating on a project that leverages the Waymo Open Dataset to study vehicle 
+                  motion behaviors, such as lane-changing patterns, to enhance our understanding of autonomous driving dynamics.
                   </p>
                 </div>
               </div>
