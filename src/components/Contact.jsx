@@ -7,6 +7,7 @@ import CV from "../assets/Louis_Sungwoo_Cho_CV.pdf"
 import Insta from "../assets/instagram.png"
 import Discord from "../assets/discord.png"
 import Meta from "../assets/meta_logo.png"
+import X from "../assets/X.png"
 
 
 const Contact = () => {
@@ -55,6 +56,12 @@ const Contact = () => {
             <a href= 'https://www.facebook.com/louis.sw.cho'>
               <img className="social-link-image" src={Meta} alt="Meta icon"/>
               <p className="social-link-text">Meta</p>
+            </a>
+          </div>
+          <div className="social-link">
+            <a href= 'https://x.com/LouisC61470'>
+              <img className="social-link-image" src={X} alt="X icon"/>
+              <p className="social-link-text">X</p>
             </a>
           </div>
       </div> 
