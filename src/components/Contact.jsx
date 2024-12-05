@@ -59,7 +59,7 @@ const Contact = () => {
             </a>
           </div>
           <div className="social-link">
-            <a href= 'https://x.com/LouisC61470'>
+            <a href= 'https://x.com/LOTLOUISCHO7'>
               <img className="social-link-image" src={X} alt="X icon"/>
               <p className="social-link-text">X</p>
             </a>
