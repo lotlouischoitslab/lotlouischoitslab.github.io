@@ -8,6 +8,7 @@ import Insta from "../assets/instagram.png"
 import Discord from "../assets/discord.png"
 import Meta from "../assets/meta_logo.png"
 import X from "../assets/X.png"
+import Medium from "../assets/medium.png"
 
 
 const Contact = () => {
@@ -64,6 +65,15 @@ const Contact = () => {
               <p className="social-link-text">X</p>
             </a>
           </div>
+          <div className="social-link">
+            <a href= 'https://medium.com/@louis.s.cho'>
+              <img className="social-link-image" src={Medium} alt="Medium icon"/>
+              <p className="social-link-text">Medium</p>
+            </a>
+          </div>
+
+
+
       </div> 
     </div>
   )

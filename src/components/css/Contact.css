@@ -18,7 +18,7 @@
 
 .contact-title {
     padding-top: 5px;
-    padding-left: 36%;
+    padding-left: 39%;
     font-size: 60px;
     font-weight: bold;
     color: white;
@@ -32,7 +32,7 @@
     width: 60%;
     display: grid;
     gap: 2em;
-    grid-template-columns: repeat(7,35%);
+    grid-template-columns: repeat(8,32%);
     align-items: center;
 }
 
@@ -79,15 +79,15 @@
 @media screen and (max-width: 720px) {
     .contact-title {
         font-size: 30px;
-        padding-left: 28%;
+        padding-left: 22%;
     }
 
     .contact-grid {
         display: grid;
-        gap: 1.5em;
-        grid-template-columns: repeat(7,8%);
+        gap: 1.2em;
+        grid-template-columns: repeat(8,8%);
         align-items: center;
-        padding-left: 20%;
+        padding-left: 10%;
         padding-right: 50px;
         
     }
