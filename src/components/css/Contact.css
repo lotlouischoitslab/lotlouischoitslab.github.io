@@ -80,15 +80,15 @@
 @media screen and (max-width: 720px) {
   .contact-title {
       font-size: 30px;
-      padding-left: 8%;
+      padding-left: 19%;
   }
 
   .contact-grid {
       display: grid;
       gap: 1.5em;
-      grid-template-columns: repeat(4, 20%);
+      grid-template-columns: repeat(4, 25%);
       align-items: center;
-      padding-left: 8%;
+      padding-left: 16%;
   }
 
   .social-link-text {
