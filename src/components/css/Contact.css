@@ -76,7 +76,7 @@
   
 
 
-@media screen and (max-width: 720px) {
+/* @media screen and (max-width: 720px) {
     .contact-title {
         font-size: 30px;
         padding-left: 17%;
@@ -88,7 +88,7 @@
         grid-template-columns: repeat(8,8%);
         align-items: center;
         padding-left: 15%;
-        /* padding-right: 50px; */
+        padding-right: 50px; 
         
     }
 
@@ -97,4 +97,24 @@
         font-size: 3px;
       }
     
+} */
+
+@media screen and (max-width: 720px) {
+  .contact-title {
+      font-size: 30px;
+      padding-left: 8%;
+  }
+
+  .contact-grid {
+      display: grid;
+      gap: 1.5em;
+      grid-template-columns: repeat(4, 20%);
+      align-items: center;
+      padding-left: 8%;
+  }
+
+  .social-link-text {
+      margin-top: 5px;
+      font-size: 9px;
+  }
 }
