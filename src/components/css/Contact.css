@@ -76,28 +76,6 @@
   
 
 
-/* @media screen and (max-width: 720px) {
-    .contact-title {
-        font-size: 30px;
-        padding-left: 17%;
-    }
-
-    .contact-grid {
-        display: grid;
-        gap: 1em;
-        grid-template-columns: repeat(8,8%);
-        align-items: center;
-        padding-left: 15%;
-        padding-right: 50px; 
-        
-    }
-
-    .social-link-text {
-        margin-top: 5px;
-        font-size: 3px;
-      }
-    
-} */
 
 @media screen and (max-width: 720px) {
   .contact-title {
