@@ -79,16 +79,16 @@
 @media screen and (max-width: 720px) {
     .contact-title {
         font-size: 30px;
-        padding-left: 22%;
+        padding-left: 17%;
     }
 
     .contact-grid {
         display: grid;
-        gap: 1.2em;
+        gap: 1em;
         grid-template-columns: repeat(8,8%);
         align-items: center;
-        padding-left: 10%;
-        padding-right: 50px;
+        padding-left: 15%;
+        /* padding-right: 50px; */
         
     }
 
