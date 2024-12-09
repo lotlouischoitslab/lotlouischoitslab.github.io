@@ -25,10 +25,12 @@ class Experiences extends React.Component {
                 <div className="job-description">
                   <p>
                   I am pursuing my M.S. in Civil Engineering (Transportation) under Professor Alireza Talebpour in the 
-                  Department of Civil & Environmental Engineering at UIUC. My work focuses on motion planning and control development for a 
+                  Department of Civil & Environmental Engineering at UIUC. I am currently exploring how to apply multi-agent deep 
+                  reinforcement learning for trajectory planning for efficient and safe car-following and lane-changing behaviors of 
+                  self-driving vehicles. In addition to this, I am collaborating on a motion planning and control development for a 
                   self-driving vehicle project, which is currently being tested at the Illinois Center for Transportation in Rantoul, Illinois. 
                   To simulate and validate planning and control algorithms on the physical vehicle, I use the Robot Operating System (ROS) to 
-                  assess vehicle dynamics. Additionally, I am collaborating on a project that leverages the Waymo Open Dataset to study vehicle 
+                  assess vehicle dynamics. I also collaborate on a project that leverages the Waymo Open Dataset to study vehicle 
                   motion behaviors, such as lane-changing patterns, to enhance our understanding of autonomous driving dynamics.
                   </p>
                 </div>
