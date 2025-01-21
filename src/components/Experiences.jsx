@@ -17,7 +17,7 @@ class Experiences extends React.Component {
               <div className="job-title">
                 Graduate Research Assistant @ Smart City Laboratory, UIUC
               </div>
-              <div className="job-date">July 2024 - May 2025</div>
+              <div className="job-date">July 2024 - Present</div>
               <div className="experience-content">
                 <div className="experience-image-container">
                   <img src={img6} alt="Experience 1" className="experience-image" />
@@ -37,6 +37,53 @@ class Experiences extends React.Component {
               </div>
             </div>
           </div>
+
+
+
+          <div className="experience-box">
+          <div className="experience">
+
+          <div className="job-title">
+              Graduate Representative | President @ Institute of Transportation Engineers (ITE) UIUC Chapter
+            </div>
+            <div className="job-date">January 2025 - Present | August 2022 - May 2024 </div>
+  
+            <div className="experience-content">
+              <div className="experience-image-container">
+                <img src={img3} alt="Experience 4" className="experience-image" />
+              </div>
+              <div className="job-description">
+                <p>
+                  Since January 2025, I have held the position of Graduate Representative for the Institute of Transportation Engineers (ITE) 
+                  at the UIUC Chapter. In this role, my primary responsibility is to cultivate and strengthen connections between undergraduate 
+                  and graduate students within the field of transportation engineering. This involves organizing events, workshops, and informal
+                   gatherings that provide both networking opportunities and a platform for knowledge exchange. Additionally, I serve as a 
+                   mentor to prospective undergraduate students who express a strong interest in advancing to graduate studies. 
+                   I offer insights into the academic and professional areas of transportation engineering, assist mentees in navigating the 
+                   application process, and provide personalized advice on how to succeed in graduate school. 
+                </p>
+                <p>
+                  As President of the Institute of Transportation Engineers UIUC Chapter (ITE@UIUC), I was responsible for organizing 
+                  and hosting transportation conferences, seminars, networking panels, and social events aimed at connecting prospective 
+                  students with professionals from both the transportation industry and academia. I spearheaded the annual 
+                  Transportation Student-Professional Networking Panel every fall, featuring guest speakers from the Illinois Traffic 
+                  Engineering Safety Conference (TES) who discussed the latest developments in Intelligent Transportation Systems for 
+                  Smart Mobility. Additionally, I led the Transportation Data Science Team, a group of six students who utilized 
+                  machine learning algorithms to analyze and forecast public transit data. My role also extended to the UIUC 
+                  Engineering Open House (EOH), where I proudly showcased our team’s projects. I provided mentoring to 
+                  Civil Engineering (Transportation) majors and Computer Science majors and minors, offering guidance on curriculum 
+                  planning and coursework selection. Moreover, I actively represented ITE@UIUC within the UIUC Engineering Council 
+                  Organization, participating in various volunteering activities that benefited both the university community and the 
+                  field of transportation engineering.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+
+
+
 
 
         <div className="experience-box"> 
@@ -78,7 +125,7 @@ class Experiences extends React.Component {
           </div>
         </div>
 
-        <div className="experience-box">
+        {/* <div className="experience-box">
           <div className="experience">
             <div className="job-title">
               President @ Institute of Transportation Engineers (ITE) UIUC Chapter
@@ -105,7 +152,7 @@ class Experiences extends React.Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="experience-box">
           <div className="experience">
