@@ -12,7 +12,7 @@ class About extends React.Component {
                 <div className="about-box">
                     <div className="about-bio">
                         I was born in Boston, Massachusetts, and spent 9 years living in the United States before moving to Seoul, South Korea, 
-                        where I lived for 11 years. I returned to the U.S and currently live in Urbana, Illinois. My fascination with 
+                        where I lived for 11 years. I returned to the U.S and currently live in Champaign-Urbana, Illinois. My fascination with 
                         transportation has been a lifelong passion, and I enjoy traveling by airplanes, trains, buses, and cars. With the 
                         advancements in AI and IoT, I am particularly interested in Intelligent Transportation Systems (ITS) and specialize in Motion 
                         Planning and Decision-Making Algorithms utilizing Deep Reinforcement Learning and Computer Vision for Autonomous Vehicles. 
