@@ -25,8 +25,9 @@ class Experiences extends React.Component {
                 <div className="job-description">
                   <p>
                   I am pursuing my M.S. in Civil Engineering (Transportation) under Professor Alireza Talebpour in the 
-                  Department of Civil & Environmental Engineering at UIUC. For my main research, I am analyzing various control spacing models for 
-                  self-driving vehicles. I am also exploring how to leverage multi-agent deep 
+                  Department of Civil & Environmental Engineering at UIUC. For my main research, I am analyzing various control spacing models 
+                  such as constant spacing, constant time headway, traffic flow stability, constant safety factor, and intelligent driver model for 
+                  Adaptive Cruise Control (ACC) vehicles. I am also exploring how to leverage multi-agent deep 
                   reinforcement learning for trajectory planning for efficient and safe car-following and lane-changing behaviors of 
                   self-driving vehicles. In addition to this, I am collaborating on a motion planning and control development for a 
                   self-driving vehicle project, which is currently being tested at the Illinois Center for Transportation in Rantoul, Illinois. 
