@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.9aa8f6e8.css",
-    "main.js": "/static/js/main.d52293a6.js",
+    "main.js": "/static/js/main.a40d74fd.js",
     "static/media/amtrak.jpg": "/static/media/amtrak.0bdea876f63c809fee28.jpg",
     "static/media/LSTM_NN.png": "/static/media/LSTM_NN.70968b10331d525b4af8.png",
     "static/media/transportation.png": "/static/media/transportation.dc7c91834f01398c5009.png",
     "static/media/autonomy_transportation.png": "/static/media/autonomy_transportation.f917e9756ec3e76bad55.png",
     "static/media/GPT.png": "/static/media/GPT.9738bcc64e56edcc7c6c.png",
+    "static/media/fut_public_transit.png": "/static/media/fut_public_transit.78a9c91beecdbb793b82.png",
     "static/media/louis_id.png": "/static/media/louis_id.88f2b2f7f823c799316d.png",
     "static/media/ktx.png": "/static/media/ktx.3bd446dc60481a3b731e.png",
     "static/media/newmark.png": "/static/media/newmark.5c20554becf2f63bd85f.png",
@@ -46,10 +47,10 @@
     "static/media/neo4j.png": "/static/media/neo4j.38b6f21f29a2351c4ffd.png",
     "index.html": "/index.html",
     "main.9aa8f6e8.css.map": "/static/css/main.9aa8f6e8.css.map",
-    "main.d52293a6.js.map": "/static/js/main.d52293a6.js.map"
+    "main.a40d74fd.js.map": "/static/js/main.a40d74fd.js.map"
   },
   "entrypoints": [
     "static/css/main.9aa8f6e8.css",
-    "static/js/main.d52293a6.js"
+    "static/js/main.a40d74fd.js"
   ]
 }
