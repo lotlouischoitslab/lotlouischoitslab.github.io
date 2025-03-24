@@ -4,6 +4,7 @@ import img1 from '../images/grant.png';
 import img2 from '../images/uiuc.png';
 import img3 from '../images/FOB.png';
 import img4 from '../images/newmark.png'
+import img5 from '../images/fut_public_transit.png';
 
 class Awards extends React.Component {
   render() {
@@ -15,7 +16,7 @@ class Awards extends React.Component {
         
           <div className="awards-content">
               <div className="aimage-container">
-                <img src={img4} alt="Awards 3" className="awards-image" />
+                <img src={img5} alt="Awards 3" className="awards-image" />
               </div>
               <div className="awards-description">
                 <ul>
