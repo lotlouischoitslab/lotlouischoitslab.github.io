@@ -19,10 +19,11 @@ class Awards extends React.Component {
               </div>
               <div className="awards-description">
                 <ul>
-                  <li className="awards-subtitle">Bachelor of Science Honors</li>
-                  <li>May 2024</li>
-                  <li>Students receive the designation Honors if they have a cumulative University of Illinois at Urbana-Champaign 
-                    grade-point average of at least 3.5 at graduation (A = 4.0). </li>
+                  <li className="awards-subtitle">Charles E. DeLeuw Scholarship</li>
+                  <li>March 2025</li>
+                  <li>The Charles E. Deleuw Scholarship was endowed in 1970 by Mr. DeLeuw, founder of DeLeuw, Cather and Company, to enable 
+                    an outstanding civil engineering student to inspect urban public transportation systems in foreign countries. The inspection trip 
+                    was intended by Mr. DeLeuw to focus on urban and suburban rapid transit systems, a field to which he made many contributions.  </li>
                 </ul>
               </div>
             </div>
