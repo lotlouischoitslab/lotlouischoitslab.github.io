@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9aa8f6e8.css",
-    "main.js": "/static/js/main.bfd4f353.js",
+    "main.js": "/static/js/main.6f9b1957.js",
     "static/media/amtrak.jpg": "/static/media/amtrak.0bdea876f63c809fee28.jpg",
     "static/media/LSTM_NN.png": "/static/media/LSTM_NN.70968b10331d525b4af8.png",
     "static/media/transportation.png": "/static/media/transportation.dc7c91834f01398c5009.png",
@@ -10,12 +10,12 @@
     "static/media/fut_public_transit.png": "/static/media/fut_public_transit.78a9c91beecdbb793b82.png",
     "static/media/louis_id.png": "/static/media/louis_id.88f2b2f7f823c799316d.png",
     "static/media/ktx.png": "/static/media/ktx.3bd446dc60481a3b731e.png",
-    "static/media/chic_st_louis.png": "/static/media/chic_st_louis.b094a4491934c605b51c.png",
     "static/media/newmark.png": "/static/media/newmark.5c20554becf2f63bd85f.png",
     "static/media/graic.png": "/static/media/graic.c33f6f86e0da92ea6d27.png",
     "static/media/mof.png": "/static/media/mof.0143becdfcbd074cc5ff.png",
     "static/media/urban.png": "/static/media/urban.c7c3e023eb8da0509401.png",
     "static/media/instagram.png": "/static/media/instagram.88f88e4e58cd4b9b602d.png",
+    "static/media/chic_st_louis.png": "/static/media/chic_st_louis.03da8ea17bf20164fd4a.png",
     "static/media/X.png": "/static/media/X.d3edce5a665a357695c0.png",
     "static/media/a350.png": "/static/media/a350.cc5ee14f4f1e61c97cb5.png",
     "static/media/ktx_cheongryong.png": "/static/media/ktx_cheongryong.1a8fb95e3ff88a81c986.png",
@@ -49,10 +49,10 @@
     "static/media/neo4j.png": "/static/media/neo4j.38b6f21f29a2351c4ffd.png",
     "index.html": "/index.html",
     "main.9aa8f6e8.css.map": "/static/css/main.9aa8f6e8.css.map",
-    "main.bfd4f353.js.map": "/static/js/main.bfd4f353.js.map"
+    "main.6f9b1957.js.map": "/static/js/main.6f9b1957.js.map"
   },
   "entrypoints": [
     "static/css/main.9aa8f6e8.css",
-    "static/js/main.bfd4f353.js"
+    "static/js/main.6f9b1957.js"
   ]
 }
