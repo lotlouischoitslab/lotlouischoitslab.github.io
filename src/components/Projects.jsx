@@ -1,4 +1,6 @@
 import React from 'react'
+import graic from '../assets/graic.png' 
+import chic_st_louis from '../assets/chic_st_louis.png'
 import ktx_cheong from '../assets/ktx_cheongryong.png'
 import mof from '../assets/mof.png'
 import av_sim from '../assets/av_sim.png'
@@ -27,6 +29,38 @@ class Projects extends React.Component {
       </div>
       <div className='my-projects'>
         <div className='projects-container'>
+
+          {/*Grid Item */}
+          <div 
+            style={{ backgroundImage: `url(${graic})`,backgroundSize: '110%', height: '80%'}}
+            className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
+              {/*Hover*/}
+              <div className='hover-effect'>
+                <div className='centered-content'>
+                  <a href="">
+                    <button className='small-button'>GRAIC Autonomous Driving Race Competition</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+
+          {/*Grid Item */}
+          <div 
+            style={{ backgroundImage: `url(${chic_st_louis})`,backgroundSize: '110%', height: '80%'}}
+            className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
+              {/*Hover*/}
+              <div className='hover-effect'>
+                <div className='centered-content'>
+                  <a href="https://docs.google.com/presentation/d/1pj6C-knIghAueX_ljLOivago2Qncm7ppOQWKqFb2tOw/edit?usp=sharing">
+                    <button className='small-button'>Chicago to St. Louis High-speed Rail Proposal</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
 
 
           {/*Grid Item */}
