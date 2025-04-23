@@ -48,7 +48,7 @@ class Experiences extends React.Component {
           <div className="job-title">
               Graduate Representative | President @ Institute of Transportation Engineers (ITE) UIUC Chapter
             </div>
-            <div className="job-date">January 2025 - Present | August 2022 - May 2024 </div>
+            <div className="job-date">May 2024 - May 2025 | August 2022 - May 2024 </div>
   
             <div className="experience-content">
               <div className="experience-image-container">
@@ -56,13 +56,13 @@ class Experiences extends React.Component {
               </div>
               <div className="job-description">
                 <p>
-                  Since January 2025, I have held the position of Graduate Representative for the Institute of Transportation Engineers (ITE) 
+                  I am the Graduate Representative for the Institute of Transportation Engineers (ITE) 
                   at the UIUC Chapter. In this role, my primary responsibility is to cultivate and strengthen connections between undergraduate 
                   and graduate students within the field of transportation engineering. This involves organizing events, workshops, and informal
-                   gatherings that provide both networking opportunities and a platform for knowledge exchange. Additionally, I serve as a 
-                   mentor to prospective undergraduate students who express a strong interest in advancing to graduate studies. 
-                   I offer insights into the academic and professional areas of transportation engineering, assist mentees in navigating the 
-                   application process, and provide personalized advice on how to succeed in graduate school. 
+                  gatherings that provide both networking opportunities and a platform for knowledge exchange. Additionally, I serve as a 
+                  mentor to prospective undergraduate students who express a strong interest in advancing to graduate studies. 
+                  I offer insights into the academic and professional areas of transportation engineering, assist mentees in navigating the 
+                  application process, and provide personalized advice on how to succeed in graduate school. 
                 </p>
                 <p>
                   As President of the Institute of Transportation Engineers UIUC Chapter (ITE@UIUC), I was responsible for organizing 
