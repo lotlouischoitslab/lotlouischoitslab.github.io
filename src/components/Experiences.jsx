@@ -41,7 +41,6 @@ class Experiences extends React.Component {
           </div>
 
 
-
           <div className="experience-box">
           <div className="experience">
 
