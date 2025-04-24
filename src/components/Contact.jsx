@@ -5,6 +5,7 @@ import Github from '../assets/github.png'
 import CV_img from '../assets/cv.png'
 import CV from "../assets/Louis_Sungwoo_Cho_CV.pdf"
 import Insta from "../assets/instagram.png"
+import YT from "../assets/youtube.png"
 import Discord from "../assets/discord.png"
 import Meta from "../assets/meta_logo.png"
 import X from "../assets/X.png"
@@ -36,6 +37,13 @@ const Contact = () => {
             <a href= {CV}>
               <img className="social-link-image" src={CV_img} alt="CV icon"/>
               <p className="social-link-text">CV</p>
+            </a>
+          </div>
+
+          <div className="social-link">
+            <a href= 'https://www.youtube.com/@lotlouischo'>
+              <img className="social-link-image" src={YT} alt="YouTube icon"/>
+              <p className="social-link-text">YouTube</p>
             </a>
           </div>
 

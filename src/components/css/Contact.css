@@ -32,7 +32,7 @@
     width: 60%;
     display: grid;
     gap: 2em;
-    grid-template-columns: repeat(8,32%);
+    grid-template-columns: repeat(9,27%);
     align-items: center;
 }
 
@@ -86,9 +86,10 @@
   .contact-grid {
       display: grid;
       gap: 1.5em;
-      grid-template-columns: repeat(4, 25%);
+      grid-template-columns: repeat(3, 21%);
       align-items: center;
-      padding-left: 16%;
+      padding-left: 15%;
+      padding-right: 5%;
   }
 
   .social-link-text {
