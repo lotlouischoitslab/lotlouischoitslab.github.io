@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9aa8f6e8.css",
-    "main.js": "/static/js/main.fb1983f0.js",
+    "main.css": "/static/css/main.a1951847.css",
+    "main.js": "/static/js/main.c907eeb9.js",
     "static/media/amtrak.jpg": "/static/media/amtrak.0bdea876f63c809fee28.jpg",
     "static/media/LSTM_NN.png": "/static/media/LSTM_NN.70968b10331d525b4af8.png",
     "static/media/transportation.png": "/static/media/transportation.dc7c91834f01398c5009.png",
@@ -30,6 +30,7 @@
     "static/media/web.png": "/static/media/web.3b80828f6c0f4f6ae04d.png",
     "static/media/ohare.png": "/static/media/ohare.8391d3f02bf66f78ebf9.png",
     "static/media/grant.png": "/static/media/grant.0719b4c7cefb1ee897a6.png",
+    "static/media/youtube.png": "/static/media/youtube.82554c002b46a1b4aac1.png",
     "static/media/sql.png": "/static/media/sql.5f8a211c010a92959207.png",
     "static/media/Louis_Sungwoo_Cho_CV.pdf": "/static/media/Louis_Sungwoo_Cho_CV.abc23183897d2d9767a1.pdf",
     "static/media/discord.png": "/static/media/discord.0fa9e42d242583421fc8.png",
@@ -48,11 +49,11 @@
     "static/media/html.png": "/static/media/html.ff3cf75e3b7cbb4ea77c.png",
     "static/media/neo4j.png": "/static/media/neo4j.38b6f21f29a2351c4ffd.png",
     "index.html": "/index.html",
-    "main.9aa8f6e8.css.map": "/static/css/main.9aa8f6e8.css.map",
-    "main.fb1983f0.js.map": "/static/js/main.fb1983f0.js.map"
+    "main.a1951847.css.map": "/static/css/main.a1951847.css.map",
+    "main.c907eeb9.js.map": "/static/js/main.c907eeb9.js.map"
   },
   "entrypoints": [
-    "static/css/main.9aa8f6e8.css",
-    "static/js/main.fb1983f0.js"
+    "static/css/main.a1951847.css",
+    "static/js/main.c907eeb9.js"
   ]
 }
