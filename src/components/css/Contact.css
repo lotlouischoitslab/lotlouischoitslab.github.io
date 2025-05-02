@@ -78,7 +78,7 @@
 
 
 
-@media screen and (max-width: 720px) {
+@media only screen and (max-width: 720px){
   .contact-title {
       font-size: 30px;
       padding-left: 18%;
@@ -94,7 +94,7 @@
   }
 
   .social-link img {
-    width: 50px;
+    width: 100px;
     height: 50px;
     margin: auto;
   }
