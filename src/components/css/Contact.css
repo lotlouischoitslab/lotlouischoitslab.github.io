@@ -18,7 +18,7 @@
 
 .contact-title {
     padding-top: 5px;
-    padding-left: 39%;
+    padding-left: 40%;
     font-size: 60px;
     font-weight: bold;
     color: white;
@@ -28,7 +28,7 @@
 
 .contact-grid {
     padding-left: 15%;
-    padding-right: 25%;
+    padding-right: 23%;
     width: 60%;
     display: grid;
     gap: 2em;
@@ -55,7 +55,8 @@
   }
   
   .social-link img {
-    width: 95px;
+    width: 90px;
+    height: 90px;
     margin: auto;
   }
 
@@ -90,6 +91,12 @@
       align-items: center;
       padding-left: 15%;
       padding-right: 5%;
+  }
+
+  .social-link img {
+    width: 50px;
+    height: 50px;
+    margin: auto;
   }
 
   .social-link-text {
