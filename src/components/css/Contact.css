@@ -80,9 +80,11 @@
 @media only screen and (max-width: 720px) {
   .contact-title {
       font-size: 30px;
-      padding-left: 19%;
-      padding-right: 9%;
+      text-align: center;
+      padding: 10px 0;
+      margin: 0 auto;
   }
+
 
   .contact-grid {
     padding-left: 5%;
