@@ -78,7 +78,7 @@
 
 
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 480px) {
   .contact-title {
       font-size: 30px;
       padding-left: 19%;
