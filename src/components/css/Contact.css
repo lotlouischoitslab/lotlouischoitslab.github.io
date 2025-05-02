@@ -80,14 +80,14 @@
 @media only screen and (max-width: 720px) {
   .contact-title {
       font-size: 30px;
-      padding-left: 12%;
+      padding-left: 18%;
   }
 
   .contact-grid {
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
-    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(120px, 0.1fr));
     gap: 1em;
 }
 
