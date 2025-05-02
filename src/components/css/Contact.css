@@ -84,12 +84,13 @@
   }
 
   .contact-grid {
-      width: 100%;
-      padding-left: 6%;
-      padding-right: 5%;
-      grid-template-columns: repeat(3, 15%);
-      gap: 1em;
-  }
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 1em;
+}
+
 
   .social-link img {
       width: 60px;
