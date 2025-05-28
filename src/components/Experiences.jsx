@@ -17,7 +17,7 @@ class Experiences extends React.Component {
               <div className="job-title">
                 Graduate Research Assistant @ Smart City Laboratory, UIUC
               </div>
-              <div className="job-date">July 2024 - Present</div>
+              <div className="job-date">July 2024 - May 2025</div>
               <div className="experience-content">
                 <div className="experience-image-container">
                   <img src={img6} alt="Experience 1" className="experience-image" />
