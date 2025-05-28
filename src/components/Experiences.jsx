@@ -24,16 +24,14 @@ class Experiences extends React.Component {
                 </div>
                 <div className="job-description">
                   <p>
-                  I am pursuing my M.S. in Civil Engineering (Transportation) under Professor Alireza Talebpour in the 
-                  Department of Civil & Environmental Engineering at UIUC. For my main research, I am analyzing various control spacing models 
-                  such as constant spacing, constant time headway, traffic flow stability, constant safety factor, and intelligent driver model for 
-                  Adaptive Cruise Control (ACC) vehicles. I am also exploring how to leverage multi-agent deep 
-                  reinforcement learning for trajectory planning for efficient and safe car-following and lane-changing behaviors of 
-                  self-driving vehicles. In addition to this, I am collaborating on a motion planning and control development for a 
-                  self-driving vehicle project, which is currently being tested at the Illinois Center for Transportation in Rantoul, Illinois. 
-                  To simulate and validate planning and control algorithms on the physical vehicle, I use the Robot Operating System (ROS) to 
-                  assess vehicle dynamics. I also collaborate on a project that leverages the Waymo Open Dataset to study vehicle 
-                  motion behaviors, such as lane-changing patterns, to enhance our understanding of autonomous driving dynamics.
+                  I completed my M.S. in Civil Engineering (Transportation) under Professor Alireza Talebpour in the 
+                  Department of Civil & Environmental Engineering at UIUC. For my thesis, I analyzed various control spacing models 
+                  such as Constant Spacing; Constant Time Headway; Traffic Flow Stability; Constant Safety Factor; and Intelligent Driver Model for 
+                  autonomous vehicles. I worked on a project leveraging multi-agent deep reinforcement learning for trajectory 
+                  planning for efficient and safe car-following and lane-changing behaviors of self-driving vehicles. In addition to this, I contributed 
+                  to a motion planning and control development for a self-driving vehicle project, which is currently being tested at the Illinois Center 
+                  for Transportation in Rantoul, Illinois using Robot Operating System (ROS). I collaborated on a project using Waymo Open Dataset to 
+                  vehicle analyze motion behaviors, such as lane-changing patterns, to enhance our understanding of autonomous driving dynamics.
                   </p>
                 </div>
               </div>
