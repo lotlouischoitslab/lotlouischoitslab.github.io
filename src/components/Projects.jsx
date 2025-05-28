@@ -37,7 +37,7 @@ class Projects extends React.Component {
               {/*Hover*/}
               <div className='hover-effect'>
                 <div className='centered-content'>
-                  <a href="">
+                  <a href="https://youtu.be/PtBUiRwEzz0">
                     <button className='small-button'>GRAIC Autonomous Driving Race Competition</button>
                   </a>
                 </div>
