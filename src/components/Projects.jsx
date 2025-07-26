@@ -33,7 +33,7 @@ class Projects extends React.Component {
         <div className='projects-container'>
 
 
-                  {/*Grid Item */}
+          {/*Grid Item */}
           <div 
             style={{ backgroundImage: `url(${charles})`,backgroundSize: '110%', height: '80%'}}
             className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
