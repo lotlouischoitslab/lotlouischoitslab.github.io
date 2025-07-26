@@ -1,4 +1,6 @@
 import React from 'react'
+import travel_report from '../assets/Louis_Charles_Travel_Report.pdf'
+import charles from '../assets/charles.jpg'
 import graic from '../assets/graic.png' 
 import chic_st_louis from '../assets/chic_st_louis.png'
 import ktx_cheong from '../assets/ktx_cheongryong.png'
@@ -29,6 +31,22 @@ class Projects extends React.Component {
       </div>
       <div className='my-projects'>
         <div className='projects-container'>
+
+
+                  {/*Grid Item */}
+          <div 
+            style={{ backgroundImage: `url(${charles})`,backgroundSize: '110%', height: '80%'}}
+            className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
+              {/*Hover*/}
+              <div className='hover-effect'>
+                <div className='centered-content'>
+                  <a href={travel_report}>
+                    <button className='small-button'>Charles De Leuw Travel Report</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
 
           {/*Grid Item */}
           <div 
