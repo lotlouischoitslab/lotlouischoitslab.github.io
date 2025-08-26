@@ -4,7 +4,7 @@ import Linkedin from '../assets/linkedinlogo.png'
 import Github from '../assets/github.png'
 import CV_img from '../assets/cv.png'
 import CV_Academic from "../assets/Louis_Academic_CV.pdf"
-import CV_Industry from "../assets/Louis_Industry_Cho_CV.pdf"
+import CV_Industry from "../assets/Louis_Industry_CV.pdf"
 import Insta from "../assets/instagram.png"
 import YT from "../assets/youtube.png"
 import Discord from "../assets/discord.png"
