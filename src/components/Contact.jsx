@@ -3,7 +3,8 @@ import './css/Contact.css'
 import Linkedin from '../assets/linkedinlogo.png'
 import Github from '../assets/github.png'
 import CV_img from '../assets/cv.png'
-import CV from "../assets/Louis_Sungwoo_Cho_CV.pdf"
+import CV_Academic from "../assets/Louis_Academic_CV.pdf"
+import CV_Industry from "../assets/Louis_Industry_Cho_CV.pdf"
 import Insta from "../assets/instagram.png"
 import YT from "../assets/youtube.png"
 import Discord from "../assets/discord.png"
@@ -34,9 +35,16 @@ const Contact = () => {
           </div>
 
           <div className="social-link">
-            <a href= {CV}>
+            <a href= {CV_Academic}>
               <img className="social-link-image" src={CV_img} alt="CV icon"/>
-              <p className="social-link-text">CV</p>
+              <p className="social-link-text">Academic CV</p>
+            </a>
+          </div>
+
+          <div className="social-link">
+            <a href= {CV_Industry}>
+              <img className="social-link-image" src={CV_img} alt="CV icon"/>
+              <p className="social-link-text">Industry CV</p>
             </a>
           </div>
 
