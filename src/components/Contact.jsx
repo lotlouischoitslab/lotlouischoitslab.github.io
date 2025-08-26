@@ -2,6 +2,7 @@ import React from 'react'
 import './css/Contact.css'
 import Linkedin from '../assets/linkedinlogo.png'
 import Github from '../assets/github.png'
+import Academic_img from '../assets/academic_img.png'
 import CV_img from '../assets/cv.png'
 import CV_Academic from "../assets/Louis_Academic_CV.pdf"
 import CV_Industry from "../assets/Louis_Industry_CV.pdf"
@@ -36,7 +37,7 @@ const Contact = () => {
 
           <div className="social-link">
             <a href= {CV_Academic}>
-              <img className="social-link-image" src={CV_img} alt="CV icon"/>
+              <img className="social-link-image" src={Academic_img} alt="CV icon"/>
               <p className="social-link-text">Academic CV</p>
             </a>
           </div>
