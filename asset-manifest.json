@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4f16ad67.css",
-    "main.js": "/static/js/main.b6a30dc6.js",
+    "main.css": "/static/css/main.d178253f.css",
+    "main.js": "/static/js/main.d4cb002f.js",
     "static/media/Louis_Charles_Travel_Report.pdf": "/static/media/Louis_Charles_Travel_Report.95a6525828d4a75e1148.pdf",
     "static/media/charles.jpg": "/static/media/charles.fdfef94247b7d8fe831e.jpg",
     "static/media/amtrak.jpg": "/static/media/amtrak.0bdea876f63c809fee28.jpg",
@@ -52,11 +52,11 @@
     "static/media/html.png": "/static/media/html.ff3cf75e3b7cbb4ea77c.png",
     "static/media/neo4j.png": "/static/media/neo4j.38b6f21f29a2351c4ffd.png",
     "index.html": "/index.html",
-    "main.4f16ad67.css.map": "/static/css/main.4f16ad67.css.map",
-    "main.b6a30dc6.js.map": "/static/js/main.b6a30dc6.js.map"
+    "main.d178253f.css.map": "/static/css/main.d178253f.css.map",
+    "main.d4cb002f.js.map": "/static/js/main.d4cb002f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f16ad67.css",
-    "static/js/main.b6a30dc6.js"
+    "static/css/main.d178253f.css",
+    "static/js/main.d4cb002f.js"
   ]
 }
