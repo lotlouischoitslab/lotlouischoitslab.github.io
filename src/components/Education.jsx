@@ -17,10 +17,10 @@ class Education extends React.Component {
                 <div className="education-description">
                   <ul>
                     <li className="place-title">University of Illinois at Urbana-Champaign (UIUC)</li>
-                    <li>July 2024 - May 2025 (Expected)</li>
-                    <li>M.S in Civil Engineering (Transportation)</li>
+                    <li>July 2024 - May 2025 </li>
+                    <li>M.S. in Civil Engineering (Transportation)</li>
                     <li>August 2020 - May 2024</li>
-                    <li>B.S Honors in Civil Engineering (Transportation)</li>
+                    <li>B.S. Honors in Civil Engineering (Transportation)</li>
                     <li>Minor in Computer Science</li>
                   </ul>
                 </div>
