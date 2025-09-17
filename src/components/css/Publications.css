@@ -6,6 +6,11 @@
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .publications ul {
+    margin-bottom: 20px; /* Adjust value as needed */
+   }
+
   
   .publications-title { 
     font-size: 70px;
@@ -26,7 +31,7 @@
   
   .place-title {
     color: white;
-    font-style: italic;
+    font-style: Arial;
     font-size: 25px;
   }
 
