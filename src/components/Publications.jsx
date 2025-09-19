@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/Publications.css';
-import louis_cee497 from '../assets/Louis_CEE497_Independent_Study_Report.pdf'
+import louis_cee497 from '../assets/Louis_CEE497_Thesis.pdf'
 
 
 class Publications extends React.Component {
@@ -22,7 +22,7 @@ class Publications extends React.Component {
                 <a href={louis_cee497}>
                     <li className="place-title"> 
                       Cho, L. S. (2024). Trajectory Reconstruction Based on Probabilistic Time-Space Diagram. 
-                      <br/>CEE 497 Independent Study Report advised by Prof. Alireza Talebpour </li> 
+                      <br/>CEE 497 Senior Thesis advised by Prof. Alireza Talebpour </li> 
                     
                 </a> 
  
