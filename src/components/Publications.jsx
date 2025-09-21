@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/Publications.css';
+import louis_thesis from '../assets/Louis_Sungwoo_Cho_MS_Thesis.pdf'
 import louis_cee497 from '../assets/Louis_CEE497_Thesis.pdf'
 
 
@@ -17,12 +18,24 @@ class Publications extends React.Component {
                     
                 </a> 
               </ul>
+        
+              <ul>
+                <a href={louis_thesis}>
+                    <li className="place-title"> 
+                    Cho, L. S. (2025). Evaluating Control Spacing Strategies for Autonomous Vehicles. 
+                    <br/>Master’s Thesis, University of Illinois Urbana-Champaign.  </li> 
+                    
+                </a> 
+ 
+              
+              </ul>
+
 
               <ul>
                 <a href={louis_cee497}>
                     <li className="place-title"> 
                       Cho, L. S. (2024). Trajectory Reconstruction Based on Probabilistic Time-Space Diagram. 
-                      <br/>CEE 497 Senior Thesis advised by Prof. Alireza Talebpour </li> 
+                      <br/>CEE 497 Senior Independent Study Thesis advised by Prof. Alireza Talebpour </li> 
                     
                 </a> 
  
