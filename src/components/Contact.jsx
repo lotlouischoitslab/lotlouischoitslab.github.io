@@ -38,7 +38,7 @@ const Contact = () => {
           <div className="social-link">
             <a href= {CV_Academic}>
               <img className="social-link-image" src={Academic_img} alt="CV icon"/>
-              <p className="social-link-text">Academic CV</p>
+              <p className="social-link-text">CV</p>
             </a>
           </div>
 
