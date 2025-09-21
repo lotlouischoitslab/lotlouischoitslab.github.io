@@ -14,7 +14,7 @@ class Publications extends React.Component {
                 <ul>  
                 <a href="">
                     <li className="place-title"> 
-                      Cho, L. S., & Talebpour, A. (2025). Evaluating Control Spacing Strategies for Autonomous Vehicles.<br/>Under review in the ASCE Journal of Transportation Engineering, Part A: Systems. </li> 
+                      Cho, L. S, Talebpour. A. (2025) Evaluating Longitudinal Control Strategies for Autonomous Vehicles.<br/>Under review in the ASCE Journal of Transportation Engineering, Part A: Systems. </li> 
                     
                 </a> 
               </ul>
@@ -22,7 +22,7 @@ class Publications extends React.Component {
               <ul>
                 <a href={louis_thesis}>
                     <li className="place-title"> 
-                    Cho, L. S. (2025). Evaluating Control Spacing Strategies for Autonomous Vehicles. 
+                    Cho, L. S. (2025) Evaluating and Comparing Longitudinal Control Strategies for Autonomous Vehicles. 
                     <br/>Master’s Thesis, University of Illinois Urbana-Champaign.  </li> 
                     
                 </a> 
