@@ -73,7 +73,7 @@ class Experiences extends React.Component {
                   Civil Engineering (Transportation) majors and Computer Science majors and minors, offering guidance on curriculum 
                   planning and coursework selection. Moreover, I actively represented ITE@UIUC within the UIUC Engineering Council 
                   Organization, participating in various volunteering activities that benefited both the university community and the 
-                  field of transportation engineering.
+                  transportation engineering enthusiasts.
                 </p>
               </div>
             </div>
