@@ -27,8 +27,8 @@ class Experiences extends React.Component {
                   I completed my M.S. in Civil Engineering (Transportation) under Professor Alireza Talebpour in the 
                   Department of Civil & Environmental Engineering at UIUC. For my thesis, I analyzed various control spacing models 
                   such as Constant Spacing; Constant Time Headway; Traffic Flow Stability; Constant Safety Factor; and Intelligent Driver Model for 
-                  autonomous vehicles. I worked on a project leveraging multi-agent deep reinforcement learning for trajectory 
-                  planning for efficient and safe car-following and lane-changing behaviors of self-driving vehicles. In addition to this, I contributed 
+                  autonomous vehicles. In addition to my thesis research, I also contributed to analyzing and simulating traffic flow and controls for mixed 
+                  autonomy environment. In addition to this, I contributed 
                   to a motion planning and control development for a self-driving vehicle project, which is currently being tested at the Illinois Center 
                   for Transportation in Rantoul, Illinois using Robot Operating System (ROS). I collaborated on a project using Waymo Open Dataset to 
                   vehicle analyze motion behaviors, such as lane-changing patterns, to enhance our understanding of autonomous driving dynamics.
