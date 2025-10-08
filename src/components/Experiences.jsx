@@ -15,7 +15,7 @@ class Experiences extends React.Component {
           <div className="experience-box">
             <div className="experience">
               <div className="job-title">
-                Graduate Research Assistant @ Smart City Laboratory, UIUC
+                Graduate Research Assistant @ UIUC
               </div>
               <div className="job-date">July 2024 - May 2025</div>
               <div className="experience-content">
@@ -88,7 +88,7 @@ class Experiences extends React.Component {
         <div className="experience-box"> 
           <div className="experience">
             <div className="job-title">
-              Undergraduate Research Assistant @ Smart City Laboratory, UIUC
+              Undergraduate Research Assistant @ UIUC
             </div>
 
             <div className="job-date">May 2023 - May 2024</div>
@@ -152,33 +152,11 @@ class Experiences extends React.Component {
             </div>
           </div>
         </div> */}
+ 
 
         <div className="experience-box">
           <div className="experience">
-            <div className="job-title">
-              Undergraduate Researcher @ Human-Centered Autonomy Laboratory, UIUC
-            </div>
-            <div className="job-date">January 2023 - May 2023</div>
-            <div className="experience-content">
-              <div className="experience-image-container">
-                <img src={img2} alt="Experience 5" className="experience-image" />
-              </div>
-              <div className="job-description">
-                <p>
-                I assisted Professor Katherine Driggs-Campbell in the Electrical & Computer Engineering Department at UIUC in a collaborative 
-                project primarily revolved around optimizing the TransFuser networks in the CARLA Self-driving Car Simulator. I was mainly in 
-                charge of designing a motion-planning algorithm by leveraging various Deep Reinforcement Learning and Computer Vision methods for 
-                traffic simulation. The primary goal was to optimize the trajectory planning of self-driving cars by assessing the effectiveness 
-                of the TransFuser networks.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="experience-box">
-          <div className="experience">
-            <div className="job-title">Research Assistant @ Reliable Autonomy Group, UIUC</div>
+            <div className="job-title">Undergraduate Researcher @ UIUC</div>
             <div className="job-date">May 2022 - August 2022</div>
             <div className="experience-content">
               <div className="experience-image-container">
