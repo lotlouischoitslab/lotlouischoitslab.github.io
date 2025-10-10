@@ -20,7 +20,7 @@ class Home extends React.Component {
                   
               <FadeIn delay={1000}>
                 <span className="sub-title">
-                    Computational Transportation Science Student
+                    Avid Computational Transportation Science Enthusiast
                 </span>
                 <div className = "bio">
                   I am Louis Sungwoo Cho (조성우), an avid Computational Transportation Science Enthusiast
