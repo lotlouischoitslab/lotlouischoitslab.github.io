@@ -6,6 +6,7 @@ import Academic_img from '../assets/academic_img.png'
 import CV_img from '../assets/cv.png'
 import CV_Academic from "../assets/Louis_CV.pdf"
 import Resume from "../assets/Louis_Resume.pdf"
+import Scholar from "../assets/Google_Scholar_logo.png"
 import Insta from "../assets/instagram.png"
 import YT from "../assets/youtube.png"
 import Discord from "../assets/discord.png"
@@ -46,6 +47,13 @@ const Contact = () => {
             <a href= {Resume}>
               <img className="social-link-image" src={CV_img} alt="CV icon"/>
               <p className="social-link-text">Resume</p>
+            </a>
+          </div>
+
+          <div className="social-link">
+            <a href= 'https://scholar.google.com/citations?user=scwfRdoAAAAJ&hl=en'>
+              <img className="social-link-image" src={Scholar} alt="CV icon"/>
+              <p className="social-link-text">Google Scholar</p>
             </a>
           </div>
 
