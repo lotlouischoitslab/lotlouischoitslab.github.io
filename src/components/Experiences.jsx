@@ -25,13 +25,18 @@ class Experiences extends React.Component {
                 <div className="job-description">
                   <p>
                   I completed my M.S. in Civil Engineering (Transportation) under Professor Alireza Talebpour in the 
-                  Department of Civil & Environmental Engineering at UIUC. For my thesis, I analyzed various control spacing models 
-                  such as Constant Spacing; Constant Time Headway; Traffic Flow Stability; Constant Safety Factor; and Intelligent Driver Model for 
-                  autonomous vehicles. In addition to my thesis research, I also contributed to analyzing and simulating traffic flow and controls for mixed 
-                  autonomy environment. In addition to this, I contributed 
-                  to a motion planning and control development for a self-driving vehicle project, which is currently being tested at the Illinois Center 
-                  for Transportation in Rantoul, Illinois using Robot Operating System (ROS). I collaborated on a project using Waymo Open Dataset to 
-                  vehicle analyze motion behaviors, such as lane-changing patterns, to enhance our understanding of autonomous driving dynamics.
+                  Department of Civil and Environmental Engineering at the University of Illinois Urbana–Champaign (UIUC). 
+                  My thesis focused on evaluating various control spacing models for autonomous vehicles, including Constant 
+                  Spacing, Constant Time Headway, Traffic Flow Stability, Constant Safety Factor, and the Intelligent Driver 
+                  Model (IDM). I analyzed their effects on traffic flow performance, stability, and safety under different 
+                  operational conditions. In addition to my thesis, I contributed to multiple research projects on mixed 
+                  autonomy environments, examining the flow and control dynamics of heterogeneous and homogeneous vehicle 
+                  populations and investigating the hysteresis phenomena in traffic systems. I also worked on 
+                  motion planning and control development for a self-driving vehicle, implemented using the Robot Operating 
+                  System (ROS), which is currently being tested at the Illinois Center for Transportation (ICT) in Rantoul, 
+                  Illinois. Furthermore, I collaborated on a study utilizing the Waymo Open Dataset to analyze vehicular 
+                  motion behaviors—such as lane-changing patterns—to improve understanding of autonomous driving dynamics 
+                  and interaction models.
                   </p>
                 </div>
               </div>
@@ -58,11 +63,13 @@ class Experiences extends React.Component {
                 </div>
                 <div className="job-description">
                   <p>
-                  I collaborated with Professor Alireza Talebpour in the Department of Civil & Environmental Engineering (Transportation) 
-                  at UIUC on a research to develop a Trajectory Re-identification Prediction Algorithm using Probabilistic Time-space Diagrams by 
-                  integrating Artificial Intelligence into fundamental macroscopic concepts in Traffic Flow Theory. The main objective was to 
-                  integrate Convolutional Social Pooling model which predicts vehicular trajectories to safely re-identify missing trajectory data 
-                  for each vehicles due to complex traffic environment dynamics, especially when passing underneath overpasses.  
+                    I collaborated with Professor Alireza Talebpour in the Department of Civil and Environmental Engineering (Transportation) 
+                    at the University of Illinois Urbana–Champaign on developing a Trajectory Re-identification Prediction Algorithm using 
+                    probabilistic time–space diagrams. The primary objective of this research was to integrate a Convolutional Social Pooling (CSP) 
+                    model to predict vehicular trajectories and re-identify missing trajectory data under occlusion scenarios—such as when 
+                    vehicles pass beneath overpasses or through areas with low visibility. I trained and tested vehicular trajectory datasets 
+                    using a deep neural network (DNN) framework and evaluated the model’s accuracy in reconstructing realistic and continuous 
+                    vehicle paths.
                   </p>
                 </div>
               </div>

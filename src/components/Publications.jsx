@@ -23,7 +23,7 @@ class Publications extends React.Component {
                 <a href={louis_thesis}>
                     <li className="place-title"> 
                     Cho, L. S. (2025) Evaluating and Comparing Longitudinal Control Strategies for Autonomous Vehicles. 
-                    <br/>Master’s Thesis, University of Illinois Urbana-Champaign.  </li> 
+                    <br/>Master’s Thesis, University of Illinois Urbana-Champaign advised by Prof. Alireza Talebpour.  </li> 
                     
                 </a> 
  
@@ -35,7 +35,7 @@ class Publications extends React.Component {
                 <a href={louis_cee497}>
                     <li className="place-title"> 
                       Cho, L. S. (2024). Trajectory Reconstruction Based on Probabilistic Time-Space Diagram. 
-                      <br/>CEE 497 Senior Independent Study Thesis advised by Prof. Alireza Talebpour </li> 
+                      <br/>CEE 497 Senior Independent Study Thesis advised by Prof. Alireza Talebpour. </li> 
                     
                 </a> 
  
