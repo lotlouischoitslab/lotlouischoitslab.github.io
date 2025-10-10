@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ba684a2.css",
-    "main.js": "/static/js/main.bcece547.js",
+    "main.css": "/static/css/main.73575087.css",
+    "main.js": "/static/js/main.e5970105.js",
     "static/media/Louis_Sungwoo_Cho_MS_Thesis.pdf": "/static/media/Louis_Sungwoo_Cho_MS_Thesis.9c9f6491f9b083f6b6ea.pdf",
     "static/media/Louis_Charles_Travel_Report.pdf": "/static/media/Louis_Charles_Travel_Report.95a6525828d4a75e1148.pdf",
     "static/media/charles.jpg": "/static/media/charles.fdfef94247b7d8fe831e.jpg",
@@ -34,6 +34,7 @@
     "static/media/spaceship.png": "/static/media/spaceship.87f2b425612b818346ac.png",
     "static/media/web.png": "/static/media/web.3b80828f6c0f4f6ae04d.png",
     "static/media/ohare.png": "/static/media/ohare.8391d3f02bf66f78ebf9.png",
+    "static/media/Google_Scholar_logo.png": "/static/media/Google_Scholar_logo.bb097d9ba6a041ee325d.png",
     "static/media/grant.png": "/static/media/grant.0719b4c7cefb1ee897a6.png",
     "static/media/sql.png": "/static/media/sql.5f8a211c010a92959207.png",
     "static/media/academic_img.png": "/static/media/academic_img.f90a5a1a491ac36e195c.png",
@@ -53,11 +54,11 @@
     "static/media/html.png": "/static/media/html.ff3cf75e3b7cbb4ea77c.png",
     "static/media/neo4j.png": "/static/media/neo4j.38b6f21f29a2351c4ffd.png",
     "index.html": "/index.html",
-    "main.1ba684a2.css.map": "/static/css/main.1ba684a2.css.map",
-    "main.bcece547.js.map": "/static/js/main.bcece547.js.map"
+    "main.73575087.css.map": "/static/css/main.73575087.css.map",
+    "main.e5970105.js.map": "/static/js/main.e5970105.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ba684a2.css",
-    "static/js/main.bcece547.js"
+    "static/css/main.73575087.css",
+    "static/js/main.e5970105.js"
   ]
 }
