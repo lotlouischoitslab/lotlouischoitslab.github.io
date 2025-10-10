@@ -35,7 +35,7 @@ class Experiences extends React.Component {
                   motion planning and control development for a self-driving vehicle, implemented using the Robot Operating 
                   System (ROS), which is currently being tested at the Illinois Center for Transportation (ICT) in Rantoul, 
                   Illinois. Furthermore, I collaborated on a study utilizing the Phoenix Robotaxi Dataset to analyze vehicular 
-                  motion behaviors—such as lane-changing patterns—to improve understanding of autonomous driving dynamics 
+                  motion behaviors such as lane-changing patterns to improve understanding of autonomous driving dynamics 
                   and interaction models.
                   </p>
                 </div>
@@ -66,7 +66,7 @@ class Experiences extends React.Component {
                     I collaborated with Professor Alireza Talebpour in the Department of Civil and Environmental Engineering (Transportation) 
                     at the University of Illinois Urbana–Champaign on developing a Trajectory Re-identification Prediction Algorithm using 
                     probabilistic time–space diagrams. The primary objective of this research was to integrate a Convolutional Social Pooling (CSP) 
-                    model to predict vehicular trajectories and re-identify missing trajectory data under occlusion scenarios—such as when 
+                    model to predict vehicular trajectories and re-identify missing trajectory data under occlusion scenarios such as when 
                     vehicles pass beneath overpasses or through areas with low visibility. I trained and tested vehicular trajectory datasets 
                     using a deep neural network (DNN) framework and evaluated the model’s accuracy in reconstructing realistic and continuous 
                     vehicle paths.
