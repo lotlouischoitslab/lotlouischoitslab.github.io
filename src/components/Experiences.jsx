@@ -15,7 +15,7 @@ class Experiences extends React.Component {
           <div className="experience-box">
             <div className="experience">
               <div className="job-title">
-                Graduate Research Assistant @ UIUC
+                Graduate Research Assistant | CEE@UIUC
               </div>
               <div className="job-date">July 2024 - May 2025</div>
               <div className="experience-content">
@@ -48,7 +48,7 @@ class Experiences extends React.Component {
         <div className="experience-box"> 
           <div className="experience">
             <div className="job-title">
-              Undergraduate Research Assistant @ UIUC
+              Undergraduate Research Assistant | CEE@UIUC
             </div>
 
             <div className="job-date">May 2023 - May 2024</div>
@@ -92,7 +92,7 @@ class Experiences extends React.Component {
 
         <div className="experience-box">
           <div className="experience">
-            <div className="job-title">Undergraduate Researcher @ UIUC</div>
+            <div className="job-title">Undergraduate Researcher | ECE@UIUC</div>
             <div className="job-date">May 2022 - August 2022</div>
             <div className="experience-content">
               <div className="experience-image-container">
