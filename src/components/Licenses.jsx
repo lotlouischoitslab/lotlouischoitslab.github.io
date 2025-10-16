@@ -16,9 +16,12 @@ class Licenses extends React.Component {
                 </div>
                 <div className="licenses-description">
                   <ul>
+                    <a href="https://www.credly.com/badges/c6b2f5ce-9144-4a01-b2a9-902670f9b4ff/public_url">
                     <li className="place-title">Engineer in Training (E.I.T), Civil Engineering </li>
                     <li>October 2025 </li>
                     <li>Issued by National Council of Examiners for Engineering and Surveying (NCEES)</li>
+                    </a>
+
                     
                   </ul>
                 </div>
