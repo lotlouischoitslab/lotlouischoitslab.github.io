@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
 import Education from './components/Education'
+import Licenses from './components/Licenses'
 import Experiences from './components/Experiences'
 import Publications from './components/Publications'
 import Awards from './components/Awards'
@@ -16,6 +17,7 @@ function App() {
       <Home/>
       <About/>
       <Education />
+      <Licenses/>
       <Experiences/>
       <Publications/>
       <Awards/>

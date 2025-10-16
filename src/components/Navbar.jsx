@@ -51,6 +51,16 @@ const Navbar = () => {
             </Link>
             </li>
 
+                        <li
+            className={hoveredItem === 'licenses' ? 'nav-item-hover' : ''}
+            onMouseEnter={() => setHoveredItem('licenses')}
+            onMouseLeave={() => setHoveredItem(null)}
+            >
+            <Link to="licenses" smooth={true} duration={500}>
+                LICENSES
+            </Link>
+            </li>
+
             <li
             className={hoveredItem === 'experiences' ? 'nav-item-hover' : ''}
             onMouseEnter={() => setHoveredItem('experiences')}
