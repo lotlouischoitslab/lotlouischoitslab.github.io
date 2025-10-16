@@ -37,7 +37,7 @@
 }
 
 .licenses-image-container {
-  flex: 0 0 160px; /* Grow, Shrink, Base, Adjust the flex value to control the size of the circle */
+  flex: 0 0 200px; /* Grow, Shrink, Base, Adjust the flex value to control the size of the circle */
   height: 150px;
   margin-right: 10px; /* Add margin-right for spacing */
   border-radius: 50%; /* Create a circle shape */
@@ -51,14 +51,14 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 50%; /* Maintain circular shape for the image */
+  border-radius: 70%; /* Maintain circular shape for the image */
 }
 
 .licenses-description {
   color: white;
-  font-size: 23px;
+  font-size: 25px;
   line-height: 1.4;
-  margin-left: 5px; /* Adjust margin-left to create spacing between the circle and the description */
+  /*margin-left: 5px; /* Adjust margin-left to create spacing between the circle and the description */
 }
 
 .licenses-description p {
