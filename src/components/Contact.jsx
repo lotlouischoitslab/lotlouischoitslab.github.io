@@ -23,7 +23,7 @@ const Contact = () => {
       </div>
       <div className="contact-grid">
         <div className="social-link">
-            <a href="https://www.linkedin.com/in/louis-sungwoo-cho-978502194/">
+            <a href="https://www.linkedin.com/in/louis-sungwoo-cho/">
               <img className="social-link-image" src={Linkedin} alt="Linkedin icon" />
               <p className="social-link-text">LinkedIn</p>
             </a>
