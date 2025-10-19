@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c3d300d.css",
-    "main.js": "/static/js/main.b7aa860d.js",
+    "main.css": "/static/css/main.b1ee4f87.css",
+    "main.js": "/static/js/main.54cfc457.js",
     "static/media/Louis_Sungwoo_Cho_MS_Thesis.pdf": "/static/media/Louis_Sungwoo_Cho_MS_Thesis.9c9f6491f9b083f6b6ea.pdf",
     "static/media/Louis_Charles_Travel_Report.pdf": "/static/media/Louis_Charles_Travel_Report.95a6525828d4a75e1148.pdf",
     "static/media/charles.jpg": "/static/media/charles.fdfef94247b7d8fe831e.jpg",
@@ -42,7 +42,6 @@
     "static/media/academic_img.png": "/static/media/academic_img.f90a5a1a491ac36e195c.png",
     "static/media/discord.png": "/static/media/discord.0fa9e42d242583421fc8.png",
     "static/media/ite_uiuc.png": "/static/media/ite_uiuc.258c15e4eb7580343182.png",
-    "static/media/seoul_sub1.png": "/static/media/seoul_sub1.81072933766ceb849300.png",
     "static/media/github.png": "/static/media/github.37185c9cf4a283bc2611.png",
     "static/media/cpp.png": "/static/media/cpp.a03992cb2a84d27d11dc.png",
     "static/media/meta_logo.png": "/static/media/meta_logo.d69cb74d75713772046d.png",
@@ -56,11 +55,11 @@
     "static/media/html.png": "/static/media/html.ff3cf75e3b7cbb4ea77c.png",
     "static/media/neo4j.png": "/static/media/neo4j.38b6f21f29a2351c4ffd.png",
     "index.html": "/index.html",
-    "main.8c3d300d.css.map": "/static/css/main.8c3d300d.css.map",
-    "main.b7aa860d.js.map": "/static/js/main.b7aa860d.js.map"
+    "main.b1ee4f87.css.map": "/static/css/main.b1ee4f87.css.map",
+    "main.54cfc457.js.map": "/static/js/main.54cfc457.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c3d300d.css",
-    "static/js/main.b7aa860d.js"
+    "static/css/main.b1ee4f87.css",
+    "static/js/main.54cfc457.js"
   ]
 }
