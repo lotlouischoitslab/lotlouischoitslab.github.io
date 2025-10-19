@@ -36,7 +36,7 @@ class Projects extends React.Component {
           
           {/*Grid Item */}
           <div 
-            style={{ backgroundImage: `url(${LOT_STEM})`,backgroundSize: '110%', height: '80%'}}
+            style={{ backgroundImage: `url(${LOT_STEM})`}}
             className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
               {/*Hover*/}
               <div className='hover-effect'>
@@ -52,7 +52,7 @@ class Projects extends React.Component {
 
           {/*Grid Item */}
           <div 
-            style={{ backgroundImage: `url(${charles})`,backgroundSize: '110%', height: '80%'}}
+            style={{ backgroundImage: `url(${charles})`}}
             className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
               {/*Hover*/}
               <div className='hover-effect'>
@@ -67,7 +67,7 @@ class Projects extends React.Component {
 
           {/*Grid Item */}
           <div 
-            style={{ backgroundImage: `url(${graic})`,backgroundSize: '110%', height: '80%'}}
+            style={{ backgroundImage: `url(${graic})`}}
             className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
               {/*Hover*/}
               <div className='hover-effect'>
@@ -83,7 +83,7 @@ class Projects extends React.Component {
 
           {/*Grid Item */}
           <div 
-            style={{ backgroundImage: `url(${chic_st_louis})`,backgroundSize: '110%', height: '80%'}}
+            style={{ backgroundImage: `url(${chic_st_louis})`}}
             className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
               {/*Hover*/}
               <div className='hover-effect'>
@@ -100,7 +100,7 @@ class Projects extends React.Component {
 
           {/*Grid Item */}
           <div 
-            style={{ backgroundImage: `url(${ktx_cheong})`,backgroundSize: '110%', height: '80%'}}
+            style={{ backgroundImage: `url(${ktx_cheong})`}}
             className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
               {/*Hover*/}
               <div className='hover-effect'>
@@ -115,7 +115,7 @@ class Projects extends React.Component {
 
           {/*Grid Item */}
           <div 
-            style={{ backgroundImage: `url(${mof})`,backgroundSize: '110%', height: '80%'}}
+            style={{ backgroundImage: `url(${mof})`}}
             className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
               {/*Hover*/}
               <div className='hover-effect'>
@@ -130,7 +130,7 @@ class Projects extends React.Component {
 
           {/*Grid Item */}
           <div 
-            style={{ backgroundImage: `url(${av_sim})`,backgroundSize: '110%', height: '80%'}}
+            style={{ backgroundImage: `url(${av_sim})`}}
             className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
               {/*Hover*/}
               <div className='hover-effect'>
@@ -147,7 +147,7 @@ class Projects extends React.Component {
 
           {/*Grid Item */}
           <div 
-            style={{ backgroundImage: `url(${cav_road})`,backgroundSize: '110%', height: '80%'}}
+            style={{ backgroundImage: `url(${cav_road})`}}
             className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
               {/*Hover*/}
               <div className='hover-effect'>
@@ -161,7 +161,7 @@ class Projects extends React.Component {
 
           {/*Grid Item */}
           <div 
-            style={{ backgroundImage: `url(${spaceship})`,backgroundSize: '130%', height: '80%'}}
+            style={{ backgroundImage: `url(${spaceship})`}}
             className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
               {/*Hover*/}
               <div className='hover-effect'>
@@ -176,7 +176,7 @@ class Projects extends React.Component {
 
           {/*Grid Item */}
           <div 
-            style={{ backgroundImage: `url(${transpo})`,backgroundSize: '130%', height: '80%'}}
+            style={{ backgroundImage: `url(${transpo})`}}
             className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
               {/*Hover*/}
               <div className='hover-effect'>
@@ -192,7 +192,7 @@ class Projects extends React.Component {
 
         {/*Grid Item */}
         <div 
-          style={{ backgroundImage: `url(${cumtd})`,backgroundSize: '110%', height: '80%'}}
+          style={{ backgroundImage: `url(${cumtd})`}}
           className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
             {/*Hover*/}
             <div className='hover-effect'>
@@ -208,7 +208,7 @@ class Projects extends React.Component {
 
         {/*Grid Item */}
         <div 
-          style={{ backgroundImage: `url(${ohare})`,backgroundSize: '110%', height: '80%'}}
+          style={{ backgroundImage: `url(${ohare})`}}
           className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
             {/*Hover*/}
             <div className='hover-effect'>
@@ -225,7 +225,7 @@ class Projects extends React.Component {
 
           {/*Grid Item*/}
           <div 
-          style={{ backgroundImage: `url(${ktx})`,backgroundSize: '115%', height: '90%'}}
+          style={{ backgroundImage: `url(${ktx})`}}
           className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/*Hover*/}
@@ -241,7 +241,7 @@ class Projects extends React.Component {
  
 
           {/*Grid Item*/}
-          <div style={{ backgroundImage: `url(${airline})`,backgroundSize: '100%', height: '90%'}}
+          <div style={{ backgroundImage: `url(${airline})`}}
           className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'
           >            
             {/*Hover*/}
@@ -258,7 +258,7 @@ class Projects extends React.Component {
 
 
           <div 
-          style={{ backgroundImage: `url(${amtrak})`,backgroundSize: '100%', height: '90%'}}
+          style={{ backgroundImage: `url(${amtrak})`}}
           className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/*Hover*/}
@@ -273,7 +273,7 @@ class Projects extends React.Component {
 
           {/*Grid Item*/}
           <div
-          style={{ backgroundImage: `url(${web})`,backgroundSize: '100%', height: '90%'}}
+          style={{ backgroundImage: `url(${web})`}}
           className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/*Hover*/}
@@ -291,7 +291,7 @@ class Projects extends React.Component {
 
         {/*Grid Item */}
         <div 
-          style={{ backgroundImage: `url(${urban})`,backgroundSize: '110%', height: '90%'}}
+          style={{ backgroundImage: `url(${urban})`}}
           className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
             {/*Hover*/}
             <div className='hover-effect'>
