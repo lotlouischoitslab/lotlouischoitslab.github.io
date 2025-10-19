@@ -1,14 +1,23 @@
-/* Section */ 
+/* ===== Projects (final with navbar + mobile caption) ===== */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+:root { --nav-h: 72px; } /* set this to match your actual navbar height */
+
+/* Section sits below fixed navbar; black full-bleed look */
 .projects {
+  position: relative;
+  z-index: 0;                          /* below the navbar layer */
   width: 100%;
   min-height: 100vh;
   background: #000;
   color: #fff;
-  padding-top: 2rem;
+  padding-top: calc(var(--nav-h) + 2rem);
   padding-bottom: 6rem;
 }
 
-/* Inner container: add left/right padding here */
+/* Inner container: consistent side padding + anchor offset safety */
 #projectsid {
   display: flex;
   flex-direction: column;
@@ -16,98 +25,131 @@
   gap: 1rem;
   width: 100%;
   margin: 0 auto;
-  padding: 3rem 8%;    
+  padding: 3rem 8%;
+  scroll-margin-top: calc(var(--nav-h) + 8px);
 }
-
 
 /* Title & description */
-.projects-title{
+.projects-title {
   margin: 0;
-  font-size: clamp(2rem, 3vw + 1rem, 3.5rem);
   font-weight: 800;
   text-decoration: underline;
-  padding: 0;                           /* remove left padding */
+  line-height: 1.15;
+  font-size: clamp(2rem, 3vw + 1rem, 3.5rem);
 }
-.projects-description{
+
+.projects-description {
   margin: 0;
-  font-size: clamp(1rem, .6vw + .9rem, 1.25rem);
-  width: 100%;
-  max-width: 70ch;
-  padding: 0;                           /* remove left padding */
   color: #fff;
+  opacity: 0.95;
+  max-width: 70ch;
+  font-size: clamp(1rem, 0.6vw + 0.9rem, 1.25rem);
 }
 
-/* Stop squeezing the grid wrapper */
-.my-projects{
-  width: 100%;
-  display: block;
-  padding: 0;
-}
+/* Wrapper */
+.my-projects { width: 100%; display: block; padding: 0; }
 
-/* —— THE GRID —— */
-/* Desktop (>=1200px): 3 columns by default; tweak as you like */
-.projects-container{
+/* Grid: desktop 3 cols, stack below 1200px, optional 4 cols ultra-wide */
+.projects-container {
   width: 100%;
-  padding: 2rem 0;
   display: grid;
   gap: 1rem;
+  padding: 2rem 0;
   grid-auto-rows: minmax(180px, auto);
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
-
-/* As soon as we "escape computer screen size" (<1200px): stack to 1 col */
-@media (max-width: 1199px){
-  .projects-container{
-    grid-template-columns: 1fr;
-  }
-}
-
-/* (Optional) Really wide screens (>=1600px): 4 columns */
-@media (min-width: 1600px){
-  .projects-container{
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-}
+@media (max-width: 1199px) { .projects-container { grid-template-columns: 1fr; } }
+@media (min-width: 1600px) { .projects-container { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 
 /* Cards */
-.content-div{
-  width: 100%;                          /* was 80% — causes narrow columns */
+.content-div {
+  width: 100%;
   min-height: 220px;
+  position: relative;
+  overflow: hidden;
   border-radius: 12px;
+  background-color: #101012;           /* behind image */
   background-position: center;
-  background-size: cover;               /* lets your inline bg images fill */
   background-repeat: no-repeat;
+  background-size: cover;               /* fill tile cleanly */
   box-shadow: 0 6px 18px rgba(0,0,0,.25);
   border: 1px solid #1f1f22;
   padding: 0;
-  position: relative;
-  overflow: hidden;
+  z-index: 0;                           /* keep below navbar */
 }
 
-/* Hover overlay: visible on touch, fade-in on hover desktop */
-.hover-effect{
-  position: absolute; inset: 0;
+/* Overlay (desktop hover) */
+.hover-effect {
+  position: absolute;
+  inset: 0;
   display: flex;
   background: rgba(0,0,0,.35);
-  opacity: 1;
+  opacity: 0;                           /* hidden until hover on desktop */
   transition: opacity .25s ease, background-color .25s ease;
 }
-@media (hover:hover) and (pointer:fine){
-  .hover-effect{ opacity: 0; }
-  .content-div:hover .hover-effect{ opacity: 1; background: rgba(0,0,0,.5); }
+@media (hover: hover) and (pointer: fine) {
+  .content-div:hover .hover-effect {
+    opacity: 1;
+    background: rgba(0,0,0,.5);
+  }
 }
 
-.centered-content{
+/* Keyboard/tap accessibility */
+.content-div:focus-within .hover-effect,
+.content-div:active .hover-effect {
+  opacity: 1;
+  background: rgba(0,0,0,.5);
+}
+
+/* Center overlay content (desktop) */
+.centered-content {
   margin: auto;
   padding: 1rem;
-  display: flex; justify-content: center; align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.small-button{
+/* Button */
+.small-button {
   font-size: .95rem;
   padding: .6rem 1rem;
-  background: #fff; color: #000;
-  border: 0; border-radius: 8px; font-weight: 700; cursor: pointer;
+  background: #fff;
+  color: #000;
+  border: 0;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
   transition: transform .12s ease, background-color .25s ease, opacity .25s ease;
 }
-.small-button:hover{ transform: translateY(-1px); }
+.small-button:hover { transform: translateY(-1px); }
+
+/* Mobile: always show a bottom caption bar (no hover on touch) */
+@media (max-width: 720px) {
+  .hover-effect {
+    opacity: 1;
+    background: linear-gradient(to top, rgba(0,0,0,.6), rgba(0,0,0,0) 60%);
+    align-items: flex-end;
+    padding: 12px;
+  }
+  .centered-content {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start; /* change to center if you prefer */
+    align-items: center;
+  }
+  .small-button {
+    font-size: 0.95rem;
+    padding: 0.5rem 0.75rem;
+    background: rgba(255,255,255,0.92);
+    color: #000;
+    border-radius: 8px;
+  }
+  #projectsid { padding: 2rem 5%; }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * { transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
+}
