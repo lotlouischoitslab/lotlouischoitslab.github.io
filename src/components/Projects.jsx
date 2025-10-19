@@ -1,4 +1,5 @@
 import React from 'react'
+import LOT_STEM from '../assets/stem.png'
 import travel_report from '../assets/Louis_Charles_Travel_Report.pdf'
 import charles from '../assets/charles.jpg'
 import graic from '../assets/graic.png' 
@@ -31,6 +32,22 @@ class Projects extends React.Component {
       </div>
       <div className='my-projects'>
         <div className='projects-container'>
+
+          
+          {/*Grid Item */}
+          <div 
+            style={{ backgroundImage: `url(${LOT_STEM})`,backgroundSize: '110%', height: '80%'}}
+            className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
+              {/*Hover*/}
+              <div className='hover-effect'>
+                <div className='centered-content'>
+                  <a href="https://lotlouischoitslab.github.io/lotlouischo_stem_club.github.io/">
+                    <button className='small-button'>LOTLOUISCHO STEM CLUB</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
 
 
           {/*Grid Item */}
