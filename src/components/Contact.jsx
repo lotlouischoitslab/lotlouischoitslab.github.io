@@ -19,7 +19,7 @@ const Contact = () => {
   return (
     <div name='contact' className="contact" id = "contactid">
       <div className="contact-title">
-          CONTACT
+          CONTACTS
       </div>
       <div className="contact-grid">
         <div className="social-link">
