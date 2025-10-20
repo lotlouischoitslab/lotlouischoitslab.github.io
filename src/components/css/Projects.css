@@ -24,13 +24,7 @@
   text-align: center;
 }
 
-.projects-description {
-  font-size: 25px;
-  color: white;
-  text-align: center;
-  margin-top: 8px;
-  max-width: 800px;
-}
+ 
 
 /* =====================================
    💠 Grid Container
@@ -44,10 +38,10 @@
 .projects-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5em;
+  gap: 1.1em;
   width: 100%;
   max-width: 1400px;
-  padding-top: 1%;
+  padding-top: 0.5%; 
   box-sizing: border-box;
 }
 
@@ -60,7 +54,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 10px;
+  border-radius: 5px;
   overflow: hidden;
   position: relative;
   transition: transform 0.3s ease;
@@ -133,9 +127,7 @@
     font-size: 30px;
   }
 
-  .projects-description {
-    font-size: 14px;
-  }
+  
 
   .projects-container {
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -155,9 +147,7 @@
     font-size: 40px;
   }
 
-  .projects-description {
-    font-size: 18px;
-  }
+ 
 
   .projects-container {
     grid-template-columns: repeat(2, 1fr);
