@@ -12,10 +12,10 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1rem;
-  width: 100%;
-  margin: 0 auto;
-  padding: 3rem 8%;    
+  padding-top: 3%;
+  padding-left: 8%;
+  padding-right: 20%;
+  padding-bottom: 20%; 
 }
 
 .contact-title {
@@ -78,10 +78,12 @@
 
 /* ---------- Responsive Media Query (Phones) ---------- */
 @media only screen and (max-width: 720px) {
-    .contact-title {
-        font-size: 30px;
-        padding-left: 8%;
-    }  
+  .contact-title {
+      font-size: 30px;
+      text-align: center;
+      padding: 15px 0;
+      margin: 0 auto;
+  }
 
 
   .contact-grid {
@@ -89,7 +91,7 @@
     padding-right: 5%;
     display: grid;
     grid-auto-rows: minmax(100px, auto); /* Adjustable height, minimum 100px */
-    grid-template-columns: repeat(2, minmax(80px, 0.1fr)); /* Adjustable width, minimum 200px */
+    grid-template-columns: repeat(2, minmax(120px, 0.1fr)); /* Adjustable width, minimum 200px */
     
 }
 

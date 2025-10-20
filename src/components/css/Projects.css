@@ -1,155 +1,160 @@
-/* ===== Projects (final with navbar + mobile caption) ===== */
-*,
-*::before,
-*::after { box-sizing: border-box; }
-
-:root { --nav-h: 72px; } /* set this to match your actual navbar height */
-
-/* Section sits below fixed navbar; black full-bleed look */
+/* =====================================
+   🎯 Overall Layout Container
+===================================== */
 .projects {
-  position: relative;
-  z-index: 0;                          /* below the navbar layer */
   width: 100%;
-  min-height: 100vh;
-  background: #000;
-  color: #fff;
-  padding-top: calc(var(--nav-h) + 2rem);
-  padding-bottom: 6rem;
+  background-color: black;
+  padding-top: 2%;
+  padding-bottom: 15%;
 }
 
-/* Inner container: consistent side padding + anchor offset safety */
 #projectsid {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 1rem;
-  width: 100%;
-  margin: 0 auto;
-  padding: 3rem 8%;
-  scroll-margin-top: calc(var(--nav-h) + 8px);
+  align-items: center;
+  padding: 5%;
 }
 
-/* Title & description */
 .projects-title {
-  margin: 0;
-  font-weight: 800;
+  padding-top: 3%;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
   text-decoration: underline;
-  line-height: 1.15;
-  font-size: clamp(2rem, 3vw + 1rem, 3.5rem);
+  text-align: center;
 }
 
 .projects-description {
-  margin: 0;
-  color: #fff;
-  opacity: 0.95;
-  max-width: 70ch;
-  font-size: clamp(1rem, 0.6vw + 0.9rem, 1.25rem);
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  margin-top: 8px;
+  max-width: 800px;
 }
 
-/* Wrapper */
-.my-projects { width: 100%; display: block; padding: 0; }
-
-/* Grid: desktop 3 cols, stack below 1200px, optional 4 cols ultra-wide */
-.projects-container {
+/* =====================================
+   💠 Grid Container
+===================================== */
+.my-projects {
   width: 100%;
-  display: grid;
-  gap: 1rem;
-  padding: 2rem 0;
-  grid-auto-rows: minmax(180px, auto);
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  display: flex;
+  justify-content: center;
 }
-@media (max-width: 1199px) { .projects-container { grid-template-columns: 1fr; } }
-@media (min-width: 1600px) { .projects-container { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 
-/* Cards */
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5em;
+  width: 100%;
+  max-width: 1400px;
+  padding: 5%;
+  box-sizing: border-box;
+}
+
+/* =====================================
+   🧱 Individual Project Card
+===================================== */
 .content-div {
   width: 100%;
-  min-height: 220px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 12px;
-  background-color: #101012;           /* behind image */
+  aspect-ratio: 16/9; /* Maintain aspect ratio */
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;               /* fill tile cleanly */
-  box-shadow: 0 6px 18px rgba(0,0,0,.25);
-  border: 1px solid #1f1f22;
-  padding: 0;
-  z-index: 0;                           /* keep below navbar */
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease;
 }
 
-/* Overlay (desktop hover) */
+/* Optional: Add hover scaling */
+.content-div:hover {
+  transform: scale(1.02);
+}
+
+/* =====================================
+   🖱 Hover Overlay
+===================================== */
 .hover-effect {
   position: absolute;
   inset: 0;
-  display: flex;
-  background: rgba(0,0,0,.35);
-  opacity: 0;                           /* hidden until hover on desktop */
-  transition: opacity .25s ease, background-color .25s ease;
-}
-@media (hover: hover) and (pointer: fine) {
-  .content-div:hover .hover-effect {
-    opacity: 1;
-    background: rgba(0,0,0,.5);
-  }
-}
-
-/* Keyboard/tap accessibility */
-.content-div:focus-within .hover-effect,
-.content-div:active .hover-effect {
-  opacity: 1;
-  background: rgba(0,0,0,.5);
-}
-
-/* Center overlay content (desktop) */
-.centered-content {
-  margin: auto;
-  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: opacity 0.3s ease;
 }
 
-/* Button */
+.content-div:hover .hover-effect {
+  opacity: 1;
+}
+
+/* =====================================
+   🔘 Button Inside Overlay
+===================================== */
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
 .small-button {
-  font-size: .95rem;
-  padding: .6rem 1rem;
-  background: #fff;
-  color: #000;
-  border: 0;
-  border-radius: 8px;
-  font-weight: 700;
+  font-size: 14px;
+  padding: 10px 16px;
+  background-color: #ffffff;
+  font-weight: bold;
+  color: #000000;
+  border-radius: 5px;
+  text-align: center;
+  white-space: normal;
   cursor: pointer;
-  transition: transform .12s ease, background-color .25s ease, opacity .25s ease;
+  transition: background-color 0.3s ease;
 }
-.small-button:hover { transform: translateY(-1px); }
 
-/* Mobile: always show a bottom caption bar (no hover on touch) */
-@media (max-width: 720px) {
-  .hover-effect {
-    opacity: 1;
-    background: linear-gradient(to top, rgba(0,0,0,.6), rgba(0,0,0,0) 60%);
-    align-items: flex-end;
-    padding: 12px;
+.small-button:hover {
+  background-color: #ddd;
+}
+
+/* =====================================
+   📱 Phone (≤ 720px)
+===================================== */
+@media only screen and (max-width: 720px) {
+  .projects-title {
+    font-size: 30px;
   }
-  .centered-content {
-    margin: 0;
-    width: 100%;
-    display: flex;
-    justify-content: flex-start; /* change to center if you prefer */
-    align-items: center;
+
+  .projects-description {
+    font-size: 14px;
   }
+
+  .projects-container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
   .small-button {
-    font-size: 0.95rem;
-    padding: 0.5rem 0.75rem;
-    background: rgba(255,255,255,0.92);
-    color: #000;
-    border-radius: 8px;
+    font-size: 12px;
+    padding: 8px 12px;
   }
-  #projectsid { padding: 2rem 5%; }
 }
 
-/* Reduced motion */
-@media (prefers-reduced-motion: reduce) {
-  * { transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
+/* =====================================
+   💻 Tablet (721px–1024px)
+===================================== */
+@media only screen and (max-width: 1024px) and (min-width: 721px) {
+  .projects-title {
+    font-size: 40px;
+  }
+
+  .projects-description {
+    font-size: 18px;
+  }
+
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .small-button {
+    font-size: 13px;
+  }
 }
