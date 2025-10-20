@@ -1,6 +1,5 @@
 import React from 'react';
-import './css/Publications.css';
-import louis_thesis from '../assets/Louis_Sungwoo_Cho_MS_Thesis.pdf'
+import './css/Publications.css'; 
 import louis_cee497 from '../assets/Louis_CEE497_Thesis.pdf'
 
 
@@ -20,7 +19,7 @@ class Publications extends React.Component {
               </ul>
         
               <ul>
-                <a href={louis_thesis}>
+                <a href="https://www.ideals.illinois.edu/items/136229">
                     <li className="place-title"> 
                     Cho, L. S. (2025) Evaluating and Comparing Longitudinal Control Strategies for Autonomous Vehicles. 
                     <br/>Master’s Thesis, University of Illinois Urbana-Champaign advised by Prof. Alireza Talebpour.  </li> 
