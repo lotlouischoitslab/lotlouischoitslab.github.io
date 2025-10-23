@@ -1,5 +1,5 @@
 /* =====================================
-   🎯 Overall Layout Container
+   Overall Layout Container
 ===================================== */
 .projects {
   width: 100%;
@@ -27,7 +27,7 @@
  
 
 /* =====================================
-   💠 Grid Container
+   Grid Container
 ===================================== */
 .my-projects {
   width: 100%;
@@ -46,7 +46,7 @@
 }
 
 /* =====================================
-   🧱 Individual Project Card
+   Individual Project Card
 ===================================== */
 .content-div {
   width: 100%;
@@ -65,7 +65,7 @@
 }
 
 /* =====================================
-   🖱 Hover Overlay
+   Hover Overlay
 ===================================== */
 .hover-effect {
   position: absolute;
@@ -79,20 +79,20 @@
   pointer-events: none; /* allow clicks to pass through */
 }
 
-/* ✅ Desktop: show on hover */
+/* Desktop: show on hover */
 .content-div:hover .hover-effect {
   opacity: 1;
   pointer-events: auto;
 }
 
-/* ✅ Mobile: show when focused */
+/* Mobile: show when focused */
 .content-div:focus-within .hover-effect {
   opacity: 1;
   pointer-events: auto;
 }
 
 /* =====================================
-   🔘 Button Inside Overlay
+   Button Inside Overlay
 ===================================== */
 .centered-content {
   display: flex;
@@ -120,7 +120,7 @@
 }
 
 /* =====================================
-   📱 Phone (≤ 720px)
+   Phone (≤ 720px)
 ===================================== */
 @media only screen and (max-width: 720px) {
   .projects-title {
