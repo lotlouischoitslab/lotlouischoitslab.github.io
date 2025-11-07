@@ -11,15 +11,13 @@ class About extends React.Component {
                 </div>
                 <div className="about-box">
                     <div className="about-bio">
-                        I was born in Boston, Massachusetts, and spent 9 years living in the United States before moving to Seoul, South Korea, 
-                        where I lived for 11 years. I returned to the U.S and currently live in Champaign-Urbana, Illinois. My fascination with 
-                        transportation has been a lifelong passion, and I enjoy traveling by airplanes, trains, buses, and cars. With the 
-                        advancements in AI and IoT, I am particularly interested in Intelligent Transportation Systems (ITS) and specialize in Motion 
-                        Planning and Decision-Making Algorithms utilizing Deep Reinforcement Learning and Computer Vision for Autonomous Vehicles. 
-                        Being fluent in both English and Korean allows me to navigate and communicate effectively in diverse settings. In my free time, 
-                        I listen and sing Korean pop and rap songs, taste the flavors of Korean cuisine, and watch Korean movies and dramas. I also 
-                        enjoy exploring the capabilities of ChatGPT. Looking ahead, I have ambitious plans to pursue graduate studies in order to
-                        fulfill my dream of becoming a Computational Transportation Scientist, propelling me further in this exciting field.
+                        I was born in Boston, Massachusetts, then lived in Seoul, South Korea for 11 years before moving back 
+                        to the U.S. I’m currently in Champaign–Urbana, Illinois. Growing up in two different countries made me 
+                        bilingual in English and Korean and gave me a unique look at how cities move people around. I’ve always
+                        loved transportation systems such as Robotaxis, cars, planes, trains, and buses. That curiosity led me 
+                        into Intelligent Transportation Systems and eventually into autonomous vehicle research. Outside of 
+                        engineering, I like traveling, listening to pop music, trying different foods, and watching movies.
+
                     </div>
                     <div className='about-img-container'>
                         <img src={Louis} className='about-image'/>
