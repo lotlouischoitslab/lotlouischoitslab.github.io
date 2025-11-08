@@ -11,9 +11,9 @@ class About extends React.Component {
                 </div>
                 <div className="about-box">
                     <div className="about-bio">
-                        I was born in Boston, Massachusetts, then lived in Seoul, South Korea for 11 years before moving back 
-                        to the U.S. I’m currently in Champaign–Urbana, Illinois. Growing up in two different countries made me 
-                        bilingual in English and Korean and gave me a unique look at how cities move people around. I’ve always
+                        I’m currently in Champaign–Urbana, Illinois. Originally, I was born in Boston, Massachusetts and lived there for 9
+                        years before moving to Seoul, South Korea and grew up in Seoul for 11 years. Experiencing two different countries made 
+                        me bilingual in English and Korean and gave me a unique look at how cities move people around. I’ve always
                         loved transportation systems such as Robotaxis, cars, planes, trains, and buses. That curiosity led me 
                         into Intelligent Transportation Systems and eventually into autonomous vehicle research. Outside of 
                         engineering, I like traveling, listening to pop music, trying different foods, and watching movies.
