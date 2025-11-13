@@ -11,12 +11,14 @@ class About extends React.Component {
                 </div>
                 <div className="about-box">
                     <div className="about-bio">
-                        I’m currently in Champaign–Urbana, Illinois. Originally, I was born in Boston, Massachusetts and lived there for 9
-                        years before moving to Seoul, South Korea and grew up in Seoul for 11 years. Experiencing two different countries made 
-                        me bilingual in English and Korean and gave me a unique look at how cities move people around. I’ve always
-                        loved transportation systems such as Robotaxis, cars, planes, trains, and buses. That curiosity led me 
-                        into Intelligent Transportation Systems and eventually into autonomous vehicle research. Outside of 
-                        engineering, I like traveling, listening to pop music, trying different foods, and watching movies.
+                        I will be moving to Chicago, Illinois. Originally, I was born in Boston, Massachusetts and lived there for 9
+                        years before moving to Seoul, South Korea and grew up in Seoul for 11 years. I moved to Champaign-Urbana area to pursue 
+                        a M.S. and B.S. Honors in Civil Engineering specializing in Transportation and to minor in Computer Science. 
+                        Experiencing two different countries made me bilingual in English and Korean and gave me a unique look at how cities 
+                        move people around. I’ve always loved transportation systems such as Robotaxis, cars, planes, trains, and buses. That 
+                        curiosity led me into Intelligent Transportation Systems and eventually into autonomous vehicle research. Outside of 
+                        engineering, I like traveling, listening to pop music, playing around with the Rubik's cube, trying different foods, 
+                        and watching movies.
 
                     </div>
                     <div className='about-img-container'>
