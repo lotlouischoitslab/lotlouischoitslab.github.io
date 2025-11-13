@@ -7,7 +7,7 @@ class Publications extends React.Component {
   render() {
     return (
       <div id="publications" name="publications" className="publications">
-        <div className="publications-title">PUBLICATIONS & MANUSCRIPTS</div>
+        <div className="publications-title">PUBLICATIONS</div>
           <div className="publications-box">
             <div className="publications"> 
                 <ul>  

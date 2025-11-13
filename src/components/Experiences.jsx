@@ -1,17 +1,42 @@
 import React from 'react';
 import './css/Experiences.css';
-import img6 from '../images/autonomy_transportation.png'
-import img5 from '../images/av_trajectory.png';
-import img4 from '../images/GPT.png';
-import img3 from '../images/ite_uiuc.png';
-import img2 from '../images/hca.png';
-import img1 from '../images/opendrive.png';
+import img5 from '../images/parsons.png'
+import img4 from '../images/autonomy_transportation.png'
+import img3 from '../images/av_trajectory.png';
+import img2 from '../images/GPT.png';
+import img1 from '../images/ite_uiuc.png';
+import img0 from '../images/opendrive.png';
 
 class Experiences extends React.Component {
   render() {
     return (
       <div id="experiences" name="experiences" className="experiences">
         <div className="experiences-title">EXPERIENCES</div> 
+
+          <div className="experience-box">
+            <div className="experience">
+              <div className="job-title">
+                Software Engineer | Parsons Corporation
+              </div>
+              <div className="job-date">December 2025 - Present</div>
+              <div className="experience-content">
+                <div className="experience-image-container">
+                  <img src={img5}  className="experience-image" />
+                </div>
+                <div className="job-description">
+                  <p>
+                  I will be working at Parsons Corporation Chicago Office as a Software Engineer working with the Chicago Department of 
+                  Transportation (CDOT) on projects related to Transportation Systems Management and Operations (TSMO).
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
           <div className="experience-box">
             <div className="experience">
               <div className="job-title">
@@ -20,7 +45,7 @@ class Experiences extends React.Component {
               <div className="job-date">July 2024 - May 2025</div>
               <div className="experience-content">
                 <div className="experience-image-container">
-                  <img src={img6} alt="Experience 1" className="experience-image" />
+                  <img src={img4}  className="experience-image" />
                 </div>
                 <div className="job-description">
                   <p>
@@ -59,7 +84,7 @@ class Experiences extends React.Component {
             <div className="job-date">May 2023 - May 2024</div>
               <div className="experience-content">
                 <div className="experience-image-container">
-                  <img src={img5} alt="Experience 2" className="experience-image" />
+                  <img src={img3} className="experience-image" />
                 </div>
                 <div className="job-description">
                   <p>
@@ -76,7 +101,7 @@ class Experiences extends React.Component {
   
               <div className="experience-content">
                 <div className="experience-image-container">
-                  <img src={img4} alt="Experience 3" className="experience-image" />
+                  <img src={img2}  className="experience-image" />
                 </div>
                 <div className="job-description">
                   <p>
@@ -103,7 +128,7 @@ class Experiences extends React.Component {
             <div className="job-date">May 2022 - August 2022</div>
             <div className="experience-content">
               <div className="experience-image-container">
-                <img src={img1} alt="Experience 6" className="experience-image" />
+                <img src={img1} className="experience-image" />
               </div>
               <div className="job-description">
                 <p>
@@ -129,17 +154,16 @@ class Experiences extends React.Component {
   
             <div className="experience-content">
               <div className="experience-image-container">
-                <img src={img3} alt="Experience 4" className="experience-image" />
+                <img src={img0} className="experience-image" />
               </div>
               <div className="job-description">
                 <p>
-                  I am the Graduate Representative for the Institute of Transportation Engineers (ITE) 
-                  at the UIUC Chapter. In this role, my primary responsibility is to cultivate and strengthen connections between undergraduate 
-                  and graduate students within the field of transportation engineering. This involves organizing events, workshops, and informal
-                  gatherings that provide both networking opportunities and a platform for knowledge exchange. Additionally, I serve as a 
-                  mentor to prospective undergraduate students who express a strong interest in advancing to graduate studies. 
-                  I offer insights into the academic and professional areas of transportation engineering, assist mentees in navigating the 
-                  application process, and provide personalized advice on how to succeed in graduate school. 
+                  I served as the Graduate Representative for the Institute of Transportation Engineers (ITE) 
+                  at the UIUC Chapter. My role was to cultivate and strengthen connections between undergraduate 
+                  and graduate students within the field of transportation engineering. This involved organizing events, workshops, and informal
+                  gatherings that provide both networking opportunities and a platform for knowledge exchange. Additionally, I mentored prospective 
+                  undergraduate students who express a strong interest in advancing to graduate studies. I even had an amazing opportunity collaborating 
+                  on a feasibility study for a high-speed rail from Chicago to St. Louis.
                 </p>
                 <p>
                   As President of the Institute of Transportation Engineers UIUC Chapter (ITE@UIUC), I was responsible for organizing 
