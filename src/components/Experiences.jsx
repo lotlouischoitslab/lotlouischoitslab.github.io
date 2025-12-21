@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/Experiences.css';
-import img5 from '../images/parsons.png'
+import img5 from '../images/cdot.png'
 import img4 from '../images/autonomy_transportation.png'
 import img3 from '../images/av_trajectory.png';
 import img2 from '../images/GPT.png';
@@ -16,7 +16,7 @@ class Experiences extends React.Component {
           <div className="experience-box">
             <div className="experience">
               <div className="job-title">
-                Software Engineer | Parsons Corporation
+                Traffic Engineering Consultant | CDOT
               </div>
               <div className="job-date">December 2025 - Present</div>
               <div className="experience-content">
@@ -25,8 +25,8 @@ class Experiences extends React.Component {
                 </div>
                 <div className="job-description">
                   <p>
-                  I will be working at Parsons Corporation Chicago Office as a Software Engineer working with the Chicago Department of 
-                  Transportation (CDOT) on projects related to Transportation Systems Management and Operations (TSMO).
+                  I currently work as a Traffic Engineering Consultant for the City of Chicago Department of Transportation (CDOT) employed 
+                  by Parson's subcontractor Alrek. I mostly work on coordinating with traffic signals and to prioritize buses. 
                   </p>
                 </div>
               </div>

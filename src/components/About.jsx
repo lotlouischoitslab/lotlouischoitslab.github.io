@@ -11,7 +11,7 @@ class About extends React.Component {
                 </div>
                 <div className="about-box">
                     <div className="about-bio">
-                        I will be moving to Chicago, Illinois. Originally, I was born in Boston, Massachusetts and lived there for 9
+                        I currently work at Chicago, Illinois. Originally, I was born in Boston, Massachusetts and lived there for 9
                         years before moving to Seoul, South Korea and grew up in Seoul for 11 years. I moved to Champaign-Urbana area to pursue 
                         a M.S. and B.S. Honors in Civil Engineering specializing in Transportation and to minor in Computer Science. 
                         Experiencing two different countries made me bilingual in English and Korean and gave me a unique look at how cities 
