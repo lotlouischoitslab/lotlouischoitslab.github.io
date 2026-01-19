@@ -16,7 +16,7 @@ class Experiences extends React.Component {
           <div className="experience-box">
             <div className="experience">
               <div className="job-title">
-                Traffic Engineering Consultant | CDOT
+                Engineering Consultant | Alrek, Client: Chicago Department Of Transportation
               </div>
               <div className="job-date">December 2025 - Present</div>
               <div className="experience-content">
@@ -25,8 +25,10 @@ class Experiences extends React.Component {
                 </div>
                 <div className="job-description">
                   <p>
-                  I currently work as a Traffic Engineering Consultant for the City of Chicago Department of Transportation (CDOT) employed 
-                  by Parson's subcontractor Alrek. I mostly work on coordinating with traffic signals and to prioritize buses. 
+                  I am coordinating multiple CDOT ITS and traffic operations projects by managing schedules, deliverables, and stakeholder communication across CDOT teams, vendors, and consultants.
+                  Likewise, I am also monitoring ITS device and corridor performance using Advanced Traffic Management System (ATMS), Chicago Traffic Tracker, and Miovision; identifying expediencies and follow-up tracking.
+                  I currently assist with resolving traffic volume discrepancies between Miovision and R-Shiny dashboards to CDOT staff and support maintenance and deployment.
+                  I also am currently supporting Transit Signal Priority (TSP) projects in Chicago by coordinating operational needs and coordinating procurement.
                   </p>
                 </div>
               </div>
