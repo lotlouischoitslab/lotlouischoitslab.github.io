@@ -1,6 +1,8 @@
 import React from 'react';
 import './css/Experiences.css';
-import img5 from '../images/cdot.png'
+
+import img6 from '../images/cdot.png';
+import img5 from '../images/alrek.png';
 import img4 from '../images/autonomy_transportation.png'
 import img3 from '../images/av_trajectory.png';
 import img2 from '../images/GPT.png';
@@ -16,12 +18,12 @@ class Experiences extends React.Component {
           <div className="experience-box">
             <div className="experience">
               <div className="job-title">
-                Engineering Consultant | Alrek, Client: Chicago Department Of Transportation
+                Engineering Consultant | Chicago Department Of Transportation
               </div>
               <div className="job-date">December 2025 - Present</div>
               <div className="experience-content">
                 <div className="experience-image-container">
-                  <img src={img5}  className="experience-image" />
+                  <img src={img6}  className="experience-image" /> 
                 </div>
                 <div className="job-description">
                   <p>
@@ -29,6 +31,28 @@ class Experiences extends React.Component {
                   Likewise, I am also monitoring ITS device and corridor performance using Advanced Traffic Management System (ATMS), Chicago Traffic Tracker, and Miovision; identifying expediencies and follow-up tracking.
                   I currently assist with resolving traffic volume discrepancies between Miovision and R-Shiny dashboards to CDOT staff and support maintenance and deployment.
                   I also am currently supporting Transit Signal Priority (TSP) projects in Chicago by coordinating operational needs and coordinating procurement.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="experience-box">
+            <div className="experience">
+              <div className="job-title">
+                Engineering Consultant | Alrek 
+              </div>
+              <div className="job-date">December 2025 - Present</div>
+              <div className="experience-content">
+                <div className="experience-image-container">
+                  <img src={img5}  className="experience-image" /> 
+                </div>
+                <div className="job-description">
+                  <p>
+                  I work as an Engineering Consultant supporting CDOT through Alrek Business Solutions. I coordinate 
+                  cross-functional ITS projects and provide technical support, reporting, and stakeholder communication 
+                  across CDOT teams and external vendors.
                   </p>
                 </div>
               </div>
