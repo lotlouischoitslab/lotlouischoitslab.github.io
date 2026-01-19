@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6d9d296a.css",
-    "main.js": "/static/js/main.b86b0a72.js",
+    "main.js": "/static/js/main.18027032.js",
     "static/media/Louis_Charles_Travel_Report.pdf": "/static/media/Louis_Charles_Travel_Report.95a6525828d4a75e1148.pdf",
     "static/media/charles.jpg": "/static/media/charles.fdfef94247b7d8fe831e.jpg",
     "static/media/Louis_CEE497_Thesis.pdf": "/static/media/Louis_CEE497_Thesis.93a25b1773e42226928a.pdf",
@@ -42,6 +42,7 @@
     "static/media/ite_uiuc.png": "/static/media/ite_uiuc.258c15e4eb7580343182.png",
     "static/media/github.png": "/static/media/github.37185c9cf4a283bc2611.png",
     "static/media/cpp.png": "/static/media/cpp.a03992cb2a84d27d11dc.png",
+    "static/media/alrek.png": "/static/media/alrek.1fb2f0ca9d05863a2f1b.png",
     "static/media/meta_logo.png": "/static/media/meta_logo.d69cb74d75713772046d.png",
     "static/media/linkedinlogo.png": "/static/media/linkedinlogo.29f8b8d10d9fe3469c1f.png",
     "static/media/cdot.png": "/static/media/cdot.9271b581de67c9d5ec6d.png",
@@ -55,10 +56,10 @@
     "static/media/neo4j.png": "/static/media/neo4j.38b6f21f29a2351c4ffd.png",
     "index.html": "/index.html",
     "main.6d9d296a.css.map": "/static/css/main.6d9d296a.css.map",
-    "main.b86b0a72.js.map": "/static/js/main.b86b0a72.js.map"
+    "main.18027032.js.map": "/static/js/main.18027032.js.map"
   },
   "entrypoints": [
     "static/css/main.6d9d296a.css",
-    "static/js/main.b86b0a72.js"
+    "static/js/main.18027032.js"
   ]
 }
