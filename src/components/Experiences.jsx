@@ -27,10 +27,14 @@ class Experiences extends React.Component {
                 </div>
                 <div className="job-description">
                   <p>
-                  I am coordinating multiple CDOT ITS and traffic operations projects by managing schedules, deliverables, and stakeholder communication across CDOT teams, vendors, and consultants.
-                  Likewise, I am also monitoring ITS device and corridor performance using Advanced Traffic Management System (ATMS), Chicago Traffic Tracker, and Miovision; identifying expediencies and follow-up tracking.
-                  I currently assist with resolving traffic volume discrepancies between Miovision and R-Shiny dashboards to CDOT staff and support maintenance and deployment.
-                  I also am currently supporting Transit Signal Priority (TSP) projects in Chicago by coordinating operational needs and coordinating procurement.
+                  I am leading cross-functional coordination of multiple City of Chicago Department of Transportation (CDOT) 
+                  Intelligent Transportation Systems (ITS) and traffic operations projects, managing schedules, deliverables, 
+                  and stakeholder communication across internal teams, vendors, and consultants. I also monitor ITS device and corridor performance via Advanced Traffic Management System, Chicago Traffic Tracker, and Miovision cameras, flagging issues and driving resolutions to maintain operational continuity.
+                  By analyzing traffic volume data across congested city corridors, this helps me identify patterns and trends to support informed traffic operations and planning.
+                  Resolving traffic volume discrepancies between Miovision and R-Shiny dashboards with Parsons engineers, enhancing data reliability across reporting systems is also another imperative task I do. 
+                  I coordinate with the Chicago Transit Authority (CTA) to advance Transit Signal Priority (TSP) projects and aligning bus operational requirements and managing procurement workflows.
+                  To assist Parsons traffic signal timing engineers, I prepared and cleaned signal timing datasets to ensure accuracy and integrity, supporting optimized traffic signal performance across CDOT corridors.
+                  I also analyze the CDOT traffic database servers to surface and resolve discrepancies across data sources, strengthening data integrity using SQL.
                   </p>
                 </div>
               </div>
