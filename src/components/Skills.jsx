@@ -53,10 +53,11 @@ class Skills extends React.Component {
                 <img className='w-20 mx-auto' src={ReactJS} alt="REACTJS icon"/>
                 <p className='coding-lang'>REACT</p>
               </div>
-              {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={SQL} alt="REACTJS icon"/>
                 <p className='coding-lang'>SQL</p>
               </div>
+              {/* 
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={MongoDB} alt="REACTJS icon"/>
                 <p className='coding-lang'>MONGODB</p>

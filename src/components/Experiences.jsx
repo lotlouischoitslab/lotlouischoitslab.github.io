@@ -54,9 +54,10 @@ class Experiences extends React.Component {
                 </div>
                 <div className="job-description">
                   <p>
-                  I work as an Engineering Consultant supporting CDOT through Alrek Business Solutions. I coordinate 
-                  cross-functional ITS projects and provide technical support, reporting, and stakeholder communication 
-                  across CDOT teams and external vendors.
+                  I work as an Engineering Consultant supporting Chicago Department of Transportation through Alrek 
+                  Business Solutions. I coordinate cross-functional ITS projects and provide technical support, reporting, and stakeholder communication 
+                  across CDOT teams and external vendors and coordinate with multiple Intelligent Transportation Systems (ITS) related projects to enhance
+                  the City of Chicago's transportation network.
                   </p>
                 </div>
               </div>
