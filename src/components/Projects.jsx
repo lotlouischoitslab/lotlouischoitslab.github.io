@@ -1,4 +1,5 @@
 import React from 'react'
+import Chicago_L_Eats from '../assets/chicago_l_eats.png'
 import LOT_STEM from '../assets/stem.png'
 import travel_report from '../assets/Louis_Charles_Travel_Report.pdf'
 import charles from '../assets/charles.jpg'
@@ -28,6 +29,20 @@ class Projects extends React.Component {
       </div> 
       <div className='my-projects'>
         <div className='projects-container'>
+
+          {/*Grid Item */}
+          <div 
+            style={{ backgroundImage: `url(${Chicago_L_Eats})`,backgroundSize: '110%', height: '80%'}}
+            className='shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>            
+              {/*Hover*/}
+              <div className='hover-effect'>
+                <div className='centered-content'>
+                  <a href="https://chicagoleatscho.netlify.app/">
+                    <button className='small-button'>Chicago L Eats</button>
+                  </a>
+                </div>
+              </div>
+            </div>
 
           {/*Grid Item */}
           <div 
