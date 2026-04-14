@@ -37,8 +37,8 @@ class Projects extends React.Component {
               {/*Hover*/}
               <div className='hover-effect'>
                 <div className='centered-content'>
-                  <a href="https://chicagoleatscho.netlify.app/">
-                    <button className='small-button'>Chicago L Eats</button>
+                  <a href="https://lotlouischoitslab.github.io/ChicagoLEatsCho/">
+                    <button className='small-button'>Chicago L Eats Cho</button>
                   </a>
                 </div>
               </div>
