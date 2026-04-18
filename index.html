@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Louis Sungwoo Cho, a consultant specializing in Intelligent Transportation Systems." />
+  <title>LOTLOUISCHOITSLAB</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══ ANIMATED BACKGROUND ═══ -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- ═══ NAVBAR ═══ -->
+  <nav id="nav">
+    <div class="nav-logo">LSC</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#publications">Research</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="assets/Louis_Resume.pdf" target="_blank" class="nav-cta">Download Resume</a>
+    <button class="hamburger" id="ham" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mob-menu" id="mob">
+    <ul>
+      <li><a href="#about" onclick="closeMob()">About</a></li>
+      <li><a href="#experience" onclick="closeMob()">Experience</a></li>
+      <li><a href="#projects" onclick="closeMob()">Projects</a></li>
+      <li><a href="#publications" onclick="closeMob()">Research</a></li>
+      <li><a href="#skills" onclick="closeMob()">Skills</a></li>
+      <li><a href="#contact" onclick="closeMob()">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ═══ HERO ═══ -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-tag reveal">
+        <span class="dot-pulse"></span>
+        Available for Opportunities
+      </div>
+      <h1 class="hero-name reveal d1">
+        Louis<br /><em>Sungwoo</em><br />Cho
+      </h1>
+      <div class="hero-sub reveal d2">
+        <span>ITS Consultant</span>
+         
+      </div>
+      <p class="hero-desc reveal d3">
+        Bridging transportation engineering and artificial intelligence — developing smarter, safer infrastructure for autonomous vehicles and smart cities.
+      </p>
+      <div class="hero-actions reveal d4">
+        <a href="#projects" class="btn-p">View My Work</a>
+        <a href="assets/Louis_Resume.pdf" target="_blank" class="btn-g">Download Resume</a>
+      </div>
+      <div class="hero-socials reveal d5">
+        <a href="https://github.com/lotlouischoitslab" target="_blank" aria-label="GitHub">
+          <img src="assets/images/github.png" alt="GitHub" />
+        </a>
+        <a href="https://www.linkedin.com/in/louis-sungwoo-cho/" target="_blank" aria-label="LinkedIn">
+          <img src="assets/images/linkedinlogo.png" alt="LinkedIn" />
+        </a>
+        <a href="https://scholar.google.com" target="_blank" aria-label="Google Scholar">
+          <img src="assets/images/Google_Scholar_logo.png" alt="Scholar" />
+        </a>
+        <a href="https://medium.com" target="_blank" aria-label="Medium">
+          <img src="assets/images/medium.png" alt="Medium" />
+        </a>
+      </div>
+    </div>
+    <div class="hero-photo reveal d2">
+      <div class="photo-frame">
+        <img src="assets/images/louis_id.png" alt="Louis Sungwoo Cho" />
+        <div class="photo-ring ring-1"></div>
+        <div class="photo-ring ring-2"></div>
+ 
+      </div>
+    </div>
+    <div class="scroll-hint reveal d5">
+      <!-- <span>Scroll</span> -->
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══ ABOUT ═══ -->
+  <section id="about">
+    <div class="sec-label">01 / About</div>
+    <div class="about-grid">
+      <div class="about-text">
+        <h2 class="sec-title reveal">Shaping the Future<br /><em>of Transportation</em></h2>
+        <p class="reveal d1">
+          I'm an <strong>ITS Consultant</strong> at the Chicago Department of Transportation via Alrek Business Solutions, combining traffic engineering with AI to build smarter, safer mobility systems.
+        </p>
+        <p class="reveal d2">
+          At UIUC's Department of Civil and Environmental Engineering, I developed trajectory planning algorithms using <strong>Deep Reinforcement Learning</strong> and <strong>computer vision</strong>, calibrated CAV control policies with genetic algorithms, and deployed ROS-based systems on physical autonomous vehicles at the Illinois Center for Transportation.
+        </p>
+        <p class="reveal d3">
+          Recipient of the <strong>Charles E. DeLeuw Scholarship</strong>, I conducted a field study in South Korea analyzing KTX, SRT, GTX, and urban transit networks — translating insights into actionable proposals for U.S. High-Speed Rail.
+        </p>
+        <div class="about-stats reveal d4">
+          <div class="stat">
+            <span class="stat-num" data-target="3">0</span><span class="plus">+</span>
+            <span class="stat-lbl">Years Research</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-target="12">0</span><span class="plus">+</span>
+            <span class="stat-lbl">Projects</span>
+          </div>
+    
+          <div class="stat">
+            <span class="stat-num" data-target="3">0</span><span class="plus">+</span>
+            <span class="stat-lbl">Awards</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-cards reveal d2">
+        <div class="i-card"><span class="i-icon">📡</span><span>ITS & Traffic Operations</span></div>
+        <div class="i-card"><span class="i-icon">🌆</span><span>Smart City Infrastructure</span></div>
+        <div class="i-card"><span class="i-icon">🚌</span><span>Bus Rapid Transit (BRT) & Transit Signal Prioirty (TSP)</span></div>
+        <div class="i-card"><span class="i-icon">🚆</span><span>High-Speed Rail</span></div>
+        <div class="i-card"><span class="i-icon">🚗</span><span>Autonomous Vehicles & CAV</span></div>
+        <div class="i-card"><span class="i-icon">🧠</span><span>Deep Reinforcement Learning</span></div>
+        <div class="i-card"><span class="i-icon">👁️</span><span>Computer Vision & LSTM</span></div>
+        <div class="i-card"><span class="i-icon">✈️</span><span>Air Transportation Systems</span></div> 
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ EXPERIENCE ═══ -->
+  <section id="experience" class="alt-bg">
+    <div class="sec-label">02 / Experience</div>
+    <h2 class="sec-title reveal">Where I've <em>Worked</em></h2>
+    <div class="exp-layout">
+
+      <!-- Timeline -->
+      <div class="timeline">
+
+        <div class="titem reveal">
+          <div class="tdot"></div>
+          <div class="tdate">Dec 2025 – Present</div>
+          <div class="torg">Alrek Business Solutions × CDOT</div>
+          <div class="trole">ITS Consultant</div>
+          <ul class="tbullets">
+            <li>Led cross-functional coordination of CDOT ITS and traffic operations projects, managing schedules, deliverables, and stakeholder communication.</li>
+            <li>Monitored ITS device performance via ATMS, Chicago Traffic Tracker, and Miovision cameras.</li>
+            <li>Diagnosed traffic volume discrepancies between Miovision and R-Shiny dashboards with Parsons engineers.</li>
+            <li>Partnered with CTA to advance Transit Signal Priority (TSP) projects.</li>
+            <li>Audited CDOT traffic database servers and resolved discrepancies using SQL.</li>
+          </ul>
+        </div>
+
+        <div class="titem reveal d1">
+          <div class="tdot"></div>
+          <div class="tdate">Jul 2024 – May 2025</div>
+          <div class="torg">UIUC Department of Civil and Environmental Engineering</div>
+          <div class="trole">Graduate Research Assistant</div>
+          <ul class="tbullets">
+            <li>Calibrated CAV control spacing policies using a genetic algorithm for real-time adaptive traffic flow stability.</li>
+            <li>Simulated large-scale mixed-autonomy traffic to demonstrate how CAV penetration dampens stop-and-go shockwaves.</li>
+            <li>Integrated custom trajectory planning on a full-scale AV platform using ROS at the Illinois Center for Transportation.</li>
+            <li>Behavioral analysis of the Phoenix Robotaxi Open Dataset — compared lane-changing and car-following patterns between human and autonomous drivers.</li>
+          </ul>
+        </div>
+
+        <div class="titem reveal d2">
+          <div class="tdot"></div>
+          <div class="tdate">May 2023 – May 2024</div>
+          <div class="torg">UIUC Department of Civil and Environmental Engineering</div>
+          <div class="trole">Undergraduate Research Assistant</div>
+          <ul class="tbullets">
+            <li>Designed a trajectory re-identification framework using LSTM-based Convolutional Social Pooling.</li>
+            <li>Investigated GPT-style Transformer models for sequential vehicle state prediction integrated with Deep RL.</li>
+          </ul>
+        </div>
+
+        <div class="titem reveal d3">
+          <div class="tdot"></div>
+          <div class="tdate">May 2022 – Aug 2022</div>
+          <div class="torg">UIUC Department of Electrical and Computer Engineering</div>
+          <div class="trole">Undergraduate Researcher</div>
+          <ul class="tbullets">
+            <li>Co-developed AutoVerse-AI, a simulation platform for AV controller safety and performance verification.</li>
+            <li>Parsed and cleaned OpenDRIVE / ASAM road geometry files for controller agent integration.</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Org logos -->
+      <div class="exp-logos reveal d1">
+        <div class="exp-logo-item">
+          <img src="assets/images/alrek.png" alt="Parsons" />
+          <div class="einfo">
+            <strong>Alrek Business Solutions</strong>
+            <span>ITS Consultant · Dec 2025–Present</span>
+          </div>
+        </div>
+        <div class="exp-logo-item">
+          <img src="assets/images/cdot.png" alt="CDOT" />
+          <div class="einfo">
+            <strong>Chicago Dept. of Transportation</strong>
+            <span>ITS Consultant · Dec 2025–Present</span>
+          </div>
+        </div>
+        <div class="exp-logo-item">
+          <img src="assets/images/uiuc.png" alt="UIUC" style="height:32px;" />
+          <div class="einfo">
+            <strong>UIUC Department of Civil and Environmental Engineering</strong>
+            <span>Graduate Researcher · 2024–2025</span>
+          </div>
+        </div>
+        <div class="exp-logo-item">
+          <img src="assets/images/ite_uiuc.png" alt="ITE UIUC" />
+          <div class="einfo">
+            <strong>ITE @ UIUC — President</strong>
+            <span>Aug 2022 – May 2024</span>
+          </div>
+         
+
+    </div>
+  </section>
+
+  <!-- ═══ PROJECTS ═══ -->
+  <section id="projects">
+    <div class="sec-label">03 / Projects</div>
+    <h2 class="sec-title reveal">Selected <em>Work</em></h2>
+
+    <!-- Featured: Thesis -->
+    <div class="proj-card feat reveal">
+      <div class="proj-img-wrap">
+        <img src="assets/images/av_sim.png" alt="AV Simulation" />
+      </div>
+      <div class="proj-body">
+        <div class="proj-tag">M.S. Thesis · Deep RL · AV Control</div>
+        <h3>Evaluating Longitudinal Control Strategies for Autonomous Vehicles</h3>
+        <p>Master's thesis research at the UIUC Department of Civil and Environmental Engineering. Calibrated control spacing models (constant spacing, constant time headway, IDM) using genetic algorithms. Deployed ROS-based trajectory planning on a physical AV at the Illinois Center for Transportation. Simulated mixed-autonomy traffic to demonstrate stop-and-go shockwave reduction with CAV penetration.</p>
+        <div class="proj-tech">
+          <span>Python</span><span>ROS</span><span>CARLA</span><span>Genetic Algorithm</span><span>Traffic Flow Theory</span><span>CAV</span>
+        </div>
+        <a href="assets/images/Louis_Sungwoo_Cho_MS_Thesis.pdf" class="proj-link" target="_blank">Read Full Thesis →</a>
+      </div>
+    </div>
+
+    <div class="proj-grid">
+
+      <div class="proj-card reveal">
+        <img class="proj-img" src="assets/images/cav_road.jpg" alt="GRAIC AV Race" />
+        <div class="proj-body">
+          <div class="proj-tag">Autonomous Driving · GRAIC</div>
+          <h3>GRAIC Autonomous Vehicle Racing</h3>
+          <p>Maximized autonomous Tesla vehicle performance across CARLA race tracks. Implemented and compared RRT, Potential Field-based Steering, and End-to-End models for safe high-speed navigation and obstacle avoidance.</p>
+          <div class="proj-tech"><span>CARLA</span><span>Python</span><span>RRT</span><span>Deep RL</span></div>
+          <a href="https://github.com/lotlouischoitslab" class="proj-link" target="_blank">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="proj-card reveal d1">
+        <img class="proj-img" src="assets/images/LSTM_NN.png" alt="LSTM Neural Network" />
+        <div class="proj-body">
+          <div class="proj-tag">LSTM · Computer Vision · Tracking</div>
+          <h3>Trajectory Re-Identification via LSTM-CSP</h3>
+          <p>LSTM-based Convolutional Social Pooling framework for vehicle trajectory re-identification in occluded and low-visibility environments. Hyperparameter tuning and temporal feature engineering to improve model robustness.</p>
+          <div class="proj-tech"><span>LSTM</span><span>PyTorch</span><span>CV</span><span>Python</span></div>
+          <a href="assets/Louis_CEE497_Thesis.pdf" class="proj-link" target="_blank">Read Report →</a>
+        </div>
+      </div>
+
+      <div class="proj-card reveal d2">
+        <img class="proj-img" src="assets/images/GPT.png" alt="GPT RL" />
+        <div class="proj-body">
+          <div class="proj-tag">LLM · Deep RL · Mixed Autonomy</div>
+          <h3>GPT-style Transformer + Deep RL for AV Policy</h3>
+          <p>Investigated GPT Transformer models for sequential vehicle state prediction and their integration with Deep Reinforcement Learning for policy learning in mixed-autonomy traffic simulations.</p>
+          <div class="proj-tech"><span>GPT</span><span>Deep RL</span><span>PyTorch</span><span>Python</span></div>
+          <a href="https://github.com/lotlouischoitslab" class="proj-link" target="_blank">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <img class="proj-img" src="assets/images/ktx.png" alt="KTX HSR" />
+        <div class="proj-body">
+          <div class="proj-tag">High-Speed Rail · South Korea</div>
+          <h3>KTX / SRT Image Classification & HSR Analysis</h3>
+          <p>ML pipeline for KTX image classification. Analysis of Gyeongbu and Honam HSR lines. Field research on South Korea's transit network (KTX, SRT, GTX) to derive proposals for U.S. transit-oriented development — funded by the Charles DeLeuw Scholarship.</p>
+          <div class="proj-tech"><span>CNN</span><span>Python</span><span>GIS</span><span>Data Viz</span></div>
+          <a href="assets/Louis_Charles_Travel_Report.pdf" class="proj-link" target="_blank">Read Travel Report →</a>
+        </div>
+      </div>
+
+      <div class="proj-card reveal d1">
+        <img class="proj-img" src="assets/images/chic_st_louis.png" alt="Chicago St Louis HSR" />
+        <div class="proj-body">
+          <div class="proj-tag">Transit Planning · HSR Feasibility</div>
+          <h3>Chicago – St. Louis High-Speed Rail Feasibility</h3>
+          <p>Chapter-wide case study analyzing HSR corridor viability between Chicago and St. Louis. Route modeling, ridership estimation, and alignment comparisons to recommend development pathways.</p>
+          <div class="proj-tech"><span>GIS</span><span>Planning</span><span>Data Analysis</span></div>
+          <a href="https://github.com/lotlouischoitslab" class="proj-link" target="_blank">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="proj-card reveal d2">
+        <img class="proj-img" src="assets/images/cumtd.jpg" alt="CUMTD Transit" />
+        <div class="proj-body">
+          <div class="proj-tag">ML · Transit Analytics · EOH 2024</div>
+          <h3>CU-MTD Bus Ridership Forecasting</h3>
+          <p>Led a 6-member team applying time-series forecasting to Champaign-Urbana bus ridership trends for transit planning. Presented at UIUC Engineering Open House 2024 — won Outstanding Exhibit Award (Top 3 of 200+ projects).</p>
+          <div class="proj-tech"><span>Time-Series</span><span>Python</span><span>ML</span><span>Pandas</span></div>
+          <a href="https://github.com/lotlouischoitslab" class="proj-link" target="_blank">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <img class="proj-img" src="assets/images/mof.png" alt="Mobility of Future" />
+        <div class="proj-body">
+          <div class="proj-tag">EOH 2024 · Award Winner · Multi-modal</div>
+          <h3>Mobility for Our Future — EOH Exhibit</h3>
+          <p>CAD designs of High-speed Rail, Maglev, eVTOL, UAV, and BRT systems plus AI-powered time-series forecasting for public transit planning. Won Outstanding Exhibit Award (3rd of 200+ projects) at UIUC Engineering Open House 2024.</p>
+          <div class="proj-tech"><span>CAD</span><span>AI Forecasting</span><span>BRT</span><span>eVTOL</span></div>
+          <a href="https://github.com/lotlouischoitslab" class="proj-link" target="_blank">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="proj-card reveal d1">
+        <img class="proj-img" src="assets/images/opendrive.png" alt="OpenDRIVE AutoVerse" />
+        <div class="proj-body">
+          <div class="proj-tag">Simulation · OpenDRIVE · Safety</div>
+          <h3>AutoVerse-AI AV Simulation Platform</h3>
+          <p>Co-developed AutoVerse-AI for AV controller verification. Parsed and cleaned OpenDRIVE / ASAM road geometry files for simulation integration, enabling safety performance evaluation under diverse scenarios.</p>
+          <div class="proj-tech"><span>OpenDRIVE</span><span>ASAM</span><span>Python</span><span>Simulation</span></div>
+          <a href="https://github.com/lotlouischoitslab" class="proj-link" target="_blank">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="proj-card reveal d2">
+        <img class="proj-img" src="assets/images/chicago_l_eats.png" alt="Chicago L" />
+        <div class="proj-body">
+          <div class="proj-tag">HTML · CSS · JavaScript · Python</div>
+          <h3>Chicago L Eats</h3>
+          <p>Chicago restaurant recommendations and reviews along the iconic Chicago L lines curated by Louis Sungwoo Cho local Chicagoans and first-time visitors.</p>
+          <div class="proj-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span></div>
+          <a href="https://github.com/lotlouischoitslab" class="proj-link" target="_blank">GitHub →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══ PUBLICATIONS ═══ -->
+  <section id="publications" class="alt-bg">
+    <div class="sec-label">04 / Research</div>
+    <h2 class="sec-title reveal">Publications & <em>Manuscripts</em></h2>
+    <div class="pubs-grid">
+
+      <!-- <div class="pub-card reveal">
+        <div class="pub-type journal">Journal Article</div>
+        <h4>Evaluating Longitudinal Control Strategies for Autonomous Vehicles</h4>
+        <p class="pub-meta">Cho, L.S., Talebpour, A. (2025) — <em>Under review, ASCE Journal of Transportation Engineering, Part A: Systems</em></p>
+        <a href="assets/Louis_Sungwoo_Cho_MS_Thesis.pdf" class="pub-link" target="_blank">Read Manuscript →</a>
+      </div> -->
+
+      <div class="pub-card reveal d1">
+        <div class="pub-type thesis">M.S. Thesis</div>
+        <h4>Evaluating and Comparing Longitudinal Control Strategies for Autonomous Vehicles</h4>
+        <p class="pub-meta">Cho, L.S. (2025) — <em>Master's Thesis, University of Illinois Urbana-Champaign</em></p>
+        <a href="assets/Louis_Sungwoo_Cho_MS_Thesis.pdf" class="pub-link" target="_blank">Read Thesis →</a>
+      </div>
+
+      <div class="pub-card reveal d2">
+        <div class="pub-type report">Senior Thesis</div>
+        <h4>Trajectory Reconstruction Based on Probabilistic Time-Space Diagram</h4>
+        <p class="pub-meta">Cho, L.S. (2024) — <em>CEE 497 Independent Study Thesis, advised by Prof. Talebpour, UIUC</em></p>
+        <a href="assets/Louis_CEE497_Thesis.pdf" class="pub-link" target="_blank">Read Report →</a>
+      </div>
+
+      <div class="pub-card reveal d3">
+        <div class="pub-type report">Field Research</div>
+        <h4>South Korea Transit Field Study — Charles DeLeuw Travel Report</h4>
+        <p class="pub-meta">Cho, L.S. (2025) — <em>Charles E. DeLeuw Scholarship Research, UIUC CEE</em></p>
+        <a href="assets/Louis_Charles_Travel_Report.pdf" class="pub-link" target="_blank">Read Report →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══ AWARDS ═══ -->
+  <section id="awards">
+    <div class="sec-label">05 / Recognition</div>
+    <h2 class="sec-title reveal">Awards & <em>Certifications</em></h2>
+    <div class="awards-grid">
+  
+
+      <div class="award-card reveal d3">
+        <img src="assets/images/ncees.png" alt="NCEES EIT" />
+        <div class="award-body">
+          <div class="award-date">Oct 2025</div>
+          <h4>Engineer in Training (E.I.T.) — NCEES</h4>
+          <p>Civil Engineering licensure issued by the National Council of Examiners for Engineering and Surveying (NCEES), State of Illinois.</p>
+        </div>
+      </div>
+
+      <div class="award-card reveal">
+        <img src="assets/images/charles.jpg" alt="DeLeuw Award" />
+        <div class="award-body">
+          <div class="award-date">Mar 2025</div>
+          <h4>Charles E. DeLeuw Scholarship</h4>
+          <p>Awarded to outstanding civil engineering students to study urban transit systems abroad. Conducted field research in South Korea analyzing KTX, SRT, GTX, and urban networks.</p>
+        </div>
+      </div>
+
+      <div class="award-card reveal d1">
+        <img src="assets/images/hca.png" alt="EOH Award" />
+        <div class="award-body">
+          <div class="award-date">Apr 2024</div>
+          <h4>UIUC EOH Outstanding Exhibit Award — 3rd Place</h4>
+          <p>Top 3 of 200+ projects for a mobility exhibit covering HSR, Maglev, eVTOL, BRT, and AI-driven time-series forecasting for transit planning.</p>
+        </div>
+      </div>
+
+      <div class="award-card reveal d2">
+        <img src="assets/images/grant.png" alt="Grant Shaw" />
+        <div class="award-body">
+          <div class="award-date">Mar 2023</div>
+          <h4>Grant W. Shaw Memorial Scholarship</h4>
+          <p>Faculty-selected award recognizing leadership in traffic engineering, awarded by the Schaumburg Chapter of the Illinois Association of Highway Engineers.</p>
+        </div>
+      </div>
+
+
+
+    </div>
+  </section>
+
+  <!-- ═══ SKILLS ═══ -->
+  <section id="skills" class="alt-bg">
+    <div class="sec-label">06 / Skills</div>
+    <h2 class="sec-title reveal">Technical <em>Expertise</em></h2>
+    <div class="skills-wrap">
+
+      <div class="sg reveal">
+        <h4>Programming Languages</h4>
+        <div class="pills-with-icons">
+          <div class="pill-icon"><img src="assets/images/python.png" alt="Python" /><span>Python</span></div>
+          <div class="pill-icon"><img src="assets/images/cpp.png" alt="C++" /><span>C++</span></div>
+          <div class="pill-icon"><img src="assets/images/java.png" alt="Java" /><span>Java</span></div>
+         
+          <div class="pill-icon"><img src="assets/images/html.png" alt="HTML" /><span>HTML</span></div>
+          <div class="pill-icon"><img src="assets/images/css.png" alt="CSS" /><span>CSS</span></div>
+           <div class="pill-icon"><img src="assets/images/javascript.png" alt="JavaScript" /><span>JavaScript</span></div>
+          <div class="pill-icon"><img src="assets/images/sql.png" alt="SQL" /><span>SQL</span></div> 
+        </div>
+      </div>
+
+      <div class="sg reveal d1">
+        <h4>Frameworks & Tools</h4>
+        <div class="pills-with-icons"> 
+          <div class="pill-icon"><img src="assets/images/git.png" alt="Git" /><span>Git</span></div> 
+        </div>
+      </div>
+
+      <div class="sg reveal d2">
+        <h4>Simulation & Design</h4>
+        <div class="pills">
+          <span>ROS</span><span>CARLA</span><span>Gazebo</span><span>HCS</span> 
+          <span>Bentley OpenRoads</span><span>AutoCAD</span><span>Revit</span> <span>LaTeX</span>
+        </div>
+      </div>
+
+      <div class="sg reveal d3">
+        <h4>AI / Machine Learning</h4>
+        <div class="pills">
+          <span>PyTorch</span><span>TensorFlow</span><span>Deep RL</span><span>LSTM</span>
+          <span>Computer Vision</span><span>GPT / Transformers</span> <span>Time-Series Forecasting</span>
+        </div>
+      </div>
+
+      <div class="sg reveal d4">
+        <h4>Transportation & ITS</h4>
+        <div class="pills">
+          <span>ATMS</span> 
+          <span>Transit Signal Priority</span><span>ITS Operations</span>  
+          <span>Traffic Data Analysis</span><span>Transit Planning</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══ CONTACT ═══ -->
+  <section id="contact">
+    <div class="sec-label">07 / Contact</div>
+    <div class="contact-inner">
+      <h2 class="sec-title reveal">Let's Build the<br /><em>Future Together</em></h2>
+      <p class="contact-sub reveal d1">
+        Whether you're recruiting, looking to collaborate on AV research, or want to discuss smart city infrastructure — I'd love to connect.
+      </p>
+      <div class="contact-grid reveal d2">
+        <a href="mailto:louis.s.cho@gmail.com" class="c-card">
+          <span class="c-icon">✉</span>
+          <div><strong>Email</strong><small>louis.s.cho@gmail.com</small></div>
+        </a>
+        <a href="https://www.linkedin.com/in/louis-sungwoo-cho/" target="_blank" class="c-card">
+          <img src="assets/images/linkedinlogo.png" class="c-logo" alt="LinkedIn" />
+          <div><strong>LinkedIn</strong><small>louis-sungwoo-cho</small></div>
+        </a>
+        <a href="assets/images/Louis_Resume.pdf" target="_blank" class="c-card">
+          <span class="c-icon">📄</span>
+          <div><strong>Resume</strong><small>Download PDF</small></div>
+        </a>
+        <a href="https://github.com/lotlouischoitslab" target="_blank" class="c-card">
+          <img src="assets/images/github.png" class="c-logo" alt="GitHub" />
+          <div><strong>GitHub</strong><small>lotlouischoitslab</small></div>
+        </a>
+        <a href="https://scholar.google.com" target="_blank" class="c-card">
+          <img src="assets/images/Google_Scholar_logo.png" class="c-logo" alt="Scholar" />
+          <div><strong>Google Scholar</strong><small>Publications & Research</small></div>
+        </a>
+
+       
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-logo">Louis Sungwoo Cho</span>
+      <span class="footer-copy">© 2025 · Built with passion in Chicago, IL</span>
+      <span class="footer-uni">M.S. Civil Engineering · UIUC</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
