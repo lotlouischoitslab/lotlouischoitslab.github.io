@@ -21,9 +21,11 @@
     <div class="nav-logo">LSC</div>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#publications">Research</a></li>
+      <li><a href="#awards">Awards & Certifications</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -37,9 +39,11 @@
   <div class="mob-menu" id="mob">
     <ul>
       <li><a href="#about" onclick="closeMob()">About</a></li>
+      <li><a href="#education" onclick="closeMob()">Education</a></li>
       <li><a href="#experience" onclick="closeMob()">Experience</a></li>
       <li><a href="#projects" onclick="closeMob()">Projects</a></li>
       <li><a href="#publications" onclick="closeMob()">Research</a></li>
+      <li><a href="#awards" onclick="closeMob()">Awards & Certifications</a></li>
       <li><a href="#skills" onclick="closeMob()">Skills</a></li>
       <li><a href="#contact" onclick="closeMob()">Contact</a></li>
     </ul>
@@ -60,7 +64,7 @@
          
       </div>
       <p class="hero-desc reveal d3">
-        Bridging transportation engineering and artificial intelligence — developing smarter, safer infrastructure for autonomous vehicles and smart cities.
+        Advancing Intelligent Transportation Systems for Smart Cities and Transit-oriented Development.
       </p>
       <div class="hero-actions reveal d4">
         <a href="#projects" class="btn-p">View My Work</a>
@@ -129,7 +133,7 @@
       <div class="about-cards reveal d2">
         <div class="i-card"><span class="i-icon">📡</span><span>ITS & Traffic Operations</span></div>
         <div class="i-card"><span class="i-icon">🌆</span><span>Smart City Infrastructure</span></div>
-        <div class="i-card"><span class="i-icon">🚌</span><span>Bus Rapid Transit (BRT) & Transit Signal Prioirty (TSP)</span></div>
+        <div class="i-card"><span class="i-icon">🚌</span><span>Bus Rapid Transit & Transit Signal Priority</span></div>
         <div class="i-card"><span class="i-icon">🚆</span><span>High-Speed Rail</span></div>
         <div class="i-card"><span class="i-icon">🚗</span><span>Autonomous Vehicles & CAV</span></div>
         <div class="i-card"><span class="i-icon">🧠</span><span>Deep Reinforcement Learning</span></div>
@@ -140,8 +144,89 @@
   </section>
 
   <!-- ═══ EXPERIENCE ═══ -->
-  <section id="experience" class="alt-bg">
-    <div class="sec-label">02 / Experience</div>
+  <section id="education" class="alt-bg">
+    <div class="sec-label">02 / Education</div>
+    <h2 class="sec-title reveal">Where I <em>Studied</em></h2>
+    <div class="edu-grid">
+
+      <!-- M.S. Card -->
+      <div class="edu-card reveal">
+        <div class="edu-header">
+          <img src="assets/images/uiuc.png" alt="UIUC" class="edu-logo" />
+          <div class="edu-badge ms-badge">M.S.</div>
+        </div>
+        <div class="edu-body">
+          <div class="edu-date">Aug 2024 – May 2025</div>
+          <h3 class="edu-degree">Master of Science</h3>
+          <p class="edu-field">Civil Engineering — Transportation</p>
+          <p class="edu-school">University of Illinois at Urbana-Champaign</p>
+          <div class="edu-divider"></div>
+          <div class="edu-details">
+            <div class="edu-detail-row">
+              <span class="edu-detail-label">GPA</span>
+              <span class="edu-detail-val">3.46 / 4.00</span>
+            </div>
+            <div class="edu-detail-row">
+              <span class="edu-detail-label">Thesis</span>
+              <span class="edu-detail-val">Evaluating and Comparing Longitudinal Control Strategies for Autonomous Vehicles</span>
+            </div>
+       
+          </div>
+          <div class="edu-tags">
+            <span>Autonomous Vehicles</span>
+            <span>Traffic Flow Theory</span>
+            <span>Deep RL</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- B.S. Card -->
+      <div class="edu-card reveal d1">
+        <div class="edu-header">
+          <img src="assets/images/uiuc.png" alt="UIUC" class="edu-logo" />
+          <div class="edu-badge bs-badge">B.S.</div>
+        </div>
+        <div class="edu-body">
+          <div class="edu-date">Aug 2020 – May 2024</div>
+          <h3 class="edu-degree">Bachelor of Science <em>(Honors)</em></h3>
+          <p class="edu-field">Civil Engineering — Transportation</p>
+          <p class="edu-school">University of Illinois at Urbana-Champaign</p>
+          <div class="edu-divider"></div>
+          <div class="edu-details">
+            <div class="edu-detail-row">
+              <span class="edu-detail-label">GPA</span>
+              <span class="edu-detail-val">3.55 / 4.00</span>
+            </div>
+            <div class="edu-detail-row">
+              <span class="edu-detail-label">Minor</span>
+              <span class="edu-detail-val">Computer Science</span>
+            </div>
+     
+          </div>
+          <div class="edu-tags">
+            <span>Transportation Engineering</span>
+            <span>Computer Science</span>
+            <span>ITS</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- UIUC campus image strip -->
+    <div class="edu-campus reveal d2">
+      <img src="assets/images/uiuc.png" alt="UIUC" class="edu-campus-img" />
+      <div class="edu-campus-text">
+        <span class="edu-campus-name">University of Illinois Urbana-Champaign</span>
+        <span class="edu-campus-rank">Top-ranked Civil & Environmental Engineering program</span>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ═══ EXPERIENCE ═══ -->
+  <section id="experience">
+    <div class="sec-label">03 / Experience</div>
     <h2 class="sec-title reveal">Where I've <em>Worked</em></h2>
     <div class="exp-layout">
 
@@ -222,20 +307,28 @@
             <span>Graduate Researcher · 2024–2025</span>
           </div>
         </div>
+
         <div class="exp-logo-item">
           <img src="assets/images/ite_uiuc.png" alt="ITE UIUC" />
           <div class="einfo">
-            <strong>ITE @ UIUC — President</strong>
-            <span>Aug 2022 – May 2024</span>
-          </div>
-         
+            <strong>ITE @ UIUC</strong>
+            <span>Graduate Student Representative · Aug 2024 – May 2025</span>
+          </div> 
+        </div>
 
-    </div>
+
+        <div class="exp-logo-item">
+          <img src="assets/images/ite_uiuc.png" alt="ITE UIUC" />
+          <div class="einfo">
+            <strong>ITE @ UIUC</strong>
+            <span>President · Aug 2022 – May 2024</span>
+          </div> 
+        </div>
   </section>
 
   <!-- ═══ PROJECTS ═══ -->
   <section id="projects">
-    <div class="sec-label">03 / Projects</div>
+    <div class="sec-label">04 / Projects</div>
     <h2 class="sec-title reveal">Selected <em>Work</em></h2>
 
     <!-- Featured: Thesis -->
@@ -373,7 +466,7 @@
 
   <!-- ═══ PUBLICATIONS ═══ -->
   <section id="publications" class="alt-bg">
-    <div class="sec-label">04 / Research</div>
+    <div class="sec-label">05 / Research</div>
     <h2 class="sec-title reveal">Publications & <em>Manuscripts</em></h2>
     <div class="pubs-grid">
 
@@ -410,7 +503,7 @@
 
   <!-- ═══ AWARDS ═══ -->
   <section id="awards">
-    <div class="sec-label">05 / Recognition</div>
+    <div class="sec-label">06 / Recognition</div>
     <h2 class="sec-title reveal">Awards & <em>Certifications</em></h2>
     <div class="awards-grid">
   
@@ -419,8 +512,8 @@
         <img src="assets/images/ncees.png" alt="NCEES EIT" />
         <div class="award-body">
           <div class="award-date">Oct 2025</div>
-          <h4>Engineer in Training (E.I.T.) — NCEES</h4>
-          <p>Civil Engineering licensure issued by the National Council of Examiners for Engineering and Surveying (NCEES), State of Illinois.</p>
+          <h4>Engineer in Training (E.I.T.)</h4>
+          <p>Civil Engineering licensure issued by the National Council of Examiners for Engineering and Surveying, State of Illinois.</p>
         </div>
       </div>
 
@@ -458,7 +551,7 @@
 
   <!-- ═══ SKILLS ═══ -->
   <section id="skills" class="alt-bg">
-    <div class="sec-label">06 / Skills</div>
+    <div class="sec-label">07 / Skills</div>
     <h2 class="sec-title reveal">Technical <em>Expertise</em></h2>
     <div class="skills-wrap">
 
@@ -513,7 +606,7 @@
 
   <!-- ═══ CONTACT ═══ -->
   <section id="contact">
-    <div class="sec-label">07 / Contact</div>
+    <div class="sec-label">08 / Contact</div>
     <div class="contact-inner">
       <h2 class="sec-title reveal">Let's Build the<br /><em>Future Together</em></h2>
       <p class="contact-sub reveal d1">
