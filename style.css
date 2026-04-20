@@ -208,7 +208,7 @@ body {
 
 .hero-name {
   font-family: var(--font-d);
-  font-size: clamp(3.2rem, 6.5vw, 6rem);
+  font-size: clamp(2.5rem, 6.5vw, 6rem);
   font-weight: 800;
   line-height: 1.0;
   letter-spacing: -0.03em;
