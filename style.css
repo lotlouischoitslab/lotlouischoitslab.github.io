@@ -81,12 +81,17 @@ body {
 
 .nav-logo {
   font-family: var(--font-m);
-  font-size: 1.05rem;
+  font-size: 0.85rem;
   font-weight: 700;
   color: var(--white);
-  letter-spacing: 0.12em;
+  letter-spacing: 0.08em;
   cursor: default;
   user-select: none;
+  white-space: nowrap;
+}
+
+@media (max-width: 540px) {
+  .nav-logo { font-size: 0.68rem; letter-spacing: 0.04em; }
 }
 
 .nav-links {
@@ -204,6 +209,16 @@ body {
 @keyframes pulse-dot {
   0%, 100% { box-shadow: 0 0 0 0 rgba(62,207,142,0.5); }
   50% { box-shadow: 0 0 0 5px rgba(62,207,142,0); }
+}
+
+.hero-brand {
+  font-family: var(--font-m);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--cyan);
+  margin-bottom: 0.6rem;
 }
 
 .hero-name {
@@ -1196,8 +1211,17 @@ footer {
 }
 
 @media (max-width: 1024px) {
-  #hero { grid-template-columns: 1fr; padding-bottom: 4rem; }
-  .hero-photo { display: none; }
+  #hero {
+    grid-template-columns: 1fr;
+    padding-bottom: 4rem;
+    text-align: center;
+  }
+  .hero-content { order: 1; }
+  .hero-photo {
+    order: 2;
+    margin-top: 1.5rem;
+  }
+  .hero-actions, .hero-socials { justify-content: center; }
   .about-grid { grid-template-columns: 1fr; }
   .exp-layout { grid-template-columns: 1fr; }
   .proj-card.feat { grid-template-columns: 1fr; }
@@ -1220,4 +1244,7 @@ footer {
   .hdiv { display: none; }
   .about-cards { grid-template-columns: 1fr; }
   .about-stats { gap: 1.5rem; }
+  .photo-frame { width: 240px; height: 290px; }
+  .ring-1 { width: 290px; height: 290px; }
+  .ring-2 { width: 340px; height: 340px; }
 }
